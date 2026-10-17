@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d3a22"/>
+      <stop offset="100%" stop-color="#4f9d55"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="480" fill="url(#g)"/>
+  <circle cx="650" cy="80" r="60" fill="#ffe08a" opacity=".35"/>
+  <rect x="380" y="220" width="40" height="160" rx="8" fill="#5c3a1e"/>
+  <ellipse cx="400" cy="200" rx="110" ry="90" fill="#8eee65"/>
+  <ellipse cx="330" cy="240" rx="70" ry="55" fill="#3d9b5f"/>
+  <ellipse cx="470" cy="240" rx="70" ry="55" fill="#3d9b5f"/>
+  <ellipse cx="400" cy="160" rx="55" ry="45" fill="#b6ff96"/>
+  <path d="M120 380c40-80 90-130 140-150" stroke="#8eee65" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <ellipse cx="260" cy="220" rx="35" ry="50" fill="#4f9d55" transform="rotate(-25 260 220)"/>
+  <path d="M620 400c-30-70-70-110-120-140" stroke="#8eee65" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <ellipse cx="500" cy="250" rx="30" ry="45" fill="#4f9d55" transform="rotate(20 500 250)"/>
+</svg>

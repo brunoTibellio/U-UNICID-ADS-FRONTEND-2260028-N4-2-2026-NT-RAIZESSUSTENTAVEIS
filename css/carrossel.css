@@ -1,0 +1,303 @@
+/* =========================================================
+   CARROSSEL — Raízes Sustentáveis
+   Navegação via âncoras + :target (sem JavaScript)
+========================================================= */
+
+.carrossel-secao {
+    width: 100%;
+    background: linear-gradient(180deg, #f4f8f2 0%, #e8f2e4 100%);
+    padding: 80px 8% 90px;
+    text-align: center;
+}
+
+.carrossel-secao .carrossel-subtitulo {
+    color: #4f9d55;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+
+.carrossel-secao > h2 {
+    color: #123c20;
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 18px;
+}
+
+.carrossel-intro {
+    max-width: 640px;
+    margin: 0 auto 45px;
+    color: #3a5c44;
+    font-size: 18px;
+    line-height: 1.55;
+}
+
+/* ---- Região do carrossel ---- */
+
+.carrossel {
+    position: relative;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.carrossel-viewport {
+    position: relative;
+    overflow: hidden;
+    border-radius: 28px;
+    background-color: #123c20;
+    box-shadow: 0 18px 40px rgba(18, 60, 32, 0.18);
+}
+
+.carrossel-slides {
+    position: relative;
+}
+
+/* ---- Slides ---- */
+
+.carrossel-slide {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    z-index: 0;
+    transition: opacity 0.45s ease, visibility 0.45s ease;
+    scroll-margin-top: 24px;
+}
+
+/* Estado inicial: primeiro slide visível */
+.carrossel-slide:first-child {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    z-index: 1;
+    position: relative;
+}
+
+/* Slide ativo via #slide-N (:target) */
+.carrossel-slide:target {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    z-index: 2;
+    position: relative;
+}
+
+/* Esconde o primeiro quando outro slide está ativo */
+.carrossel-slides:has(.carrossel-slide:target) .carrossel-slide:first-child:not(:target) {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
+    z-index: 0;
+}
+
+.carrossel-slide__media {
+    position: relative;
+    overflow: hidden;
+    background-color: #0d3a22;
+}
+
+.carrossel-slide__media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    min-height: 420px;
+}
+
+.carrossel-slide__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    padding: 48px 44px;
+    background: linear-gradient(160deg, #14532d 0%, #123c20 55%, #0d2e18 100%);
+    color: #f4f8f2;
+}
+
+.carrossel-slide__texto h3 {
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    color: #b6ff96;
+}
+
+.carrossel-slide__texto p {
+    font-size: 17px;
+    line-height: 1.55;
+    color: #e8f2e4;
+    max-width: 36ch;
+}
+
+/* ---- Setas (dentro de cada slide, para :target sem JS) ---- */
+
+.carrossel-seta {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: rgba(244, 248, 242, 0.95);
+    color: #123c20;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+    transition: background-color 0.25s ease, color 0.25s ease, transform 0.25s ease;
+}
+
+.carrossel-seta--prev {
+    left: 16px;
+}
+
+.carrossel-seta--next {
+    right: 16px;
+}
+
+.carrossel-seta:hover {
+    background-color: #8eee65;
+    color: #123c20;
+    transform: translateY(-50%) scale(1.06);
+}
+
+.carrossel-seta:focus-visible {
+    outline: 3px solid #8eee65;
+    outline-offset: 3px;
+    box-shadow: 0 0 0 6px rgba(18, 60, 32, 0.35);
+}
+
+/* ---- Indicadores ---- */
+
+.carrossel-indicadores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    list-style: none;
+    margin: 28px 0 0;
+    padding: 0;
+}
+
+.carrossel-indicadores a {
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #a8c9b0;
+    text-decoration: none;
+    text-indent: -9999px;
+    overflow: hidden;
+    transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+.carrossel-indicadores a:hover {
+    background-color: #4f9d55;
+    transform: scale(1.15);
+}
+
+.carrossel-indicadores a:focus-visible {
+    outline: 3px solid #123c20;
+    outline-offset: 3px;
+    background-color: #8eee65;
+}
+
+/* Indicador ativo (estado inicial = slide 1) */
+.carrossel:not(:has(.carrossel-slide:target)) .carrossel-indicadores a[href="#slide-1"],
+.carrossel:has(#slide-1:target) .carrossel-indicadores a[href="#slide-1"],
+.carrossel:has(#slide-2:target) .carrossel-indicadores a[href="#slide-2"],
+.carrossel:has(#slide-3:target) .carrossel-indicadores a[href="#slide-3"],
+.carrossel:has(#slide-4:target) .carrossel-indicadores a[href="#slide-4"],
+.carrossel:has(#slide-5:target) .carrossel-indicadores a[href="#slide-5"] {
+    background-color: #123c20;
+    transform: scale(1.2);
+}
+
+.carrossel:has(#slide-2:target) .carrossel-indicadores a[href="#slide-1"],
+.carrossel:has(#slide-3:target) .carrossel-indicadores a[href="#slide-1"],
+.carrossel:has(#slide-4:target) .carrossel-indicadores a[href="#slide-1"],
+.carrossel:has(#slide-5:target) .carrossel-indicadores a[href="#slide-1"] {
+    background-color: #a8c9b0;
+    transform: none;
+}
+
+/* ---- Responsivo ---- */
+
+@media (max-width: 900px) {
+    .carrossel-secao {
+        padding: 70px 6% 80px;
+    }
+
+    .carrossel-secao > h2 {
+        font-size: 34px;
+    }
+
+    .carrossel-slide {
+        grid-template-columns: 1fr;
+    }
+
+    .carrossel-slide__media img {
+        min-height: 220px;
+        max-height: 260px;
+    }
+
+    .carrossel-slide__texto {
+        align-items: center;
+        text-align: center;
+        padding: 36px 56px 48px;
+    }
+
+    .carrossel-slide__texto p {
+        max-width: none;
+    }
+
+    .carrossel-seta--prev {
+        left: 10px;
+    }
+
+    .carrossel-seta--next {
+        right: 10px;
+    }
+}
+
+@media (max-width: 560px) {
+    .carrossel-secao > h2 {
+        font-size: 28px;
+    }
+
+    .carrossel-intro {
+        font-size: 16px;
+    }
+
+    .carrossel-slide__texto {
+        padding: 28px 48px 40px;
+    }
+
+    .carrossel-slide__texto h3 {
+        font-size: 24px;
+    }
+
+    .carrossel-slide__texto p {
+        font-size: 15px;
+    }
+
+    .carrossel-seta {
+        width: 42px;
+        height: 42px;
+        font-size: 20px;
+    }
+
+    .carrossel-viewport {
+        border-radius: 20px;
+    }
+}

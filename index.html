@@ -9,6 +9,7 @@
     <title>Raízes Sustentáveis</title>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/carrossel.css">
 </head>
 
 <body>
@@ -129,6 +130,255 @@
         </div>
 
     </div>
+
+
+
+    <!-- =====================================================
+         CARROSSEL — Temas de sustentabilidade
+         Técnica: âncoras (#slide-1 … #slide-5) + CSS :target.
+         Sem JavaScript. Estrutura pronta para JS futuro se necessário.
+    ===================================================== -->
+
+    <section class="carrossel-secao" id="temas">
+
+        <p class="carrossel-subtitulo">
+            🌱 TEMAS EM DESTAQUE
+        </p>
+
+        <h2>
+            Práticas que fazem a diferença
+        </h2>
+
+        <p class="carrossel-intro">
+            Conheça ações simples de reciclagem, consumo consciente,
+            economia de água e preservação ambiental.
+        </p>
+
+        <div
+            class="carrossel"
+            id="carrossel"
+            role="region"
+            aria-roledescription="carrossel"
+            aria-label="Temas de sustentabilidade e impacto social">
+
+            <div class="carrossel-viewport">
+
+                <div class="carrossel-slides" aria-live="polite">
+
+                    <!-- SLIDE 1 · Reciclagem -->
+                    <article
+                        class="carrossel-slide"
+                        id="slide-1"
+                        aria-label="Slide 1 de 5: Reciclagem">
+
+                        <div class="carrossel-slide__media">
+                            <img
+                                src="img/carrossel-reciclagem.svg"
+                                alt="Ilustração do ciclo de reciclagem em tons de verde">
+                        </div>
+
+                        <div class="carrossel-slide__texto">
+                            <h3>Reciclagem</h3>
+                            <p>
+                                Separar o lixo corretamente reduz a poluição
+                                e transforma resíduos em novos recursos.
+                                Cada embalagem no lugar certo conta.
+                            </p>
+                        </div>
+
+                        <a
+                            class="carrossel-seta carrossel-seta--prev"
+                            href="#slide-5"
+                            aria-label="Slide anterior: Iniciativas sustentáveis">
+                            ‹
+                        </a>
+
+                        <a
+                            class="carrossel-seta carrossel-seta--next"
+                            href="#slide-2"
+                            aria-label="Próximo slide: Consumo consciente">
+                            ›
+                        </a>
+
+                    </article>
+
+
+                    <!-- SLIDE 2 · Consumo consciente -->
+                    <article
+                        class="carrossel-slide"
+                        id="slide-2"
+                        aria-label="Slide 2 de 5: Consumo consciente">
+
+                        <div class="carrossel-slide__media">
+                            <img
+                                src="img/carrossel-consumo.svg"
+                                alt="Ilustração de escolhas de consumo consciente com planta e lista">
+                        </div>
+
+                        <div class="carrossel-slide__texto">
+                            <h3>Consumo consciente</h3>
+                            <p>
+                                Comprar apenas o necessário e priorizar produtos
+                                duráveis e locais ajuda a reduzir o desperdício
+                                e o impacto no planeta.
+                            </p>
+                        </div>
+
+                        <a
+                            class="carrossel-seta carrossel-seta--prev"
+                            href="#slide-1"
+                            aria-label="Slide anterior: Reciclagem">
+                            ‹
+                        </a>
+
+                        <a
+                            class="carrossel-seta carrossel-seta--next"
+                            href="#slide-3"
+                            aria-label="Próximo slide: Economia de água">
+                            ›
+                        </a>
+
+                    </article>
+
+
+                    <!-- SLIDE 3 · Economia de água -->
+                    <article
+                        class="carrossel-slide"
+                        id="slide-3"
+                        aria-label="Slide 3 de 5: Economia de água">
+
+                        <div class="carrossel-slide__media">
+                            <img
+                                src="img/carrossel-agua.svg"
+                                alt="Ilustração de gota d'água sobre paisagem em tons azul-verde">
+                        </div>
+
+                        <div class="carrossel-slide__texto">
+                            <h3>Economia de água</h3>
+                            <p>
+                                Fechar a torneira, reaproveitar a água da chuva
+                                e consertar vazamentos são gestos simples que
+                                protegem um recurso essencial à vida.
+                            </p>
+                        </div>
+
+                        <a
+                            class="carrossel-seta carrossel-seta--prev"
+                            href="#slide-2"
+                            aria-label="Slide anterior: Consumo consciente">
+                            ‹
+                        </a>
+
+                        <a
+                            class="carrossel-seta carrossel-seta--next"
+                            href="#slide-4"
+                            aria-label="Próximo slide: Preservação ambiental">
+                            ›
+                        </a>
+
+                    </article>
+
+
+                    <!-- SLIDE 4 · Preservação ambiental -->
+                    <article
+                        class="carrossel-slide"
+                        id="slide-4"
+                        aria-label="Slide 4 de 5: Preservação ambiental">
+
+                        <div class="carrossel-slide__media">
+                            <img
+                                src="img/carrossel-preservacao.svg"
+                                alt="Ilustração de árvore e vegetação representando preservação da natureza">
+                        </div>
+
+                        <div class="carrossel-slide__texto">
+                            <h3>Preservação ambiental</h3>
+                            <p>
+                                Cuidar das áreas verdes, evitar o descarte
+                                irregular e valorizar a biodiversidade fortalecem
+                                o equilíbrio entre pessoas e natureza.
+                            </p>
+                        </div>
+
+                        <a
+                            class="carrossel-seta carrossel-seta--prev"
+                            href="#slide-3"
+                            aria-label="Slide anterior: Economia de água">
+                            ‹
+                        </a>
+
+                        <a
+                            class="carrossel-seta carrossel-seta--next"
+                            href="#slide-5"
+                            aria-label="Próximo slide: Iniciativas sustentáveis">
+                            ›
+                        </a>
+
+                    </article>
+
+
+                    <!-- SLIDE 5 · Iniciativas sustentáveis -->
+                    <article
+                        class="carrossel-slide"
+                        id="slide-5"
+                        aria-label="Slide 5 de 5: Iniciativas sustentáveis">
+
+                        <div class="carrossel-slide__media">
+                            <img
+                                src="img/carrossel-iniciativas.svg"
+                                alt="Ilustração de pessoas unidas em torno de uma causa sustentável">
+                        </div>
+
+                        <div class="carrossel-slide__texto">
+                            <h3>Iniciativas sustentáveis</h3>
+                            <p>
+                                Projetos comunitários, mutirões de limpeza e
+                                educação ambiental mostram que, juntos, geramos
+                                impacto social e ambiental positivo.
+                            </p>
+                        </div>
+
+                        <a
+                            class="carrossel-seta carrossel-seta--prev"
+                            href="#slide-4"
+                            aria-label="Slide anterior: Preservação ambiental">
+                            ‹
+                        </a>
+
+                        <a
+                            class="carrossel-seta carrossel-seta--next"
+                            href="#slide-1"
+                            aria-label="Próximo slide: Reciclagem">
+                            ›
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+            <ol class="carrossel-indicadores" aria-label="Selecionar slide">
+                <li>
+                    <a href="#slide-1" aria-label="Ir para o slide 1: Reciclagem">1</a>
+                </li>
+                <li>
+                    <a href="#slide-2" aria-label="Ir para o slide 2: Consumo consciente">2</a>
+                </li>
+                <li>
+                    <a href="#slide-3" aria-label="Ir para o slide 3: Economia de água">3</a>
+                </li>
+                <li>
+                    <a href="#slide-4" aria-label="Ir para o slide 4: Preservação ambiental">4</a>
+                </li>
+                <li>
+                    <a href="#slide-5" aria-label="Ir para o slide 5: Iniciativas sustentáveis">5</a>
+                </li>
+            </ol>
+
+        </div>
+
+    </section>
 
 
 
