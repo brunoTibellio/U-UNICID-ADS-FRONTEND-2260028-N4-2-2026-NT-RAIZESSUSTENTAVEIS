@@ -20,81 +20,44 @@
 
     <div class="inicio">
 
-        <!-- VÍDEO DE FUNDO -->
-
-        <video class="video-fundo" autoplay muted loop playsinline>
-
-            <source
-                src="videos/158229-816359520_small.mp4"
-                type="video/mp4">
-
-        </video>
-
-
-        <!-- ESCURECIMENTO DO VÍDEO -->
-
-        <div class="overlay"></div>
+        <!-- Fundo visual (vídeo opcional: coloque o mp4 em videos/ e reative a tag <video>) -->
+        <div class="overlay" aria-hidden="true"></div>
 
 
         <!-- =================================================
              MENU
         ================================================= -->
 
-        <div class="menu">
-
-            <!-- LOGO -->
+        <header class="menu">
 
             <div class="logo">
                 🍃 Raízes Sustentáveis
             </div>
 
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+            <label for="nav-toggle" class="nav-hamburguer" aria-label="Abrir ou fechar menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
 
-            <!-- LINKS -->
+            <nav class="links" aria-label="Menu principal">
 
-            <div class="links">
+                <a href="index.html" aria-current="page">Início</a>
+                <a href="quemsomos.html">Quem somos</a>
+                <a href="servicos.html">Serviços</a>
+                <a href="sustentabilidade.html">Sustentabilidade</a>
+                <a href="dicas.html">Dicas</a>
+                <a href="reciclagem.html">Reciclagem</a>
+                <a href="contatos.html">Contato</a>
 
-                <a href="index.html">
-                    Início
-                </a>
-
-                <a href="quemsomos.html">
-                    Quem somos
-                </a>
-
-                <a href="servicos.html">
-                    Serviços
-                </a>
-
-                <a href="sustentabilidade.html">
-                    Sustentabilidade
-                </a>
-
-                <a href="contatos.html">
-                    Contato
-                </a>
-
-                <a href="dicas.html">
-                    Dicas
-                </a>
-
-                <a href="reciclagem.html">
-                    Reciclagem
-                </a>
-
-            </div>
-
-
-            <!-- BOTÃO -->
+            </nav>
 
             <div class="botao-contato">
-
-                <a href="Falecomnoix.html">
-                    Fale conosco
-                </a>
-
+                <a href="contatos.html">Fale conosco</a>
             </div>
 
-        </div>
+        </header>
 
 
         <!-- =================================================

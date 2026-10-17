@@ -1,0 +1,421 @@
+/* =========================================================
+   PÁGINAS INTERNAS — Raízes Sustentáveis
+========================================================= */
+
+.pagina {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f8f2;
+    color: #123c20;
+}
+
+/* ---- Menu interno (sticky) ---- */
+
+.menu-pagina {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: rgba(5, 35, 20, 0.97);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.menu-pagina .menu-interno {
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 72px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 12px 5%;
+}
+
+.menu-pagina .logo a,
+.menu-pagina .logo {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-right: auto;
+}
+
+.menu-pagina .links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+}
+
+.menu-pagina .links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+    white-space: nowrap;
+    transition: color 0.25s ease;
+}
+
+.menu-pagina .links a:hover,
+.menu-pagina .links a[aria-current="page"] {
+    color: #8eee65;
+}
+
+.menu-pagina .botao-contato {
+    margin-left: 8px;
+    padding: 10px 18px;
+    border: 1px solid #8eee65;
+    border-radius: 30px;
+}
+
+.menu-pagina .botao-contato a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.menu-pagina .botao-contato:hover {
+    background-color: #8eee65;
+}
+
+.menu-pagina .botao-contato:hover a {
+    color: #123c20;
+}
+
+.nav-toggle {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.nav-hamburguer {
+    display: none;
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    border: 1px solid rgba(142, 238, 101, 0.5);
+    background: transparent;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6px;
+    margin-left: auto;
+}
+
+.nav-hamburguer span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: #8eee65;
+    border-radius: 2px;
+}
+
+.nav-hamburguer:focus-visible {
+    outline: 3px solid #8eee65;
+    outline-offset: 2px;
+}
+
+/* ---- Hero / cabeçalho de página ---- */
+
+.pagina-hero {
+    padding: 70px 8% 50px;
+    background:
+        linear-gradient(135deg, rgba(8, 55, 32, 0.92), rgba(18, 60, 32, 0.88)),
+        linear-gradient(160deg, #0d3a22, #1a5c38);
+    color: #ffffff;
+    text-align: center;
+}
+
+.pagina-hero .eyebrow {
+    color: #b6ff96;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-bottom: 14px;
+}
+
+.pagina-hero h1 {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    line-height: 1.15;
+    margin-bottom: 16px;
+}
+
+.pagina-hero p {
+    max-width: 640px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.55;
+    color: #dce9df;
+}
+
+/* ---- Conteúdo ---- */
+
+.pagina-conteudo {
+    flex: 1;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 6% 80px;
+}
+
+.bloco {
+    margin-bottom: 48px;
+}
+
+.bloco h2 {
+    color: #123c20;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    margin-bottom: 16px;
+}
+
+.bloco p,
+.bloco li {
+    color: #536358;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.bloco ul {
+    padding-left: 1.25rem;
+    display: grid;
+    gap: 10px;
+}
+
+.grade-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+.card-pagina {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 28px 24px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.07);
+}
+
+.card-pagina h3 {
+    color: #123c20;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card-pagina p {
+    color: #68756c;
+    font-size: 15px;
+    line-height: 1.55;
+}
+
+.card-pagina .icone {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e7f7df;
+    font-size: 1.5rem;
+    margin-bottom: 14px;
+}
+
+/* ---- Formulário ---- */
+
+.form-contato {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 36px 32px;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-grupo {
+    margin-bottom: 20px;
+}
+
+.form-grupo label {
+    display: block;
+    font-weight: bold;
+    color: #123c20;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+.form-grupo input,
+.form-grupo textarea,
+.form-grupo select {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1.5px solid #c5d6c8;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: inherit;
+    color: #123c20;
+    background: #fafdfa;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-grupo input:focus,
+.form-grupo textarea:focus,
+.form-grupo select:focus {
+    outline: none;
+    border-color: #4f9d55;
+    box-shadow: 0 0 0 3px rgba(79, 157, 85, 0.25);
+}
+
+.form-grupo input:focus-visible,
+.form-grupo textarea:focus-visible,
+.form-grupo select:focus-visible,
+.btn-enviar:focus-visible {
+    outline: 3px solid #8eee65;
+    outline-offset: 2px;
+}
+
+.form-grupo textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+.form-dica {
+    display: block;
+    margin-top: 6px;
+    font-size: 13px;
+    color: #68756c;
+}
+
+.btn-enviar {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 14px 28px;
+    background: #123c20;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+.btn-enviar:hover {
+    background: #4f9d55;
+    transform: translateY(-2px);
+}
+
+/* ---- Lista de reciclagem ---- */
+
+.lista-reciclagem {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.item-reciclagem {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 22px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    text-align: left;
+}
+
+.item-reciclagem h3 {
+    color: #123c20;
+    font-size: 1.05rem;
+    margin-bottom: 6px;
+}
+
+.item-reciclagem p {
+    color: #68756c;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.item-reciclagem .cor {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-top: 4px;
+}
+
+.cor-azul { background: #2b6cb0; }
+.cor-verde { background: #38a169; }
+.cor-vermelho { background: #e53e3e; }
+.cor-amarelo { background: #d69e2e; }
+.cor-marrom { background: #8b5a2b; }
+.cor-cinza { background: #718096; }
+
+/* ---- Responsivo páginas ---- */
+
+@media (max-width: 900px) {
+    .grade-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .lista-reciclagem {
+        grid-template-columns: 1fr;
+    }
+
+    .nav-hamburguer {
+        display: flex;
+    }
+
+    .menu-pagina .links,
+    .menu-pagina .botao-contato {
+        display: none;
+        width: 100%;
+    }
+
+    .menu-pagina .links {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 0 12px;
+        gap: 12px;
+    }
+
+    .menu-pagina .botao-contato {
+        margin: 0 0 12px;
+        text-align: center;
+    }
+
+    .nav-toggle:checked ~ .links,
+    .nav-toggle:checked ~ .botao-contato {
+        display: flex;
+    }
+
+    .nav-toggle:checked ~ .botao-contato {
+        display: inline-flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .grade-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .pagina-hero {
+        padding: 50px 6% 40px;
+    }
+
+    .pagina-conteudo {
+        padding: 40px 5% 60px;
+    }
+
+    .form-contato {
+        padding: 28px 20px;
+    }
+
+    .menu-pagina .logo a,
+    .menu-pagina .logo {
+        font-size: 16px;
+    }
+}

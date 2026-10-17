@@ -1,12 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contato | Raízes Sustentáveis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/paginas.css">
 </head>
-<body>
-    <!-- formns -->
+
+<body class="pagina">
+
+    <header class="menu-pagina">
+        <div class="menu-interno">
+            <div class="logo">
+                <a href="index.html">🍃 Raízes Sustentáveis</a>
+            </div>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+            <label for="nav-toggle" class="nav-hamburguer" aria-label="Abrir ou fechar menu">
+                <span></span><span></span><span></span>
+            </label>
+
+            <nav class="links" aria-label="Menu principal">
+                <a href="index.html">Início</a>
+                <a href="quemsomos.html">Quem somos</a>
+                <a href="servicos.html">Serviços</a>
+                <a href="sustentabilidade.html">Sustentabilidade</a>
+                <a href="dicas.html">Dicas</a>
+                <a href="reciclagem.html">Reciclagem</a>
+                <a href="contatos.html" aria-current="page">Contato</a>
+            </nav>
+
+            <div class="botao-contato">
+                <a href="contatos.html">Fale conosco</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="pagina-hero">
+        <p class="eyebrow">📬 FALE CONOSCO</p>
+        <h1>Contato</h1>
+        <p>
+            Envie dúvidas, sugestões ou propostas de parceria.
+            Estamos abertos a voluntários e iniciativas sustentáveis.
+        </p>
+    </section>
+
+    <main class="pagina-conteudo">
+
+        <form class="form-contato" action="#" method="get" novalidate>
+
+            <div class="form-grupo">
+                <label for="nome">Nome completo</label>
+                <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    required
+                    autocomplete="name"
+                    placeholder="Seu nome"
+                    aria-describedby="dica-nome">
+                <span class="form-dica" id="dica-nome">Informe seu nome completo.</span>
+            </div>
+
+            <div class="form-grupo">
+                <label for="email">E-mail</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    autocomplete="email"
+                    placeholder="seuemail@exemplo.com"
+                    aria-describedby="dica-email">
+                <span class="form-dica" id="dica-email">Use um e-mail válido para retorno.</span>
+            </div>
+
+            <div class="form-grupo">
+                <label for="telefone">Telefone</label>
+                <input
+                    type="tel"
+                    id="telefone"
+                    name="telefone"
+                    required
+                    autocomplete="tel"
+                    pattern="[\d\s\(\)\-]{8,20}"
+                    placeholder="(11) 99999-9999"
+                    aria-describedby="dica-telefone">
+                <span class="form-dica" id="dica-telefone">Inclua DDD. Ex.: (11) 99999-9999</span>
+            </div>
+
+            <div class="form-grupo">
+                <label for="visita">Data da visita / interesse</label>
+                <input
+                    type="date"
+                    id="visita"
+                    name="visita"
+                    required
+                    aria-describedby="dica-visita">
+                <span class="form-dica" id="dica-visita">Escolha uma data a partir de hoje, se aplicável.</span>
+            </div>
+
+            <div class="form-grupo">
+                <label for="mensagem">Mensagem</label>
+                <textarea
+                    id="mensagem"
+                    name="mensagem"
+                    required
+                    maxlength="1000"
+                    placeholder="Como podemos ajudar?"
+                    aria-describedby="dica-mensagem"></textarea>
+                <span class="form-dica" id="dica-mensagem">Descreva sua dúvida ou proposta em até 1000 caracteres.</span>
+            </div>
+
+            <button type="submit" class="btn-enviar">Enviar mensagem</button>
+
+        </form>
+
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape-logo">🍃 Raízes Sustentáveis</div>
+        <p>Conscientização, sustentabilidade e cuidado com o planeta.</p>
+        <div class="rodape-links">
+            <a href="index.html">Início</a>
+            <a href="quemsomos.html">Quem somos</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="sustentabilidade.html">Sustentabilidade</a>
+            <a href="dicas.html">Dicas</a>
+            <a href="reciclagem.html">Reciclagem</a>
+            <a href="contatos.html">Contato</a>
+        </div>
+        <div class="rodape-linha"></div>
+        <p class="copyright">© 2026 Raízes Sustentáveis. Todos os direitos reservados.</p>
+    </footer>
 
 </body>
+
 </html>

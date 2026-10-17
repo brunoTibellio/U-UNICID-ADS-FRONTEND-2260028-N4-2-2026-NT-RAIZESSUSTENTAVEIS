@@ -8,8 +8,25 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    color: #123c20;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid #8eee65;
+    outline-offset: 3px;
 }
 
 
@@ -19,10 +36,16 @@ body {
 
 .inicio {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+    min-height: 100dvh;
 
     position: relative;
     overflow: hidden;
+
+    /* Fallback quando o vídeo não carrega */
+    background:
+        linear-gradient(rgba(8, 40, 24, 0.55), rgba(8, 40, 24, 0.65)),
+        linear-gradient(160deg, #0d3a22 0%, #1a5c38 45%, #123c20 100%);
 }
 
 
@@ -54,9 +77,10 @@ body {
     width: 100%;
     height: 100%;
 
-    background: rgba(0, 0, 0, 0.30);
+    background: rgba(0, 0, 0, 0.18);
 
     z-index: 1;
+    pointer-events: none;
 }
 
 
@@ -69,20 +93,57 @@ body {
 
     z-index: 2;
 
-    top: 25px;
-    left: 6%;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
 
-    width: 88%;
-    height: 75px;
+    width: min(1200px, 92%);
+    min-height: 68px;
 
-    background-color: rgba(5, 35, 20, 0.92);
+    background-color: rgba(5, 35, 20, 0.94);
 
     border-radius: 40px;
 
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 
-    padding: 0 20px 0 30px;
+    padding: 10px 20px 10px 28px;
+    gap: 8px;
+}
+
+.menu .nav-toggle {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.menu .nav-hamburguer {
+    display: none;
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    border: 1px solid rgba(142, 238, 101, 0.55);
+    background: transparent;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6px;
+    margin-left: auto;
+}
+
+.menu .nav-hamburguer span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: #8eee65;
+    border-radius: 2px;
+}
+
+.menu .nav-hamburguer:focus-visible {
+    outline: 3px solid #8eee65;
+    outline-offset: 2px;
 }
 
 
@@ -178,16 +239,17 @@ body {
 
     z-index: 2;
 
-    width: 75%;
+    width: min(900px, 90%);
 
-    top: 50%;
+    top: 52%;
     left: 50%;
 
-    transform: translate(-50%, -35%);
+    transform: translate(-50%, -45%);
 
     text-align: center;
 
     color: white;
+    padding-top: 40px;
 }
 
 
@@ -211,7 +273,7 @@ body {
 ========================================================= */
 
 .conteudo h1 {
-    font-size: 80px;
+    font-size: clamp(2.5rem, 8vw, 5rem);
 
     line-height: 1.1;
 
@@ -274,74 +336,120 @@ body {
 
 
 /* =========================================================
-   RESPONSIVIDADE
+   RESPONSIVIDADE — HERO / MENU
 ========================================================= */
 
-@media (max-width: 1200px) {
-
-    .menu {
-        width: 94%;
-        left: 3%;
-    }
-
-    .logo {
-        font-size: 18px;
-    }
-
-    .links {
-        gap: 14px;
-    }
-
-    .links a {
-        font-size: 12px;
-    }
-
-    .botao-contato {
-        margin-left: 15px;
-
-        padding: 10px 16px;
-    }
-
-    .conteudo h1 {
-        font-size: 70px;
-    }
-}
-
-
-/* =========================================================
-   TELAS MENORES
-========================================================= */
-
-@media (max-width: 950px) {
+@media (max-width: 1100px) {
 
     .logo {
         font-size: 17px;
     }
 
     .links {
-        gap: 10px;
+        gap: 12px;
     }
 
     .links a {
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .botao-contato {
         margin-left: 10px;
+        padding: 10px 14px;
+    }
+}
 
-        padding: 9px 13px;
+
+@media (max-width: 900px) {
+
+    .menu {
+        border-radius: 22px;
+        padding: 12px 16px;
+        align-items: flex-start;
     }
 
-    .botao-contato a {
-        font-size: 12px;
+    .menu .nav-hamburguer {
+        display: flex;
     }
 
-    .conteudo h1 {
-        font-size: 60px;
+    .menu .links,
+    .menu .botao-contato {
+        display: none;
+        width: 100%;
+    }
+
+    .menu .links {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 14px;
+        padding: 10px 4px 6px;
+    }
+
+    .menu .links a {
+        font-size: 15px;
+    }
+
+    .menu .botao-contato {
+        margin: 4px 0 8px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .menu .nav-toggle:checked ~ .links {
+        display: flex;
+    }
+
+    .menu .nav-toggle:checked ~ .botao-contato {
+        display: inline-flex;
+    }
+
+    .conteudo {
+        top: 55%;
+        width: min(920px, 92%);
     }
 
     .descricao {
-        font-size: 18px;
+        font-size: 17px;
+    }
+
+    .nome {
+        font-size: 14px;
+        letter-spacing: 3px;
+    }
+}
+
+
+@media (max-width: 560px) {
+
+    .inicio {
+        min-height: 100svh;
+    }
+
+    .menu {
+        top: 12px;
+        width: 94%;
+    }
+
+    .logo {
+        font-size: 15px;
+        max-width: calc(100% - 56px);
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .conteudo {
+        transform: translate(-50%, -40%);
+        padding-top: 60px;
+    }
+
+    .descricao {
+        font-size: 15px;
+        margin-bottom: 28px;
+    }
+
+    .botao {
+        font-size: 15px;
+        padding: 14px 26px;
     }
 }
 
@@ -390,7 +498,7 @@ body {
 .missao-texto h2 {
     color: #123c20;
 
-    font-size: 50px;
+    font-size: clamp(1.8rem, 4vw, 3.1rem);
 
     line-height: 1.15;
 
@@ -461,7 +569,9 @@ body {
 .missao-imagem img {
     width: 100%;
 
-    height: 400px;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    max-height: 420px;
 
     object-fit: cover;
 
@@ -470,6 +580,7 @@ body {
     display: block;
 
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    background-color: #e7f7df;
 }
 
 
@@ -540,16 +651,14 @@ body {
 /* CARDS */
 
 .cards-ajuda {
-    display: flex;
-
-    justify-content: center;
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .card-ajuda {
-    width: 31%;
-
     min-height: 230px;
 
     padding: 35px 30px;
@@ -623,14 +732,10 @@ body {
 
     background:
         linear-gradient(
-            rgba(8, 55, 32, 0.82),
-            rgba(8, 55, 32, 0.82)
+            rgba(8, 55, 32, 0.88),
+            rgba(8, 55, 32, 0.9)
         ),
-        url("img/floresta_fundo.jpg");
-
-    background-size: cover;
-
-    background-position: center;
+        linear-gradient(135deg, #0d3a22, #2d6a4f 50%, #1b4332);
 }
 
 .atitudes-conteudo {
@@ -749,16 +854,14 @@ body {
 /* CARDS DE DICAS */
 
 .cards-dicas {
-    display: flex;
-
-    justify-content: center;
-
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .card-dica {
-    width: 24%;
-
     min-height: 210px;
 
     padding: 30px 20px;
@@ -995,40 +1098,55 @@ body {
 
 
 /* =========================================================
-   RESPONSIVIDADE
+   RESPONSIVIDADE — SEÇÕES
 ========================================================= */
 
 @media (max-width: 900px) {
 
-    .cards-ajuda,
+    .cards-ajuda {
+        grid-template-columns: 1fr 1fr;
+    }
+
     .cards-dicas {
-        flex-wrap: wrap;
-    }
-
-    .card-ajuda {
-        width: 45%;
-    }
-
-    .card-dica {
-        width: 45%;
+        grid-template-columns: 1fr 1fr;
     }
 
     .atitudes-lista {
         flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .atitude {
+        width: 45%;
+    }
+
+    .linha-atitude {
+        display: none;
+    }
+
+    .ajuda h2,
+    .dicas-home h2,
+    .atitudes h2,
+    .chamada h2 {
+        font-size: clamp(1.6rem, 4vw, 2.2rem);
+    }
+
+    .missao {
+        gap: 40px;
+        padding: 70px 6%;
     }
 }
 
 
 @media (max-width: 600px) {
 
-    .card-ajuda,
-    .card-dica {
-        width: 100%;
+    .cards-ajuda,
+    .cards-dicas {
+        grid-template-columns: 1fr;
     }
 
     .atitudes-lista {
         flex-direction: column;
-
         gap: 30px;
     }
 
@@ -1036,19 +1154,15 @@ body {
         width: 100%;
     }
 
-    .linha-atitude {
-        width: 100px;
-
-        height: 1px;
+    .chamada {
+        padding: 70px 20px;
     }
 
-    .ajuda h2,
-    .dicas-home h2 {
-        font-size: 32px;
+    .rodape-links {
+        gap: 14px 18px;
     }
 
-    .atitudes h2,
-    .chamada h2 {
-        font-size: 32px;
+    .missao-imagem img {
+        max-height: 280px;
     }
 }
