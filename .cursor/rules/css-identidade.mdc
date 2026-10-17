@@ -1,0 +1,16 @@
+---
+description: Identidade visual, CSS compartilhado e responsividade
+globs: "**/*.css"
+alwaysApply: false
+---
+
+# CSS e identidade visual
+
+- Estilos globais em `style.css`; páginas internas em `css/paginas.css`; carrossel em `css/carrossel.css`.
+- Paleta: fundo `#f4f8f2` / branco; texto `#123c20` / `#536358`; destaque `#8eee65` / `#4f9d55`; rodapé `#082416`.
+- Fonte simples (Arial/Helvetica). Títulos com `clamp()` quando o hero ou h1 puder estourar no mobile.
+- Contraste suficiente texto/fundo. Foco visível (`:focus-visible`) em verde claro.
+- Layout com flex/grid. Evitar larguras fixas em % que quebrem (cards: grid, não `width: 31%` em flex).
+- Breakpoints usuais: ~900px (tablet/menu hamburger), ~600px (coluna única).
+- `overflow-x: hidden` no `body`. Imagens `max-width: 100%`. Não referenciar assets inexistentes (`videos/`, `floresta_fundo.jpg`).
+- Sem poluir o hero: carrossel e seções abaixo do início, alinhados à paleta.

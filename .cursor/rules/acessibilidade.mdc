@@ -1,0 +1,25 @@
+---
+description: Acessibilidade, inclusão e conteúdo sustentável
+alwaysApply: true
+---
+
+# Acessibilidade e conteúdo
+
+Critérios de aceite: menu funcional, formulário validado, layout em vários tamanhos, imagens com `alt`, HTML válido no W3C, recursos de a11y.
+
+## A11y
+
+- Todo `<img>` tem `alt` descritivo em português (ou `alt=""` se puramente decorativo).
+- Navegação por teclado: ordem lógica, hamburger acionável, foco visível.
+- Não usar só cor para informação (ex.: coleta seletiva: cor **e** nome do material).
+- Controles: `aria-label` em setas, indicadores e hamburger.
+- Conteúdo compreensível a partir de 14 anos; frases curtas.
+
+## Sustentabilidade (também no código)
+
+- Imagens leves (SVG/JPEG otimizado). Não embutir vídeos pesados sem o arquivo no repositório.
+- Preferir CSS a JS. Evitar autoplay com som.
+
+## Conteúdo temático
+
+Foco: reciclagem, consumo consciente, economia de água/energia, preservação, iniciativas comunitárias. Tom de incentivo (“pequenas atitudes”), nunca culpa ou terror climático.

@@ -1,0 +1,28 @@
+---
+description: HTML semântico, SEO básico e estrutura das páginas
+globs: "**/*.html"
+alwaysApply: false
+---
+
+# HTML semântico
+
+```html
+<!-- ❌ -->
+<div class="menu">...</div>
+<div class="titulo">Quem somos</div>
+
+<!-- ✅ -->
+<header>...</header>
+<nav aria-label="Menu principal">...</nav>
+<main>...</main>
+<footer>...</footer>
+<h1>Quem somos</h1>
+```
+
+- `lang="pt-br"`, charset UTF-8, viewport, `<title>` no formato `Página | Raízes Sustentáveis`.
+- Um único `h1` por página; hierarquia `h2`/`h3` sem pular níveis.
+- Links internos em minúsculas e existentes. Marcar a página atual com `aria-current="page"`.
+- Formulários: `label for`, `required`, tipos HTML5 (`email`, `tel`, `date`), `aria-describedby` nas dicas. Sem JS.
+- Carrossel: âncoras + `:target`, `role="region"`, `aria-roledescription="carrossel"`, `aria-label` nos controles.
+- Menu mobile: checkbox + `label` (sem JS). Foco visível em links e botões.
+- Não deixar páginas vazias, `lang="en"` ou `title` "Document".

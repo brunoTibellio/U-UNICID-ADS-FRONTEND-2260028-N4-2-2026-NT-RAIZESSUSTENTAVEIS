@@ -1,0 +1,30 @@
+---
+description: Identidade, escopo e convenções do site Raízes Sustentáveis
+alwaysApply: true
+---
+
+# Raízes Sustentáveis
+
+Site informativo da UNICID (Front-End para Web). Equipe: Murilo, Bruno, Gabriel, Mateus e Erick. Hospedagem: Railway + GitHub.
+
+## Problema e objetivo
+
+Aborda descarte incorreto, desperdício e falta de informação sobre hábitos sustentáveis. Objetivo: conscientizar (público a partir de 14 anos, Brasil) com conteúdo simples, acessível e positivo.
+
+## Stack (não desviar)
+
+- HTML5 + CSS3. Sem JavaScript, salvo pedido explícito.
+- Validar HTML no W3C. Imagens otimizadas, com `alt` e fonte quando não forem próprias.
+- Arquivos HTML em **minúsculas** (Linux/Railway): `index.html`, `quemsomos.html`, `servicos.html`, `dicas.html`, `contatos.html`, `reciclagem.html`, `sustentabilidade.html`.
+
+## Páginas atuais (menu unificado)
+
+Início · Quem somos · Serviços · Sustentabilidade · Dicas · Reciclagem · Contato (`contatos.html`). `Falecomnoix.html` só redireciona para contato.
+
+Escopo acadêmico ainda previsto: projetos, impacto, acessibilidade, galeria, mídia, notícias, orçamento de hospedagem. Ao criar página nova, ligar no menu e no rodapé de **todas** as páginas.
+
+## Tom e tema
+
+Educativo, simples, positivo, informativo. Cores: verde (`#123c20`, `#4f9d55`, `#8eee65`), branco e tons de natureza. Sem tom alarmista, sem greenwashing, sem conteúdo político-partidário.
+
+Não inventar dados de impacto sem fonte. Preferir dicas práticas (reciclar, água, consumo consciente).
