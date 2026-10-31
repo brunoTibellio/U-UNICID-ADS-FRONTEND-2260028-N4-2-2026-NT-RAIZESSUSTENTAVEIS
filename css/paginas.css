@@ -302,8 +302,8 @@
 }
 
 .btn-enviar:hover {
-    background: #4f9d55;
-    transform: translateY(-2px);
+       background: #2e7d32;
+       transform: translateY(-2px);
 }
 
 /* ---- Lista de reciclagem ---- */
@@ -419,3 +419,9 @@
         font-size: 16px;
     }
 }
+
+  /* ---- Conteúdo centralizado (página de obrigado) ---- */
+
+   .centralizado {
+       text-align: center;
+   }
