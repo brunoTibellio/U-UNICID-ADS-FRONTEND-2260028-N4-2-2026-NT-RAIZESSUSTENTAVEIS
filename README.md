@@ -1,125 +1,121 @@
-O projeto está hospedado utilizando o Railway e integrado ao GitHub para publicação das atualizações.
+# 🍃 Raízes Sustentáveis
 
-🌐 [Acessar o site Raízes Sustentáveis](https://raizes-sustentaveis-production-cafe.up.railway.app)
+Site informativo sobre sustentabilidade, feito em **HTML e CSS** para a disciplina de **Front-End para Web** (UNICID).
 
-ESCOPO DO PROJETO
-Raízes Sustentáveis
-Atividade A2 – Front-End para Web
-UNICID
-1. Identificação
-Nome da equipe: Raízes sustentáveis
-Nome do projeto/site: Raízes Sustentáveis
-Integrantes:
-•	Murilo Domingues Saes
-•	Bruno Gomes Tibellio
-•	Gabriel Marques Lopes
-•	Mateus Lima Monteiro
-•	Erick Andrade de péder 
-Data: 26/09/2026
-Professor: Paulo Fratta
-Disciplina: Front-End para Web
-2. Contexto e Justificativa
-Qual problema social ou ambiental o site aborda?
-O site Raízes Sustentáveis aborda problemas relacionados ao descarte incorreto de resíduos, desperdício de recursos naturais e falta de informação sobre práticas sustentáveis no dia a dia.
-Por que esse tema é relevante?
-A sustentabilidade é importante porque pequenas atitudes, como reciclar, economizar água, reduzir o desperdício e consumir de forma consciente, podem contribuir para a preservação do meio ambiente.
-Qual a relação com sustentabilidade e impacto social?
-O projeto busca incentivar hábitos mais sustentáveis e conscientizar as pessoas sobre como suas escolhas podem gerar impactos positivos para o meio ambiente e para a sociedade.
-3. Objetivos
-Objetivo geral:
-Criar um site informativo e acessível que incentive práticas sustentáveis e conscientize os usuários sobre a importância da preservação ambiental.
-Objetivos específicos:
-•	Divulgar informações sobre sustentabilidade.
-•	Apresentar formas simples de preservar o meio ambiente.
-•	Incentivar a reciclagem e o consumo consciente.
-•	Divulgar projetos e iniciativas sustentáveis.
-•	Garantir que o conteúdo seja acessível para pessoas com deficiência.
-4. Público-Alvo
-O site será destinado a pessoas interessadas em sustentabilidade e preservação ambiental, principalmente jovens e adultos.
-•	Faixa etária: a partir de 14 anos.
-•	Localização: todo o Brasil.
-•	Necessidades: acesso simples a informações e dicas sobre sustentabilidade.
-•	Acessibilidade: o site também será desenvolvido pensando em pessoas com deficiência, utilizando recursos que facilitem a navegação e compreensão do conteúdo.
-5. Escopo Funcional
-1.	Início (index.html) – Apresentação do Raízes Sustentáveis e resumo do conteúdo.
-2.	Sobre (sobre.html) – História, missão, visão e valores do projeto.
-3.	Projetos (projetos.html) – Apresentação de projetos e ações sustentáveis.
-4.	Impacto (impacto.html) – Dados e informações sobre impactos ambientais e sociais.
-5.	Acessibilidade (acessibilidade.html) – Informações sobre acessibilidade e inclusão.
-6.	Galeria (galeria.html) – Imagens relacionadas à natureza e sustentabilidade.
-7.	Mídia (midia.html) – Vídeos, áudios e outros conteúdos educativos.
-8.	Notícias (noticias.html) – Notícias e artigos relacionados à sustentabilidade.
-9.	Contato (contato.html) – Formulário para contato e informações da equipe.
-10.	Hospedagem (orcamento_hospedagem.html) – Comparação de opções de hospedagem e domínio.
-6. Escopo Não Funcional
-•	Acessibilidade: imagens terão textos alternativos, bom contraste entre texto e fundo, navegação por teclado e estrutura adequada para leitores de tela.
-•	Sustentabilidade: utilização de imagens otimizadas, conteúdo educativo e análise de opções de hospedagem sustentável.
-•	Responsividade: o site será adaptado para computadores, tablets e celulares.
-•	Desempenho: serão utilizadas imagens otimizadas e código organizado para melhorar o carregamento.
-•	SEO básico: utilização adequada de títulos, descrições e organização dos conteúdos.
-7. Mapa do Site
-Estrutura principal do site:
-•	Início
-•	Sobre
-•	Projetos
-•	Impacto
-•	Acessibilidade
-•	Galeria
-•	Mídia
-•	Notícias
-•	Contato
-•	Hospedagem
-Todas as páginas terão um menu principal permitindo que o usuário navegue entre as principais áreas do site.
-8. Conteúdo e Identidade Visual
-•	Tom de voz: educativo, simples, positivo e informativo.
-•	Cores: tons de verde, branco e cores relacionadas à natureza.
-•	Tipografia: fontes simples e de fácil leitura.
-•	Logotipo: identidade visual relacionada à natureza, sustentabilidade e ao conceito de raízes.
-•	Imagens: imagens próprias ou de fontes que permitam sua utilização, sempre com a indicação da fonte quando necessário.
+🌐 **Acesse o site:**
 
+- [Versão publicada no Railway](https://raizes-sustentaveis-production-cafe.up.railway.app)
+- [Versão publicada no GitHub Pages](https://brunotibellio.github.io/U-UNICID-ADS-FRONTEND-2260028-N4-2-2026-NT-RAIZESSUSTENTAVEIS/)
 
-9. Tecnologias e Ferramentas
-•	HTML5 para estruturação das páginas.
-•	CSS3 para estilização.
-•	Visual Studio Code para desenvolvimento.
-•	GitHub para armazenamento e controle de versão.
-•	W3C Validator para validação do HTML.
-10. Cronograma e Divisão de Tarefas
-A divisão das tarefas será definida de acordo com os integrantes da equipe. As atividades poderão ser separadas entre desenvolvimento das páginas, criação do conteúdo, identidade visual, testes e documentação.
+<!-- Quando tivermos um print da página inicial, salvar em docs/img/print-home.png e tirar os comentários da linha abaixo -->
+<!-- ![Página inicial do site Raízes Sustentáveis](docs/img/print-home.png) -->
 
-Responsáveis:
-Bruno e Mateus – Desenvolvimento das página
-Bruno, Mateus, Gabriel e Murilo – Criação do conteúdo
-Murilo e Gabriel – Identidade Visual
-Erick – Testes e documentações
-Datas das etapas: 
-01/10/2026 – Desenvolvimento 
-08/10/2026 – Criação do conteúdo
-15/10/2026 - Identidade Visual
-17/10/2026 - 	Testes e documentações
+---
 
-Ferramenta de gestão: Trello
+## Sobre o projeto
 
+O Raízes Sustentáveis é o nosso trabalho da atividade A2 de Front-End para Web.
 
+Escolhemos falar sobre três problemas que vemos no dia a dia: o **descarte incorreto de resíduos**, o **desperdício de recursos naturais** e a **falta de informação** sobre práticas sustentáveis. A ideia do site é mostrar que pequenas atitudes, como reciclar, economizar água e consumir com consciência, ajudam a preservar o meio ambiente e trazem impacto positivo para a sociedade.
 
-11. Riscos e Restrições
-•	Prazo limitado para desenvolvimento.
-•	Dificuldade na divisão das tarefas entre os integrantes.
-•	Possíveis dificuldades com HTML e CSS.
-•	Problemas de compatibilidade entre diferentes dispositivos.
-•	Dificuldades para implementar corretamente os recursos de acessibilidade.
-12. Critérios de Aceitação
-•	As 10 páginas estiverem desenvolvidas e interligadas.
-•	O menu de navegação funcionar corretamente.
-•	O formulário de contato estiver funcionando e validado.
-•	O site possuir recursos de acessibilidade.
-•	O layout funcionar em diferentes tamanhos de tela.
-•	As imagens estiverem otimizadas e com textos alternativos.
-•	O código HTML for validado pelo W3C sem erros importantes.
-•	A documentação solicitada estiver completa.
-13. Aprovação
-Responsável pela validação do escopo: Gabriel Marques Lopes.
-Data: 26/09/2026
-Assinatura: Gabriel M. Lopes.
+## Objetivos
 
-Observação: O documento deverá ser salvo na pasta /docs do projeto, conforme as orientações da atividade.
+**Objetivo geral:** criar um site informativo e acessível que incentive práticas sustentáveis e mostre a importância de preservar o meio ambiente.
+
+**Objetivos específicos:**
+
+- divulgar informações sobre sustentabilidade;
+- apresentar formas simples de preservar o meio ambiente;
+- incentivar a reciclagem e o consumo consciente;
+- divulgar projetos e iniciativas sustentáveis;
+- garantir que o conteúdo seja acessível para pessoas com deficiência.
+
+## Público-alvo
+
+Pessoas interessadas em sustentabilidade, principalmente jovens e adultos a partir de 14 anos, de todo o Brasil. Pensamos em um site com informações simples de achar e de entender, e que também seja possível de usar por pessoas com deficiência.
+
+## Páginas do site
+
+| Página | Arquivo | O que tem |
+| --- | --- | --- |
+| Início | `index.html` | Apresentação do projeto, carrossel com 5 temas, nossa missão, cards "Como podemos ajudar?" e chamada final |
+| Quem somos | `quemsomos.html` | Apresentação do projeto e da equipe |
+| Serviços | `servicos.html` | O que o projeto oferece |
+| Sustentabilidade | `sustentabilidade.html` | Conteúdo sobre sustentabilidade |
+| Dicas | `dicas.html` | Dicas práticas para o dia a dia |
+| Reciclagem | `reciclagem.html` | Como separar e descartar corretamente os resíduos |
+| Contato | `contatos.html` | Informações e formulário de contato |
+
+> **Observação:** durante o desenvolvimento, a quantidade e os nomes das páginas ficaram diferentes do que estava previsto no escopo inicial. A estrutura final é a da tabela acima. O escopo original está em [`docs/escopo.md`](docs/escopo.md).
+
+## O que o site tem
+
+- **Carrossel** de temas de sustentabilidade na página inicial, feito só com HTML e CSS (sem JavaScript).
+- **Menu para celular** (hambúrguer) na página inicial, também só com HTML e CSS.
+- **HTML semântico**, com `header`, `nav`, `section` e `footer`.
+- **Acessibilidade:** texto alternativo (`alt`) nas imagens, `aria-label` no carrossel e nos botões, `aria-current` na página atual do menu e idioma da página definido como português do Brasil.
+- Ilustrações em **SVG**, que carregam rápido e não perdem qualidade.
+
+## Tecnologias e ferramentas
+
+- HTML5
+- CSS3
+- Visual Studio Code
+- Git e GitHub (versionamento do código)
+- Railway e GitHub Pages (publicação do site)
+- Trello (organização das tarefas)
+
+## Estrutura de pastas
+
+```text
+.
+├── css/
+│   └── carrossel.css
+├── docs/
+│   └── escopo.md
+├── img/
+├── index.html
+├── quemsomos.html
+├── servicos.html
+├── sustentabilidade.html
+├── dicas.html
+├── reciclagem.html
+├── contatos.html
+├── style.css
+└── README.md
+```
+
+## Como rodar no seu computador
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/brunoTibellio/U-UNICID-ADS-FRONTEND-2260028-N4-2-2026-NT-RAIZESSUSTENTAVEIS.git
+   ```
+
+2. Entre na pasta do projeto.
+3. Abra o arquivo `index.html` no navegador (ou use a extensão **Live Server** do VS Code).
+
+Não precisa instalar nada, porque o projeto usa só HTML e CSS.
+
+## Equipe
+
+| Integrante | O que fez |
+| --- | --- |
+| Bruno Gomes Tibellio | Desenvolvimento das páginas e criação do conteúdo |
+| Mateus Lima Monteiro | Desenvolvimento das páginas e criação do conteúdo |
+| Gabriel Marques Lopes | Criação do conteúdo e identidade visual |
+| Murilo Domingues Saes | Criação do conteúdo e identidade visual |
+| Erick Andrade de Péder | Testes e documentação |
+
+## Documentação
+
+- [Escopo do projeto](docs/escopo.md)
+
+## Dados da disciplina
+
+- **Disciplina:** Front-End para Web
+- **Professor:** Paulo Fratta
+- **Instituição:** UNICID
+- **Atividade:** A2
+- **Ano:** 2026
