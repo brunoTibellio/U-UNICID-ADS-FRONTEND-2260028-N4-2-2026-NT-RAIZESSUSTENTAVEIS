@@ -1166,3 +1166,31 @@ button:focus-visible {
         max-height: 280px;
     }
 }
+
+
+.menu {
+    z-index: 3;
+}
+
+/* Mostra o foco do teclado no botão do menu */
+.nav-toggle:focus-visible + .nav-hamburguer {
+    outline: 3px solid #8eee65;
+    outline-offset: 2px;
+}
+
+/* Verde mais escuro nos subtítulos, para dar mais contraste */
+.missao-subtitulo,
+.ajuda-subtitulo {
+    color: #2e7d32;
+}
+
+/* Respeita quem prefere menos animação */
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    * {
+        transition: none !important;
+    }
+}
