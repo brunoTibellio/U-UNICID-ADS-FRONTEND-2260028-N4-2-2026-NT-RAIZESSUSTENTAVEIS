@@ -30,6 +30,9 @@
                 <a href="sustentabilidade.html">Sustentabilidade</a>
                 <a href="dicas.html">Dicas</a>
                 <a href="reciclagem.html">Reciclagem</a>
+                <a href="projetos.html">Projetos</a>
+                <a href="noticias.html">Conteúdos</a>
+                <a href="midia.html">Mídia</a>
                 <a href="contatos.html" aria-current="page">Contato</a>
             </nav>
 
@@ -50,7 +53,8 @@
 
     <main class="pagina-conteudo">
 
-        <form class="form-contato" action="obrigado.html" method="get">
+        <form class="form-contato" id="form-contato" action="obrigado.html" method="get" novalidate>
+            <p class="form-aviso" id="form-aviso" role="status">Este formulário funciona como demonstração acadêmica: os dados ficam salvos somente neste navegador e não são enviados a um servidor.</p>
 
             <div class="form-grupo">
                 <label for="nome">Nome completo</label>
@@ -62,7 +66,7 @@
                     autocomplete="name"
                     placeholder="Seu nome"
                     aria-describedby="dica-nome">
-                <span class="form-dica" id="dica-nome">Informe seu nome completo.</span>
+                <span class="form-dica" id="dica-nome">Informe seu nome completo.</span><span class="form-erro" id="erro-nome"></span>
             </div>
 
             <div class="form-grupo">
@@ -75,7 +79,7 @@
                     autocomplete="email"
                     placeholder="seuemail@exemplo.com"
                     aria-describedby="dica-email">
-                <span class="form-dica" id="dica-email">Use um e-mail válido para retorno.</span>
+                <span class="form-dica" id="dica-email">Use um e-mail válido para retorno.</span><span class="form-erro" id="erro-email"></span>
             </div>
 
             <div class="form-grupo">
@@ -89,7 +93,7 @@
                     pattern="[\d\s\(\)\-]{8,20}"
                     placeholder="(11) 99999-9999"
                     aria-describedby="dica-telefone">
-                <span class="form-dica" id="dica-telefone">Inclua DDD. Ex.: (11) 99999-9999</span>
+                <span class="form-dica" id="dica-telefone">Inclua DDD. Ex.: (11) 99999-9999</span><span class="form-erro" id="erro-telefone"></span>
             </div>
 
             <div class="form-grupo">
@@ -111,10 +115,10 @@
                     maxlength="1000"
                     placeholder="Como podemos ajudar?"
                     aria-describedby="dica-mensagem"></textarea>
-                <span class="form-dica" id="dica-mensagem">Descreva sua dúvida ou proposta em até 1000 caracteres.</span>
+                <span class="form-dica" id="dica-mensagem">Descreva sua dúvida ou proposta em até 1000 caracteres.</span><span class="form-erro" id="erro-mensagem"></span>
             </div>
 
-            <button type="submit" class="btn-enviar">Enviar mensagem</button>
+            <button type="submit" class="btn-enviar">Salvar mensagem de demonstração</button>
 
         </form>
 
@@ -130,12 +134,16 @@
             <a href="sustentabilidade.html">Sustentabilidade</a>
             <a href="dicas.html">Dicas</a>
             <a href="reciclagem.html">Reciclagem</a>
+            <a href="projetos.html">Projetos</a>
+            <a href="noticias.html">Conteúdos</a>
+            <a href="midia.html">Mídia</a>
             <a href="contatos.html">Contato</a>
         </div>
         <div class="rodape-linha"></div>
         <p class="copyright">© 2026 Raízes Sustentáveis. Todos os direitos reservados.</p>
     </footer>
 
+    <script src="js/script.js" defer></script>
 </body>
 
 </html>
