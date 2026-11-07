@@ -175,7 +175,11 @@ O escopo inicial acima foi mantido como registro do planejamento. Durante o dese
 9. Mídia — `midia.html`
 10. Contato — `contatos.html`
 
-A página `obrigado.html` é a confirmação do formulário e não entra na contagem.
+A página `obrigado.html` é a confirmação do formulário e não entra na contagem. A página complementar `orcamento_hospedagem.html` documenta a comparação e a justificativa da hospedagem, conforme exigido na atividade.
+
+### Apoio e participação
+
+A página `projetos.html` apresenta formas de apoiar a iniciativa por meio de compartilhamento de conteúdo, sugestões de ações e interesse em voluntariado. O site não processa doações financeiras.
 
 ### Recursos JavaScript adicionados
 
