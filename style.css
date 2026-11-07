@@ -1204,3 +1204,22 @@ button:focus-visible {
 .item-conteudo a,.card-pagina a{color:#176332;font-weight:700}.mensagem-vazia{padding:22px;text-align:center;color:#536358}.video-responsivo{position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;border-radius:16px;background:#123c20}.video-responsivo iframe,.video-responsivo video{width:100%;height:100%;border:0;object-fit:cover}.chamada-conteudo{margin-top:48px;padding:30px;border-radius:18px;background:#e7f7df}[hidden]{display:none!important}
 .alto-contraste{background:#000!important;color:#fff!important}.alto-contraste .pagina-hero,.alto-contraste .menu-pagina,.alto-contraste .rodape{background:#000!important;color:#fff!important}.alto-contraste .pagina-conteudo,.alto-contraste .card-pagina,.alto-contraste .form-contato,.alto-contraste .chamada-conteudo{background:#111!important;color:#fff!important}.alto-contraste .pagina-conteudo p,.alto-contraste .pagina-conteudo li,.alto-contraste .card-pagina p,.alto-contraste .bloco h2,.alto-contraste .card-pagina h3{color:#fff!important}.alto-contraste a{color:#ff0!important}.alto-contraste input,.alto-contraste textarea,.alto-contraste select{background:#000!important;color:#fff!important;border-color:#ff0!important}
 @media(max-width:900px){.menu-pagina .botao-contraste{margin:0 0 12px}}@media(max-width:600px){.filtro-conteudos{grid-template-columns:1fr}.filtro-conteudos [role=status]{grid-column:auto}}
+
+/* Ajustes de acessibilidade aplicados em todas as páginas */
+:focus-visible{outline:3px solid #1d6b36;outline-offset:3px}
+.menu .botao-contraste{color:#fff;border-color:#b6ff96;background:rgba(5,35,20,.94)}
+.menu .botao-contraste:hover,.menu .botao-contraste:focus-visible{background:#b6ff96;color:#123c20}
+.alto-contraste .inicio .video-fundo{visibility:hidden}
+.alto-contraste .inicio .overlay{background:#000;opacity:1}
+.alto-contraste .inicio{background:#000!important}
+.alto-contraste .menu,.alto-contraste .menu-pagina,.alto-contraste .rodape,.alto-contraste .chamada,.alto-contraste .atitudes{background:#000!important;color:#fff!important}
+.alto-contraste .carrossel-secao,.alto-contraste .missao,.alto-contraste .ajuda,.alto-contraste .dicas-home{background:#000!important;color:#fff!important}
+.alto-contraste .carrossel-slide__texto,.alto-contraste .card-ajuda,.alto-contraste .card-dica,.alto-contraste .card-pagina,.alto-contraste .item-reciclagem,.alto-contraste .form-contato{background:#111!important;color:#fff!important}
+.alto-contraste .carrossel-secao h2,.alto-contraste .missao h2,.alto-contraste .ajuda h2,.alto-contraste .dicas-home h2,.alto-contraste .card-ajuda h3,.alto-contraste .card-dica h3,.alto-contraste .card-pagina h3,.alto-contraste .item-reciclagem h3,.alto-contraste .missao-descricao,.alto-contraste .card-ajuda p,.alto-contraste .card-dica p,.alto-contraste .card-pagina p,.alto-contraste .item-reciclagem p{color:#fff!important}
+.alto-contraste .carrossel-intro,.alto-contraste .bloco p,.alto-contraste .bloco li,.alto-contraste .pagina-hero p{color:#fff!important}
+.alto-contraste .links a,.alto-contraste .rodape a,.alto-contraste .botao-contato a{color:#ff0!important}
+.alto-contraste .botao-contraste{background:#000!important;color:#ff0!important;border-color:#ff0!important}
+.alto-contraste .form-grupo label,.alto-contraste .form-dica{color:#fff!important}
+.alto-contraste input,.alto-contraste textarea,.alto-contraste select{background:#000!important;color:#fff!important;border-color:#ff0!important}
+.alto-contraste a:focus-visible,.alto-contraste button:focus-visible,.alto-contraste input:focus-visible{outline-color:#ff0!important}
+@media(max-width:900px){.menu .botao-contraste{margin:4px 0 8px;width:100%}.menu-pagina .botao-contraste{margin:0 0 12px;width:100%}}
