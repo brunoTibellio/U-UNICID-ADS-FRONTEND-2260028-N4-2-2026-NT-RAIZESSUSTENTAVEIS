@@ -1223,3 +1223,22 @@ button:focus-visible {
 .alto-contraste input,.alto-contraste textarea,.alto-contraste select{background:#000!important;color:#fff!important;border-color:#ff0!important}
 .alto-contraste a:focus-visible,.alto-contraste button:focus-visible,.alto-contraste input:focus-visible{outline-color:#ff0!important}
 @media(max-width:900px){.menu .botao-contraste{margin:4px 0 8px;width:100%}.menu-pagina .botao-contraste{margin:0 0 12px;width:100%}}
+
+/* Menu com 11 destinos: recolhe antes de faltar espaço horizontal */
+@media (max-width:1250px){
+ .menu{border-radius:22px;padding:12px 16px;align-items:flex-start}
+ .menu .nav-hamburguer{display:flex}
+ .menu .links,.menu .botao-contato{display:none;width:100%}
+ .menu .links{flex-direction:column;align-items:flex-start;gap:14px;padding:10px 4px 6px}
+ .menu .links a{font-size:15px}
+ .menu .botao-contato{margin:4px 0 8px;text-align:center;justify-content:center}
+ .menu .nav-toggle:checked~.links{display:flex}
+ .menu .nav-toggle:checked~.botao-contato{display:inline-flex}
+ .menu-pagina .nav-hamburguer{display:flex}
+ .menu-pagina .links,.menu-pagina .botao-contato{display:none;width:100%}
+ .menu-pagina .links{flex-direction:column;align-items:flex-start;padding:8px 0 12px;gap:12px}
+ .menu-pagina .botao-contato{margin:0 0 12px;text-align:center}
+ .menu-pagina .nav-toggle:checked~.links,.menu-pagina .nav-toggle:checked~.botao-contato{display:flex}
+ .menu-pagina .nav-toggle:checked~.botao-contato{display:inline-flex;justify-content:center}
+ .menu .botao-contraste,.menu-pagina .botao-contraste{width:100%;margin:4px 0 8px}
+}
