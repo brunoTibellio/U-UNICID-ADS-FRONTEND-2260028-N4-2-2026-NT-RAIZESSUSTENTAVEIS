@@ -72,7 +72,9 @@ Não há dependências ou instalação de pacotes.
 │   ├── README.md
 │   ├── escopo.md
 │   ├── testes.md
-│   └── diario-ia.md
+│   ├── diario-ia.md
+│   ├── melhorias-mvp.md
+│   └── orcamento.md
 ├── img/
 ├── js/
 │   └── script.js
@@ -86,6 +88,7 @@ Não há dependências ou instalação de pacotes.
 ├── noticias.html
 ├── midia.html
 ├── contatos.html
+├── orcamento_hospedagem.html
 ├── obrigado.html
 └── style.css
 ```
