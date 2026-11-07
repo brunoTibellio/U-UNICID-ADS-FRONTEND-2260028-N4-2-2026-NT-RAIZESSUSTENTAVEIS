@@ -104,7 +104,9 @@ Não há dependências ou instalação de pacotes.
 
 - [Escopo do projeto](docs/escopo.md)
 - [Plano e registro de testes](docs/testes.md)
-- [Diário de uso de IA](docs/diario-ia.md)\n- [Melhorias identificadas no MVP](docs/melhorias-mvp.md)\n- [Orçamento de hospedagem](docs/orcamento.md)
+- [Diário de uso de IA](docs/diario-ia.md)
+- [Melhorias identificadas no MVP](docs/melhorias-mvp.md)
+- [Orçamento de hospedagem](docs/orcamento.md)
 
 ## Dados da disciplina
 
