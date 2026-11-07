@@ -425,3 +425,90 @@
    .centralizado {
        text-align: center;
    }
+
+
+/* Refinamento visual do cabeçalho das páginas internas */
+.menu-pagina {
+    background: rgba(5, 35, 20, .97);
+    border-bottom: 1px solid rgba(182, 255, 150, .18);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, .18);
+}
+.menu-pagina .menu-interno {
+    gap: 10px 12px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.menu-pagina .logo a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 42px;
+    font-size: 18px;
+    letter-spacing: -.25px;
+}
+.menu-pagina .links {
+    gap: 4px 5px;
+}
+.menu-pagina .links a {
+    padding: 9px 10px;
+    border-radius: 20px;
+    font-size: 12.5px;
+    transition: color .2s ease, background-color .2s ease;
+}
+.menu-pagina .links a:hover,
+.menu-pagina .links a[aria-current="page"] {
+    color: #b6ff96;
+    background: rgba(182, 255, 150, .13);
+}
+.menu-pagina .botao-contato {
+    margin-left: 2px;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #b6ff96;
+    background: #8eee65;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, .16);
+    transition: background-color .2s ease, transform .2s ease;
+}
+.menu-pagina .botao-contato a {
+    display: block;
+    padding: 11px 17px;
+    color: #123c20;
+    font-size: 13px;
+}
+.menu-pagina .botao-contato:hover {
+    background: #b6ff96;
+    transform: translateY(-1px);
+}
+.menu-pagina .botao-contraste {
+    margin-left: 0;
+    padding: 10px 14px;
+    border: 1px solid rgba(182, 255, 150, .65);
+    border-radius: 22px;
+    background: rgba(255, 255, 255, .07);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: background-color .2s ease, color .2s ease;
+}
+.menu-pagina .botao-contraste:hover,
+.menu-pagina .botao-contraste:focus-visible {
+    background: #b6ff96;
+    color: #123c20;
+}
+.menu-pagina .links a:focus-visible,
+.menu-pagina .botao-contato a:focus-visible,
+.menu-pagina .botao-contraste:focus-visible {
+    outline: 3px solid #fff;
+    outline-offset: 3px;
+}
+@media (max-width: 1250px) {
+    .menu-pagina .menu-interno {
+        gap: 8px 12px;
+    }
+    .menu-pagina .links a {
+        padding: 9px 8px;
+    }
+    .menu-pagina .botao-contato {
+        box-shadow: none;
+    }
+}
