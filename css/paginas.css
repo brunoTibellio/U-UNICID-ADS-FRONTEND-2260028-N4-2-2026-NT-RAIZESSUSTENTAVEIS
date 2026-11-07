@@ -512,3 +512,97 @@
         box-shadow: none;
     }
 }
+
+
+/* Cabeçalho interno — opção 4: compacto e tecnológico */
+.menu-pagina {
+    background: rgba(5, 35, 20, .98);
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+    box-shadow: 0 5px 18px rgba(0, 0, 0, .16);
+}
+.menu-pagina .menu-interno {
+    min-height: 64px;
+    gap: 6px 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.menu-pagina .logo a,
+.menu-pagina .logo {
+    min-height: 40px;
+    font-size: 16px;
+    letter-spacing: -.35px;
+}
+.menu-pagina .links {
+    gap: 3px 7px;
+}
+.menu-pagina .links a {
+    padding: 8px 5px;
+    border: 0;
+    border-bottom: 2px solid transparent;
+    border-radius: 0;
+    background: transparent !important;
+    color: rgba(255, 255, 255, .88);
+    font-size: 12px;
+    letter-spacing: .05px;
+}
+.menu-pagina .links a:hover,
+.menu-pagina .links a[aria-current="page"] {
+    color: #b6ff96;
+    border-bottom-color: #8eee65;
+}
+.menu-pagina .botao-contato {
+    margin-left: 4px;
+    padding: 0;
+    border: 1px solid rgba(182, 255, 150, .7);
+    border-radius: 8px;
+    background: transparent;
+    box-shadow: none;
+    transform: none;
+}
+.menu-pagina .botao-contato a {
+    padding: 9px 12px;
+    color: #dfffd2;
+    font-size: 12px;
+    font-weight: 600;
+}
+.menu-pagina .botao-contato:hover {
+    background: rgba(182, 255, 150, .12);
+    transform: none;
+}
+.menu-pagina .botao-contato:hover a {
+    color: #fff;
+}
+.menu-pagina .botao-contraste {
+    margin: 0;
+    padding: 8px 10px;
+    border: 1px solid rgba(255, 255, 255, .24);
+    border-radius: 8px;
+    background: transparent;
+    color: rgba(255, 255, 255, .82);
+    font-size: 11px;
+    font-weight: 500;
+}
+.menu-pagina .botao-contraste:hover,
+.menu-pagina .botao-contraste:focus-visible {
+    border-color: #b6ff96;
+    background: rgba(182, 255, 150, .1);
+    color: #b6ff96;
+}
+@media (max-width: 1250px) {
+    .menu-pagina .menu-interno {
+        min-height: 60px;
+        gap: 8px 10px;
+    }
+    .menu-pagina .links a {
+        padding: 7px 5px;
+        border: 0;
+    }
+    .menu-pagina .botao-contato,
+    .menu-pagina .botao-contraste {
+        width: 100%;
+        margin: 4px 0 8px;
+    }
+    .menu-pagina .botao-contato a {
+        text-align: center;
+    }
+}
