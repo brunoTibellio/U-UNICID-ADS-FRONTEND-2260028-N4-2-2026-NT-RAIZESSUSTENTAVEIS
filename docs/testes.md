@@ -15,7 +15,9 @@ Este documento separa o que foi implementado do que ainda precisa ser verificado
 | Alto contraste | Ativar o controle, navegar e atualizar a página | A executar |
 | Teclado | Usar Tab, Shift+Tab, Enter e Espaço sem mouse | A executar |
 | Responsividade | Conferir celular, tablet e desktop | A executar |
-| Mídia incorporada | Abrir `midia.html` e testar a incorporação e o link alternativo | A executar |
+| Mídia | Abrir `midia.html` e testar a reprodução do vídeo externo | A executar |
+| Apoio/voluntariado | Abrir `projetos.html` e testar o link de contato | A executar |
+| Orçamento | Abrir `orcamento_hospedagem.html` e conferir links e justificativa | A executar |
 
 ## Validação HTML e acessibilidade
 
