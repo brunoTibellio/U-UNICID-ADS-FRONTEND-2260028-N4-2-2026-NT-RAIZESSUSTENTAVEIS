@@ -27,7 +27,9 @@ O Raízes Sustentáveis aborda o descarte incorreto de resíduos, o desperdício
 | Mídia | `midia.html` | Conteúdo audiovisual e links externos |
 | Contato | `contatos.html` | Formulário demonstrativo com validação e rascunho local |
 
-A página `obrigado.html` confirma a conclusão do formulário e `Faleconosco.html` é um redirecionamento legado; elas não entram na contagem das dez páginas principais.
+**Página complementar:** `orcamento_hospedagem.html` — comparação e justificativa da hospedagem.
+
+A página `orcamento_hospedagem.html` complementa a entrega com a justificativa da plataforma de publicação. `obrigado.html` confirma a conclusão do formulário e `Faleconosco.html` é um redirecionamento legado; essas páginas de apoio não entram na contagem das dez páginas de conteúdo.
 
 ## Funcionalidades
 
@@ -101,7 +103,7 @@ Não há dependências ou instalação de pacotes.
 
 - [Escopo do projeto](docs/escopo.md)
 - [Plano e registro de testes](docs/testes.md)
-- [Diário de uso de IA](docs/diario-ia.md)
+- [Diário de uso de IA](docs/diario-ia.md)\n- [Melhorias identificadas no MVP](docs/melhorias-mvp.md)\n- [Orçamento de hospedagem](docs/orcamento.md)
 
 ## Dados da disciplina
 
