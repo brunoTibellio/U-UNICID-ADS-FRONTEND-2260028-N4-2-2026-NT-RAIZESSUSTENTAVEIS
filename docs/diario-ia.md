@@ -2,6 +2,8 @@
 
 ## Registro da etapa de finalização
 
+**Data:** 07/11/2026
+
 **Objetivo:** apoiar a adequação do site aos requisitos da atividade, mantendo a identidade visual, o conteúdo já existente e os arquivos de imagem.
 
 ### Solicitação utilizada
@@ -23,3 +25,9 @@
 - Os itens do plano de testes permanecem como "A executar" até que a equipe os verifique.
 
 **Revisão humana:** a equipe deve conferir textos, links, informações da disciplina, comportamento em dispositivos e evidências antes da entrega.
+
+
+### Correções realizadas após revisão
+- A primeira proposta de vídeo usava uma referência de playlist não confirmada; foi substituída por um arquivo de vídeo de demonstração hospedado externamente, com link alternativo para pesquisa de vídeos educativos.
+- O formulário foi identificado explicitamente como demonstração local para não sugerir que os dados são enviados à equipe.
+- A escolha de hospedagem foi documentada com consulta às páginas oficiais do GitHub Pages e Railway.
