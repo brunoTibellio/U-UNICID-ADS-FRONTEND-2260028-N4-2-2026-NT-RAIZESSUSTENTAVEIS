@@ -158,3 +158,35 @@ A divisão das tarefas será definida de acordo com os integrantes da equipe. As
 ---
 
 *Documento salvo na pasta `/docs` do projeto, conforme as orientações da atividade.*
+
+
+## 14. Estrutura implementada na versão de finalização
+
+O escopo inicial acima foi mantido como registro do planejamento. Durante o desenvolvimento, a equipe ajustou os nomes e a quantidade de páginas. A navegação principal desta versão está organizada em dez páginas:
+
+1. Início — `index.html`
+2. Quem somos — `quemsomos.html`
+3. Serviços — `servicos.html`
+4. Sustentabilidade — `sustentabilidade.html`
+5. Dicas — `dicas.html`
+6. Reciclagem — `reciclagem.html`
+7. Projetos — `projetos.html`
+8. Conteúdos — `noticias.html`
+9. Mídia — `midia.html`
+10. Contato — `contatos.html`
+
+A página `obrigado.html` é a confirmação do formulário e não entra na contagem.
+
+### Recursos JavaScript adicionados
+
+- Validação personalizada do formulário, com `preventDefault()`, mensagens por campo e destaque de campos inválidos.
+- Salvamento e recuperação do rascunho do formulário usando `localStorage`.
+- Alternância de alto contraste, com preferência persistida no navegador.
+- Busca e filtro de conteúdos na página `noticias.html`, com atualização do DOM por eventos.
+
+**Limite do formulário:** o envio é demonstrativo e local. Os dados não são transmitidos a um servidor, e-mail ou serviço externo.
+
+### Documentação complementar
+
+- `docs/testes.md`: plano de testes funcionais, acessibilidade, HTML e publicação. Os itens permanecem pendentes até execução pela equipe.
+- `docs/diario-ia.md`: registro do apoio de IA, sugestões incorporadas e limites que exigem revisão humana.
