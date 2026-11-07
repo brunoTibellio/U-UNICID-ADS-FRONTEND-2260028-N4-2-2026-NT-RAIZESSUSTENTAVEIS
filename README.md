@@ -72,6 +72,7 @@ Não há dependências ou instalação de pacotes.
 │   ├── README.md
 │   ├── escopo.md
 │   ├── testes.md
+│   ├── revisao-pagina-a-pagina.md
 │   ├── diario-ia.md
 │   ├── melhorias-mvp.md
 │   └── orcamento.md
@@ -107,6 +108,7 @@ Não há dependências ou instalação de pacotes.
 
 - [Escopo do projeto](docs/escopo.md)
 - [Plano e registro de testes](docs/testes.md)
+- [Revisão página por página](docs/revisao-pagina-a-pagina.md)
 - [Diário de uso de IA](docs/diario-ia.md)
 - [Melhorias identificadas no MVP](docs/melhorias-mvp.md)
 - [Orçamento de hospedagem](docs/orcamento.md)
