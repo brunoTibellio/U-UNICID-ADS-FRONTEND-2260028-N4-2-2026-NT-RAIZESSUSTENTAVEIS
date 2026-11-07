@@ -1,107 +1,101 @@
 # 🍃 Raízes Sustentáveis
 
-Site informativo sobre sustentabilidade, feito em **HTML e CSS** para a disciplina de **Front-End para Web** (UNICID).
+Site informativo e educativo sobre sustentabilidade, desenvolvido em **HTML, CSS e JavaScript** para a disciplina de **Front-End para Web (UNICID)**.
 
-🌐 **Acesse o site:**
-
+🌐 **Acesse o site**
 - [Versão publicada no Railway](https://raizes-sustentaveis-production-cafe.up.railway.app)
 - [Versão publicada no GitHub Pages](https://brunotibellio.github.io/U-UNICID-ADS-FRONTEND-2260028-N4-2-2026-NT-RAIZESSUSTENTAVEIS/)
 
-<!-- Quando tivermos um print da página inicial, salvar em docs/img/print-home.png e tirar os comentários da linha abaixo -->
-<!-- ![Página inicial do site Raízes Sustentáveis](docs/img/print-home.png) -->
-
----
+> Os endereços acima já constavam no projeto. A versão atualizada deve ser conferida após a integração das alterações à branch principal.
 
 ## Sobre o projeto
 
-O Raízes Sustentáveis é o nosso trabalho da atividade A2 de Front-End para Web.
+O Raízes Sustentáveis aborda o descarte incorreto de resíduos, o desperdício de recursos naturais e a falta de informação sobre práticas sustentáveis. O objetivo é apresentar informações acessíveis e incentivar atitudes cotidianas que contribuam para a preservação ambiental.
 
-Escolhemos falar sobre três problemas que vemos no dia a dia: o **descarte incorreto de resíduos**, o **desperdício de recursos naturais** e a **falta de informação** sobre práticas sustentáveis. A ideia do site é mostrar que pequenas atitudes, como reciclar, economizar água e consumir com consciência, ajudam a preservar o meio ambiente e trazem impacto positivo para a sociedade.
+## Páginas principais
 
-## Objetivos
-
-**Objetivo geral:** criar um site informativo e acessível que incentive práticas sustentáveis e mostre a importância de preservar o meio ambiente.
-
-**Objetivos específicos:**
-
-- divulgar informações sobre sustentabilidade;
-- apresentar formas simples de preservar o meio ambiente;
-- incentivar a reciclagem e o consumo consciente;
-- divulgar projetos e iniciativas sustentáveis;
-- garantir que o conteúdo seja acessível para pessoas com deficiência.
-
-## Público-alvo
-
-Pessoas interessadas em sustentabilidade, principalmente jovens e adultos a partir de 14 anos, de todo o Brasil. Pensamos em um site com informações simples de achar e de entender, e que também seja possível de usar por pessoas com deficiência.
-
-## Páginas do site
-
-| Página | Arquivo | O que tem |
+| Página | Arquivo | Conteúdo |
 | --- | --- | --- |
-| Início | `index.html` | Apresentação do projeto, carrossel com 5 temas, nossa missão, cards "Como podemos ajudar?" e chamada final |
+| Início | `index.html` | Apresentação, carrossel, missão e caminhos para explorar o site |
 | Quem somos | `quemsomos.html` | Apresentação do projeto e da equipe |
-| Serviços | `servicos.html` | O que o projeto oferece |
-| Sustentabilidade | `sustentabilidade.html` | Conteúdo sobre sustentabilidade |
-| Dicas | `dicas.html` | Dicas práticas para o dia a dia |
-| Reciclagem | `reciclagem.html` | Como separar e descartar corretamente os resíduos |
-| Contato | `contatos.html` | Informações e formulário de contato |
+| Serviços | `servicos.html` | Conteúdos e orientações oferecidos |
+| Sustentabilidade | `sustentabilidade.html` | Conceitos e práticas sustentáveis |
+| Dicas | `dicas.html` | Hábitos sustentáveis no cotidiano |
+| Reciclagem | `reciclagem.html` | Separação e destinação de resíduos |
+| Projetos | `projetos.html` | Ideias de ações comunitárias e educativas |
+| Conteúdos | `noticias.html` | Busca e filtro de conteúdos por tema |
+| Mídia | `midia.html` | Conteúdo audiovisual e links externos |
+| Contato | `contatos.html` | Formulário demonstrativo com validação e rascunho local |
 
-> **Observação:** durante o desenvolvimento, a quantidade e os nomes das páginas ficaram diferentes do que estava previsto no escopo inicial. A estrutura final é a da tabela acima. O escopo original está em [`docs/escopo.md`](docs/escopo.md).
+**Página complementar:** `orcamento_hospedagem.html` — comparação e justificativa da hospedagem.
 
-## O que o site tem
+A página `orcamento_hospedagem.html` complementa a entrega com a justificativa da plataforma de publicação. `obrigado.html` confirma a conclusão do formulário e `Faleconosco.html` é um redirecionamento legado; essas páginas de apoio não entram na contagem das dez páginas de conteúdo.
 
-- **Carrossel** de temas de sustentabilidade na página inicial, feito só com HTML e CSS (sem JavaScript).
-- **Menu para celular** (hambúrguer) na página inicial, também só com HTML e CSS.
-- **HTML semântico**, com `header`, `nav`, `section` e `footer`.
-- **Acessibilidade:** texto alternativo (`alt`) nas imagens, `aria-label` no carrossel e nos botões, `aria-current` na página atual do menu e idioma da página definido como português do Brasil.
-- Ilustrações em **SVG**, que carregam rápido e não perdem qualidade.
+## Funcionalidades
 
-## Tecnologias e ferramentas
+- Navegação entre as dez páginas principais.
+- Menu responsivo para telas menores.
+- Alternância de alto contraste, com preferência salva no navegador.
+- Formulário com validação em JavaScript, mensagens de erro e destaque dos campos inválidos.
+- Rascunho do formulário salvo no `localStorage`.
+- Busca e filtro de conteúdos na página Conteúdos.
+- Carrossel da página inicial construído com HTML e CSS.
+- Foco visível e recursos para navegação por teclado.
+
+**Importante sobre o formulário:** trata-se de uma demonstração acadêmica. Os dados ficam no armazenamento local do navegador e não são enviados para um servidor ou para a equipe.
+
+## Tecnologias
 
 - HTML5
 - CSS3
+- JavaScript
+- Git e GitHub
 - Visual Studio Code
-- Git e GitHub (versionamento do código)
-- Railway e GitHub Pages (publicação do site)
-- Trello (organização das tarefas)
+- Railway e GitHub Pages (endereços de publicação registrados no projeto)
 
-## Estrutura de pastas
+## Como executar
+
+1. Clone o repositório.
+2. Abra a pasta no Visual Studio Code.
+3. Abra `index.html` no navegador ou utilize a extensão Live Server.
+
+Não há dependências ou instalação de pacotes.
+
+## Estrutura principal
 
 ```text
 .
 ├── css/
-│   └── carrossel.css
+│   ├── carrossel.css
+│   └── paginas.css
 ├── docs/
-│   └── escopo.md
+│   ├── README.md
+│   ├── escopo.md
+│   ├── testes.md
+│   ├── diario-ia.md
+│   ├── melhorias-mvp.md
+│   └── orcamento.md
 ├── img/
+├── js/
+│   └── script.js
 ├── index.html
 ├── quemsomos.html
 ├── servicos.html
 ├── sustentabilidade.html
 ├── dicas.html
 ├── reciclagem.html
+├── projetos.html
+├── noticias.html
+├── midia.html
 ├── contatos.html
+├── orcamento_hospedagem.html
 ├── obrigado.html
-├── style.css
-└── README.md
+└── style.css
 ```
-
-## Como rodar no seu computador
-
-1. Clone o repositório:
-
-   ```bash
-   git clone https://github.com/brunoTibellio/U-UNICID-ADS-FRONTEND-2260028-N4-2-2026-NT-RAIZESSUSTENTAVEIS.git
-   ```
-
-2. Entre na pasta do projeto.
-3. Abra o arquivo `index.html` no navegador (ou use a extensão **Live Server** do VS Code).
-
-Não precisa instalar nada, porque o projeto usa só HTML e CSS.
 
 ## Equipe
 
-| Integrante | O que fez |
+| Integrante | Participação registrada no projeto |
 | --- | --- |
 | Bruno Gomes Tibellio | Desenvolvimento das páginas e criação do conteúdo |
 | Mateus Lima Monteiro | Desenvolvimento das páginas e criação do conteúdo |
@@ -112,6 +106,10 @@ Não precisa instalar nada, porque o projeto usa só HTML e CSS.
 ## Documentação
 
 - [Escopo do projeto](docs/escopo.md)
+- [Plano e registro de testes](docs/testes.md)
+- [Diário de uso de IA](docs/diario-ia.md)
+- [Melhorias identificadas no MVP](docs/melhorias-mvp.md)
+- [Orçamento de hospedagem](docs/orcamento.md)
 
 ## Dados da disciplina
 
