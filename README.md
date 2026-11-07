@@ -69,6 +69,7 @@ Não há dependências ou instalação de pacotes.
 │   ├── carrossel.css
 │   └── paginas.css
 ├── docs/
+│   ├── README.md
 │   ├── escopo.md
 │   ├── testes.md
 │   └── diario-ia.md
