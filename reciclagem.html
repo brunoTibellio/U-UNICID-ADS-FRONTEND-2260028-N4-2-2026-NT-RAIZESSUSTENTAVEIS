@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reciclagem | Raízes Sustentáveis</title>
-    <meta name="description" content="Aprenda a separar e descartar corretamente os resíduos.">
+    <meta name="description" content="Aprenda a separar os resíduos pelas cores da coleta seletiva, veja o tempo de decomposição dos materiais e como descartar itens especiais.">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/paginas.css">
 </head>
@@ -20,7 +20,7 @@
             </div>
 
             <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Abrir ou fechar menu">
-            <label for="nav-toggle" class="nav-hamburguer">
+            <label for="nav-toggle" class="nav-hamburguer" aria-hidden="true">
                 <span></span><span></span><span></span>
             </label>
 
@@ -49,68 +49,144 @@
         <h1>Reciclagem</h1>
         <p>
             Separar corretamente os resíduos é o primeiro passo para
-            transformar lixo em recurso.
+            transformar lixo em novos recursos e apoiar os trabalhadores da reciclagem.
         </p>
     </section>
 
     <main id="conteudo-principal" class="pagina-conteudo">
 
+        <section class="destaque-ilustrado" aria-labelledby="titulo-coleta">
+            <div>
+                <span class="etiqueta-card">Resolução CONAMA nº 275</span>
+                <h2 id="titulo-coleta">Por que separar o lixo muda o destino das cidades?</h2>
+                <p>
+                    Quando misturamos restos de comida com papelão, plástico e alumínio, contaminamos materiais que poderiam voltar à indústria. A separação correta em casa aumenta a vida útil dos aterros sanitários, reduz a extração de matéria-prima da natureza e gera renda digna para milhares de cooperativas de catadores no Brasil.
+                </p>
+            </div>
+            <div class="destaque-ilustrado__midia">
+                <img src="img/coleta-seletiva.svg" alt="Ilustração das seis lixeiras coloridas da coleta seletiva alinhadas: azul, verde, vermelha, amarela, marrom e cinza">
+                <button type="button" class="btn-audiodescricao-item btn-audiodescricao-item--claro" data-narra="Audiodescrição da ilustração Lixeiras da Coleta Seletiva: Seis coletores com tampa dispostos lado a lado sobre fundo verde-escuro, nas cores azul para papel, verde para vidro, vermelho para plástico, amarelo para metal, marrom para orgânicos e cinza para rejeitos não recicláveis.">
+                    🔊 Ouvir audiodescrição da imagem
+                </button>
+            </div>
+        </section>
+
         <section class="bloco">
-            <h2>Cores da coleta seletiva</h2>
+            <div class="cabecalho-bloco-acessivel">
+                <h2>Cores da coleta seletiva: o que pode e o que não pode</h2>
+                <button type="button" class="btn-audiodescricao-item btn-audiodescricao-item--claro" data-narra="Audiodescrição do painel de cores da coleta seletiva: Seis cartões organizados em duas colunas. Azul para Papel: aceita jornais, caixas e folhas limpas; não aceita papel engordurado ou carbono. Verde para Vidro: aceita garrafas e potes de alimentos; não aceita espelhos, lâmpadas ou cerâmica. Vermelho para Plástico: aceita garrafas PET, potes e sacolas limpas; não aceita tomadas ou embalagens metalizadas. Amarelo para Metal: aceita latas de alumínio, aço e tampinhas; não aceita esponjas de aço ou latas de tinta tóxica. Marrom para Orgânico: aceita restos de frutas, legumes e poda de jardim para compostagem. Cinza para Não reciclável: papel higiênico, fraldas, bitucas e adesivos.">
+                    🔊 Ouvir audiodescrição das cores
+                </button>
+            </div>
             <div class="lista-reciclagem">
                 <article class="item-reciclagem">
                     <span class="cor cor-azul" aria-hidden="true"></span>
                     <div>
-                        <h3>Azul — Papel</h3>
-                        <p>Jornais, revistas, caixas de papelão e folhas limpas e secas.</p>
+                        <h3>Azul — Papel e Papelão</h3>
+                        <p><strong>Pode:</strong> Jornais, revistas, cadernos, caixas de papelão e embalagens longa-vida limpas.<br><strong>Não pode:</strong> Papel engordurado, papel higiênico, fotografias e fitas adesivas.</p>
                     </div>
                 </article>
                 <article class="item-reciclagem">
                     <span class="cor cor-verde" aria-hidden="true"></span>
                     <div>
                         <h3>Verde — Vidro</h3>
-                        <p>Garrafas, potes e frascos limpos. Evite espelhos e cerâmicas.</p>
+                        <p><strong>Pode:</strong> Garrafas de bebidas, potes de conserva e frascos de vidro vazios.<br><strong>Não pode:</strong> Espelhos, lâmpadas, vidro temperado (pirex), porcelanas e cerâmicas.</p>
                     </div>
                 </article>
                 <article class="item-reciclagem">
                     <span class="cor cor-vermelho" aria-hidden="true"></span>
                     <div>
                         <h3>Vermelho — Plástico</h3>
-                        <p>Garrafas PET, embalagens e potes limpos e secos.</p>
+                        <p><strong>Pode:</strong> Garrafas PET, frascos de limpeza, tampas, potes de alimentos e sacolas limpas.<br><strong>Não pode:</strong> Cabos de panela, tomadas, acrílico e embalagens com restos químicos.</p>
                     </div>
                 </article>
                 <article class="item-reciclagem">
                     <span class="cor cor-amarelo" aria-hidden="true"></span>
                     <div>
                         <h3>Amarelo — Metal</h3>
-                        <p>Latas de alumínio, aço e tampinhas metálicas.</p>
+                        <p><strong>Pode:</strong> Latas de alumínio (refrigerante), latas de aço (conservas), tampinhas e ferragens.<br><strong>Não pode:</strong> Esponjas de aço sujas, clipes enferrujados, pilhas e latas de solvente.</p>
                     </div>
                 </article>
                 <article class="item-reciclagem">
                     <span class="cor cor-marrom" aria-hidden="true"></span>
                     <div>
-                        <h3>Marrom — Orgânico</h3>
-                        <p>Restos de alimentos e resíduos de jardinagem para compostagem.</p>
+                        <h3>Marrom — Resíduo Orgânico</h3>
+                        <p><strong>Pode:</strong> Cascas de frutas e verduras, borra de café, folhas secas e serragem sem verniz.<br><strong>Destino ideal:</strong> Compostagem doméstica ou comunitária para produzir adubo.</p>
                     </div>
                 </article>
                 <article class="item-reciclagem">
                     <span class="cor cor-cinza" aria-hidden="true"></span>
                     <div>
-                        <h3>Cinza — Não reciclável</h3>
-                        <p>Papel higiênico, fraldas e materiais contaminados.</p>
+                        <h3>Cinza — Rejeito (Não reciclável)</h3>
+                        <p><strong>O que vai aqui:</strong> Papel higiênico usado, fraldas descartáveis, absorventes, esponjas de louça e resíduos contaminados sem viabilidade de reciclagem.</p>
                     </div>
                 </article>
             </div>
         </section>
 
         <section class="bloco">
-            <h2>Boas práticas</h2>
-            <ul>
-                <li>Lave e seque embalagens antes de descartar</li>
-                <li>Amasse latas e garrafas para ocupar menos espaço</li>
-                <li>Não misture material reciclável com resto de comida</li>
-                <li>Procure pontos de coleta próximos à sua região</li>
-            </ul>
+            <h2>Tempo estimado de decomposição na natureza</h2>
+            <p style="margin-bottom: 18px;">Veja quanto tempo cada material pode levar para se decompor caso seja descartado incorretamente no meio ambiente:</p>
+            <div class="tabela-wrapper">
+                <table class="tabela-sustentavel">
+                    <thead>
+                        <tr>
+                            <th scope="col">Material</th>
+                            <th scope="col">Tempo de Decomposição</th>
+                            <th scope="col">Impacto e Solução Sustentável</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Papel e Papelão</strong></td>
+                            <td>3 a 6 meses</td>
+                            <td>Reciclar 1 tonelada de papel preserva cerca de 20 árvores adultas e economiza água.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Cascas e Restos Orgânicos</strong></td>
+                            <td>2 a 12 meses</td>
+                            <td>Em aterros geram gás metano; na composteira viram adubo fértil em 60 dias.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Latas de Alumínio</strong></td>
+                            <td>200 a 500 anos</td>
+                            <td>O alumínio pode ser reciclado infinitas vezes usando apenas 5% da energia original.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Plásticos (Garrafas PET, sacolas)</strong></td>
+                            <td>Mais de 400 anos</td>
+                            <td>Fragmentam-se em microplásticos que poluem rios e oceanos; devem ir para a coleta seletiva.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Vidro</strong></td>
+                            <td>Mais de 1.000 anos</td>
+                            <td>100% reciclável; ao descartar vidros quebrados, embale em jornal ou caixa para proteger os coletores.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="bloco">
+            <h2>Boas práticas e resíduos especiais (Logística Reversa)</h2>
+            <div class="grade-2-colunas">
+                <article class="card-pagina">
+                    <h3>🧼 Como preparar os recicláveis</h3>
+                    <ul>
+                        <li>Passe uma água rápida (ou use o final da água da louça) para tirar restos de leite, iogurte ou molho.</li>
+                        <li>Seque antes de colocar no saco de recicláveis para evitar mau cheiro e atração de insetos.</li>
+                        <li>Amasse latas e garrafas PET (com a tampa rosqueada) para economizar espaço no transporte.</li>
+                    </ul>
+                </article>
+                <article class="card-pagina">
+                    <h3>🔋 Pilhas, baterias, remédios e óleo</h3>
+                    <ul>
+                        <li><strong>Pilhas, baterias e eletrônicos:</strong> entregue em coletores de supermercados ou Ecopontos municipais.</li>
+                        <li><strong>Medicamentos vencidos:</strong> nunca jogue no vaso sanitário; entregue em farmácias com ponto de coleta.</li>
+                        <li><strong>Óleo de cozinha usado:</strong> coe após esfriar, guarde em garrafa PET fechada e leve a pontos de reciclagem.</li>
+                    </ul>
+                </article>
+            </div>
         </section>
 
     </main>

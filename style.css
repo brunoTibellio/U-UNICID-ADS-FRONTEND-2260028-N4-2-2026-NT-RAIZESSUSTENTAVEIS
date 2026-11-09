@@ -1195,179 +1195,815 @@ button:focus-visible {
     }
 }
 
-/* Recursos complementares da entrega */
-.pular-conteudo{position:absolute;left:-9999px;top:8px;z-index:1000;padding:12px 16px;background:#fff;color:#123c20;border:2px solid #123c20;border-radius:8px}.pular-conteudo:focus{left:8px}
-.botao-contraste{border:1px solid #b6ff96;border-radius:22px;background:transparent;color:#fff;padding:9px 13px;font:inherit;font-size:13px;cursor:pointer}.botao-contraste:hover,.botao-contraste:focus-visible{background:#b6ff96;color:#123c20}
-.form-erro{display:block;min-height:1.2em;margin-top:5px;color:#a32121;font-size:13px;font-weight:700}.form-grupo .campo-invalido{border:2px solid #b42318;background:#fff4f2}
-.form-aviso{margin-bottom:22px;padding:14px;border-left:4px solid #4f9d55;background:#edf6e9;color:#123c20;line-height:1.5}
-.filtro-conteudos{display:grid;grid-template-columns:2fr 1fr;gap:18px;align-items:end;margin-bottom:26px;padding:22px;border-radius:16px;background:#e7f1e4}.filtro-conteudos .form-grupo{margin:0}.filtro-conteudos [role=status]{grid-column:1/-1;color:#123c20}
-.item-conteudo a,.card-pagina a{color:#176332;font-weight:700}.mensagem-vazia{padding:22px;text-align:center;color:#536358}.video-responsivo{position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;border-radius:16px;background:#123c20}.video-responsivo iframe,.video-responsivo video{width:100%;height:100%;border:0;object-fit:cover}.chamada-conteudo{margin-top:48px;padding:30px;border-radius:18px;background:#e7f7df}[hidden]{display:none!important}
-.alto-contraste{background:#000!important;color:#fff!important}.alto-contraste .pagina-hero,.alto-contraste .menu-pagina,.alto-contraste .rodape{background:#000!important;color:#fff!important}.alto-contraste .pagina-conteudo,.alto-contraste .card-pagina,.alto-contraste .form-contato,.alto-contraste .chamada-conteudo{background:#111!important;color:#fff!important}.alto-contraste .pagina-conteudo p,.alto-contraste .pagina-conteudo li,.alto-contraste .card-pagina p,.alto-contraste .bloco h2,.alto-contraste .card-pagina h3{color:#fff!important}.alto-contraste a{color:#ff0!important}.alto-contraste input,.alto-contraste textarea,.alto-contraste select{background:#000!important;color:#fff!important;border-color:#ff0!important}
-@media(max-width:900px){.menu-pagina .botao-contraste{margin:0 0 12px}}@media(max-width:600px){.filtro-conteudos{grid-template-columns:1fr}.filtro-conteudos [role=status]{grid-column:auto}}
+/* =========================================================
+   RECURSOS DE ACESSIBILIDADE, DROPDOWN DO MENU E ALTO CONTRASTE
+========================================================= */
 
-/* Ajustes de acessibilidade aplicados em todas as páginas */
-:focus-visible{outline:3px solid #1d6b36;outline-offset:3px}
-.menu .botao-contraste{color:#fff;border-color:#b6ff96;background:rgba(5,35,20,.94)}
-.menu .botao-contraste:hover,.menu .botao-contraste:focus-visible{background:#b6ff96;color:#123c20}
-.alto-contraste .inicio .video-fundo{visibility:hidden}
-.alto-contraste .inicio .overlay{background:#000;opacity:1}
-.alto-contraste .inicio{background:#000!important}
-.alto-contraste .menu,.alto-contraste .menu-pagina,.alto-contraste .rodape,.alto-contraste .chamada,.alto-contraste .atitudes{background:#000!important;color:#fff!important}
-.alto-contraste .carrossel-secao,.alto-contraste .missao,.alto-contraste .ajuda,.alto-contraste .dicas-home{background:#000!important;color:#fff!important}
-.alto-contraste .carrossel-slide__texto,.alto-contraste .card-ajuda,.alto-contraste .card-dica,.alto-contraste .card-pagina,.alto-contraste .item-reciclagem,.alto-contraste .form-contato{background:#111!important;color:#fff!important}
-.alto-contraste .carrossel-secao h2,.alto-contraste .missao h2,.alto-contraste .ajuda h2,.alto-contraste .dicas-home h2,.alto-contraste .card-ajuda h3,.alto-contraste .card-dica h3,.alto-contraste .card-pagina h3,.alto-contraste .item-reciclagem h3,.alto-contraste .missao-descricao,.alto-contraste .card-ajuda p,.alto-contraste .card-dica p,.alto-contraste .card-pagina p,.alto-contraste .item-reciclagem p{color:#fff!important}
-.alto-contraste .carrossel-intro,.alto-contraste .bloco p,.alto-contraste .bloco li,.alto-contraste .pagina-hero p{color:#fff!important}
-.alto-contraste .links a,.alto-contraste .rodape a,.alto-contraste .botao-contato a{color:#ff0!important}
-.alto-contraste .botao-contraste{background:#000!important;color:#ff0!important;border-color:#ff0!important}
-.alto-contraste .form-grupo label,.alto-contraste .form-dica{color:#fff!important}
-.alto-contraste input,.alto-contraste textarea,.alto-contraste select{background:#000!important;color:#fff!important;border-color:#ff0!important}
-.alto-contraste a:focus-visible,.alto-contraste button:focus-visible,.alto-contraste input:focus-visible{outline-color:#ff0!important}
-@media(max-width:900px){.menu .botao-contraste{margin:4px 0 8px;width:100%}.menu-pagina .botao-contraste{margin:0 0 12px;width:100%}}
-
-/* Menu com 11 destinos: recolhe antes de faltar espaço horizontal */
-@media (max-width:1250px){
- .menu{border-radius:22px;padding:12px 16px;align-items:flex-start}
- .menu .nav-hamburguer{display:flex}
- .menu .links,.menu .botao-contato{display:none;width:100%}
- .menu .links{flex-direction:column;align-items:flex-start;gap:14px;padding:10px 4px 6px}
- .menu .links a{font-size:15px}
- .menu .botao-contato{margin:4px 0 8px;text-align:center;justify-content:center}
- .menu .nav-toggle:checked~.links{display:flex}
- .menu .nav-toggle:checked~.botao-contato{display:inline-flex}
- .menu-pagina .nav-hamburguer{display:flex}
- .menu-pagina .links,.menu-pagina .botao-contato{display:none;width:100%}
- .menu-pagina .links{flex-direction:column;align-items:flex-start;padding:8px 0 12px;gap:12px}
- .menu-pagina .botao-contato{margin:0 0 12px;text-align:center}
- .menu-pagina .nav-toggle:checked~.links,.menu-pagina .nav-toggle:checked~.botao-contato{display:flex}
- .menu-pagina .nav-toggle:checked~.botao-contato{display:inline-flex;justify-content:center}
- .menu .botao-contraste,.menu-pagina .botao-contraste{width:100%;margin:4px 0 8px}
+[hidden] {
+    display: none !important;
 }
 
-
-/* Refinamento visual do cabeçalho principal */
-.menu .links a {
-    padding: 9px 10px;
-    border-radius: 20px;
-    transition: color .2s ease, background-color .2s ease;
-}
-.menu .links a:hover,
-.menu .links a[aria-current="page"] {
-    color: #b6ff96;
-    background: rgba(182, 255, 150, .12);
-}
-.menu .botao-contato {
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
     padding: 0;
-    margin-left: 8px;
+    margin: -1px;
     overflow: hidden;
-    border: 1px solid #b6ff96;
-    background: #8eee65;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, .16);
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
+
+.pular-conteudo {
+    position: absolute;
+    left: -9999px;
+    top: 10px;
+    z-index: 3000;
+    padding: 12px 18px;
+    background: #ffffff;
+    color: #123c20;
+    font-weight: bold;
+    text-decoration: none;
+    border: 3px solid #123c20;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.pular-conteudo:focus {
+    left: 12px;
+}
+
+:focus-visible {
+    outline: 3px solid #8eee65;
+    outline-offset: 3px;
+}
+
+/* Ajuste fino do Cabeçalho Principal (.menu) para caber em 1 linha no desktop sem quebrar */
+.menu {
+    z-index: 50;
+    width: min(1240px, 95%);
+    min-height: 68px;
+    padding: 10px 22px;
+    gap: 8px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border: 1px solid rgba(182, 255, 150, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.22);
+}
+
+.menu .logo,
+.menu .logo a {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-right: auto;
+}
+
+.menu .links {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex-wrap: nowrap;
+}
+
+.menu .links > a {
+    padding: 8px 11px;
+    border-radius: 20px;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.92);
+    text-decoration: none;
+    white-space: nowrap;
+    transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.menu .links > a:hover,
+.menu .links > a[aria-current="page"] {
+    color: #123c20;
+    background: #8eee65;
+}
+
+/* Link Contato duplicado no desktop fica oculto pois já temos o botão Fale conosco ao lado */
+@media (min-width: 1081px) {
+    .links a.link-contato-duplicado {
+        display: none;
+    }
+}
+
+/* Dropdown "Mais ▾" para agrupar páginas complementares no desktop */
+.nav-dropdown {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.nav-dropdown-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.92);
+    font-family: inherit;
+    font-size: 13.5px;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.nav-dropdown-toggle:hover,
+.nav-dropdown-toggle:focus-visible,
+.nav-dropdown-toggle[aria-expanded="true"],
+.nav-dropdown-toggle[data-ativo="true"] {
+    color: #123c20;
+    background: #8eee65;
+}
+
+.nav-dropdown-menu {
+    position: absolute;
+    top: calc(100% + 6px);
+    right: 0;
+    min-width: 200px;
+    padding: 8px;
+    border-radius: 16px;
+    background: rgba(5, 35, 20, 0.98);
+    border: 1px solid rgba(182, 255, 150, 0.35);
+    box-shadow: 0 14px 32px rgba(0, 0, 0, 0.35);
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    z-index: 200;
+}
+
+.nav-dropdown-menu::before {
+    content: "";
+    position: absolute;
+    top: -12px;
+    left: 0;
+    right: 0;
+    height: 12px;
+}
+
+.nav-dropdown.aberto .nav-dropdown-menu {
+    display: flex;
+}
+
+.nav-dropdown-menu a {
+    display: block;
+    padding: 9px 14px;
+    border-radius: 10px;
+    color: #ffffff !important;
+    font-size: 13.5px !important;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: left;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-dropdown-menu a:hover,
+.nav-dropdown-menu a:focus-visible,
+.nav-dropdown-menu a[aria-current="page"] {
+    background: #8eee65 !important;
+    color: #123c20 !important;
+}
+
+/* Botão Fale Conosco no Header */
+.menu .botao-contato {
+    margin-left: 4px;
+    padding: 0;
+    border: 1px solid #b6ff96;
+    border-radius: 24px;
+    background: #8eee65;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
 .menu .botao-contato a {
     display: block;
-    padding: 11px 18px;
+    padding: 9px 16px;
     color: #123c20;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
 }
+
 .menu .botao-contato:hover {
     background: #b6ff96;
     transform: translateY(-1px);
 }
-.menu .botao-contraste {
-    border-radius: 22px;
-    padding: 10px 14px;
-    font-weight: 700;
-    white-space: nowrap;
-    background: rgba(255, 255, 255, .07);
-}
-.menu .botao-contraste:hover,
-.menu .botao-contraste:focus-visible {
-    background: #b6ff96;
-    color: #123c20;
-}
 
-
-/* Cabeçalho — opção 4: compacto e tecnológico */
-.menu {
-    min-height: 64px;
-    padding: 8px 18px 8px 24px;
+/* Grupo de Acessibilidade no Header (Audiodescrição + Alto Contraste) */
+.acoes-acessibilidade {
+    display: flex;
+    align-items: center;
     gap: 6px;
-    border: 1px solid rgba(255, 255, 255, .12);
-    border-radius: 14px;
-    box-shadow: 0 8px 26px rgba(0, 0, 0, .2);
+    margin-left: 4px;
+    flex-shrink: 0;
 }
-.menu .logo {
-    font-size: 17px;
-    letter-spacing: -.35px;
-}
-.menu .links {
-    gap: 4px 8px;
-}
-.menu .links a {
-    padding: 8px 5px;
-    border-radius: 0;
-    border-bottom: 2px solid transparent;
-    background: transparent !important;
-    color: rgba(255, 255, 255, .88);
+
+.botao-acessibilidade {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: 1px solid rgba(182, 255, 150, 0.65);
+    background: rgba(255, 255, 255, 0.08);
+    color: #ffffff;
+    font-family: inherit;
     font-size: 12px;
-    letter-spacing: .05px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
-.menu .links a:hover,
-.menu .links a[aria-current="page"] {
-    color: #b6ff96;
-    border-bottom-color: #8eee65;
+
+.botao-acessibilidade:hover,
+.botao-acessibilidade:focus-visible,
+.botao-acessibilidade[aria-pressed="true"] {
+    background: #8eee65;
+    color: #123c20;
+    border-color: #b6ff96;
 }
-.menu .botao-contato {
-    margin-left: 5px;
-    border: 1px solid rgba(182, 255, 150, .7);
-    border-radius: 8px;
-    background: transparent;
-    box-shadow: none;
-    transform: none;
+
+.botao-parar-audio {
+    background: #b42318;
+    border-color: #fda29b;
+    color: #ffffff;
 }
-.menu .botao-contato a {
-    padding: 9px 12px;
-    color: #dfffd2;
-    font-size: 12px;
+
+.botao-parar-audio:hover,
+.botao-parar-audio:focus-visible {
+    background: #fee4e2;
+    color: #7a271a;
+}
+
+/* Botões de Audiodescrição em slides, imagens e vídeo */
+.hero-acoes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.btn-audiodescricao-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 14px;
+    padding: 10px 16px;
+    border-radius: 24px;
+    border: 1.5px solid #b6ff96;
+    background: rgba(5, 35, 20, 0.88);
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 13.5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.btn-audiodescricao-item:hover,
+.btn-audiodescricao-item:focus-visible,
+.btn-audiodescricao-item[aria-pressed="true"] {
+    background: #8eee65;
+    color: #123c20;
+    transform: translateY(-1px);
+}
+
+.btn-audiodescricao-hero {
+    margin-top: 0;
+    padding: 15px 24px;
+    font-size: 15px;
+}
+
+.btn-audiodescricao-item--claro {
+    background: #123c20;
+    color: #ffffff;
+    border-color: #123c20;
+}
+
+.btn-audiodescricao-item--claro:hover,
+.btn-audiodescricao-item--claro:focus-visible,
+.btn-audiodescricao-item--claro[aria-pressed="true"] {
+    background: #8eee65;
+    color: #123c20;
+    border-color: #123c20;
+}
+
+.missao-imagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Formulários, Filtros e Vídeo */
+.form-erro {
+    display: block;
+    min-height: 1.2em;
+    margin-top: 5px;
+    color: #a32121;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.form-grupo .campo-invalido {
+    border: 2px solid #b42318;
+    background: #fff4f2;
+}
+
+.form-aviso {
+    margin-bottom: 22px;
+    padding: 14px;
+    border-left: 4px solid #2e7d32;
+    background: #edf6e9;
+    color: #123c20;
+    line-height: 1.5;
+}
+
+.filtro-conteudos {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 18px;
+    align-items: end;
+    margin-bottom: 26px;
+    padding: 22px;
+    border-radius: 16px;
+    background: #e7f1e4;
+}
+
+.filtro-conteudos .form-grupo {
+    margin: 0;
+}
+
+.filtro-conteudos [role="status"] {
+    grid-column: 1 / -1;
+    color: #123c20;
     font-weight: 600;
 }
-.menu .botao-contato:hover {
-    background: rgba(182, 255, 150, .12);
-    transform: none;
+
+.item-conteudo a,
+.card-pagina a {
+    color: #176332;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 8px;
 }
-.menu .botao-contato:hover a {
-    color: #fff;
+
+.mensagem-vazia {
+    padding: 22px;
+    text-align: center;
+    color: #354a3c;
 }
-.menu .botao-contraste {
-    padding: 8px 10px;
-    border: 1px solid rgba(255, 255, 255, .24);
-    border-radius: 8px;
-    background: transparent;
-    color: rgba(255, 255, 255, .82);
-    font-size: 11px;
-    font-weight: 500;
+
+.video-responsivo {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 16px;
+    background: #123c20;
 }
-.menu .botao-contraste:hover,
-.menu .botao-contraste:focus-visible {
-    border-color: #b6ff96;
-    background: rgba(182, 255, 150, .1);
-    color: #b6ff96;
+
+.video-responsivo iframe,
+.video-responsivo video {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    object-fit: cover;
 }
-@media (max-width: 1250px) {
+
+.painel-audiodescricao-video {
+    margin-top: 18px;
+    padding: 22px 24px;
+    border-radius: 16px;
+    background: #ffffff;
+    border: 1.5px solid #b8d8be;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.painel-audiodescricao-cabecalho {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.painel-audiodescricao-cabecalho h3 {
+    color: #123c20;
+    font-size: 1.15rem;
+    margin: 0;
+}
+
+.painel-audiodescricao-botoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.painel-audiodescricao-botoes .btn-audiodescricao-item {
+    margin-top: 0;
+}
+
+.link-apoio-video {
+    margin-top: 16px;
+}
+
+.cabecalho-bloco-acessivel {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+.cabecalho-bloco-acessivel h2 {
+    margin-bottom: 0 !important;
+}
+
+.cabecalho-bloco-acessivel .btn-audiodescricao-item {
+    margin-top: 0;
+}
+
+.chamada-conteudo {
+    margin-top: 48px;
+    padding: 30px;
+    border-radius: 18px;
+    background: #e7f7df;
+}
+
+.chamada-conteudo .botao-missao {
+    margin-top: 14px;
+}
+
+/* Responsividade do Menu (Tablet e Celular <= 1080px) */
+@media (max-width: 1080px) {
     .menu {
-        border-radius: 14px;
-        padding: 10px 14px;
+        flex-wrap: wrap;
+        border-radius: 22px;
+        padding: 12px 18px;
+        align-items: center;
     }
-    .menu .links a {
-        padding: 7px 5px;
-        border: 0;
+
+    .menu .nav-hamburguer {
+        display: flex;
+        margin-left: auto;
     }
+
+    .menu .links,
     .menu .botao-contato,
-    .menu .botao-contraste {
+    .menu .acoes-acessibilidade {
+        display: none;
         width: 100%;
-        margin: 4px 0 8px;
-        text-align: left;
     }
-    .menu .botao-contato a {
+
+    .menu .links {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 6px;
+        padding: 12px 0 6px;
+        border-top: 1px solid rgba(182, 255, 150, 0.18);
+        margin-top: 8px;
+    }
+
+    .menu .links > a {
+        font-size: 15px;
+        padding: 10px 12px;
+    }
+
+    .nav-dropdown {
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+    }
+
+    .nav-dropdown-toggle {
+        display: none;
+    }
+
+    .nav-dropdown-menu {
+        position: static;
+        display: flex;
+        background: transparent;
+        border: 0;
+        box-shadow: none;
+        padding: 0;
+        min-width: 0;
+        gap: 6px;
+    }
+
+    .nav-dropdown-menu a {
+        padding: 10px 12px;
+        font-size: 15px !important;
+    }
+
+    .menu .acoes-acessibilidade {
+        margin: 6px 0;
+        padding-top: 8px;
+        border-top: 1px solid rgba(182, 255, 150, 0.18);
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .menu .botao-acessibilidade {
+        flex: 1 1 140px;
+        padding: 10px 14px;
+        font-size: 13px;
+    }
+
+    .menu .botao-contato {
+        margin: 6px 0 4px;
         text-align: center;
     }
+
+    .menu .nav-toggle:checked ~ .links {
+        display: flex;
+    }
+
+    .menu .nav-toggle:checked ~ .acoes-acessibilidade {
+        display: flex;
+    }
+
+    .menu .nav-toggle:checked ~ .botao-contato {
+        display: block;
+    }
+}
+
+@media (max-width: 600px) {
+    .filtro-conteudos {
+        grid-template-columns: 1fr;
+    }
+
+    .filtro-conteudos [role="status"] {
+        grid-column: auto;
+    }
+}
+
+
+/* =========================================================
+   MODO DE ALTO CONTRASTE (PADRÃO WCAG AAA — PRETO / BRANCO / AMARELO)
+========================================================= */
+
+body.alto-contraste,
+body.alto-contraste.pagina {
+    background: #000000 !important;
+    color: #ffffff !important;
+}
+
+body.alto-contraste .inicio .video-fundo {
+    visibility: hidden !important;
+}
+
+body.alto-contraste .inicio .overlay {
+    background: #000000 !important;
+    opacity: 1 !important;
+}
+
+body.alto-contraste .inicio,
+body.alto-contraste .pagina-hero,
+body.alto-contraste .carrossel-secao,
+body.alto-contraste .missao,
+body.alto-contraste .ajuda,
+body.alto-contraste .atitudes,
+body.alto-contraste .dicas-home,
+body.alto-contraste .chamada,
+body.alto-contraste .rodape,
+body.alto-contraste .pagina-conteudo {
+    background: #000000 !important;
+    color: #ffffff !important;
+    border-bottom: 2px solid #ffffff !important;
+}
+
+body.alto-contraste .menu,
+body.alto-contraste .menu-pagina,
+body.alto-contraste .nav-dropdown-menu {
+    background: #000000 !important;
+    color: #ffffff !important;
+    border: 2px solid #ffff00 !important;
+    box-shadow: none !important;
+}
+
+body.alto-contraste .menu-pagina {
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 2px solid #ffff00 !important;
+}
+
+body.alto-contraste .destaque-ilustrado,
+body.alto-contraste .tabela-wrapper,
+body.alto-contraste .card-ajuda,
+body.alto-contraste .card-dica,
+body.alto-contraste .card-pagina,
+body.alto-contraste .item-reciclagem,
+body.alto-contraste .form-contato,
+body.alto-contraste .chamada-conteudo,
+body.alto-contraste .filtro-conteudos,
+body.alto-contraste .painel-audiodescricao-video,
+body.alto-contraste .form-aviso,
+body.alto-contraste .carrossel-viewport,
+body.alto-contraste .carrossel-slide__texto,
+body.alto-contraste .carrossel-slide__media {
+    background: #0a0a0a !important;
+    color: #ffffff !important;
+    border: 2px solid #ffffff !important;
+    box-shadow: none !important;
+}
+
+body.alto-contraste .destaque-ilustrado__midia img,
+body.alto-contraste .card-pagina__img,
+body.alto-contraste .missao-imagem img,
+body.alto-contraste .video-responsivo {
+    border: 2px solid #ffffff !important;
+    box-shadow: none !important;
+}
+
+body.alto-contraste .icone-card,
+body.alto-contraste .icone-dica,
+body.alto-contraste .card-pagina .icone {
+    background: #000000 !important;
+    color: #ffff00 !important;
+    border: 2px solid #ffff00 !important;
+}
+
+body.alto-contraste .item-reciclagem .cor {
+    width: 22px !important;
+    height: 22px !important;
+    border: 2px solid #ffffff !important;
+}
+
+body.alto-contraste h1,
+body.alto-contraste h2,
+body.alto-contraste h3,
+body.alto-contraste p,
+body.alto-contraste li,
+body.alto-contraste span,
+body.alto-contraste label,
+body.alto-contraste time,
+body.alto-contraste .copyright,
+body.alto-contraste .mensagem-vazia,
+body.alto-contraste .filtro-conteudos [role="status"] {
+    color: #ffffff !important;
+}
+
+body.alto-contraste .nome,
+body.alto-contraste .eyebrow,
+body.alto-contraste .carrossel-subtitulo,
+body.alto-contraste .missao-subtitulo,
+body.alto-contraste .ajuda-subtitulo,
+body.alto-contraste .dicas-subtitulo,
+body.alto-contraste .conteudo h1 span,
+body.alto-contraste .missao-texto h2 span,
+body.alto-contraste .carrossel-slide__texto h3,
+body.alto-contraste .chamada > p {
+    color: #ffff00 !important;
+}
+
+body.alto-contraste a {
+    color: #ffff00 !important;
+    text-decoration: underline !important;
+}
+
+body.alto-contraste .links a,
+body.alto-contraste .nav-dropdown-toggle,
+body.alto-contraste .rodape-links a {
+    background: #000000 !important;
+    color: #ffff00 !important;
+    border: 1px solid transparent !important;
+    text-decoration: none !important;
+}
+
+body.alto-contraste .links a:hover,
+body.alto-contraste .links a:focus-visible,
+body.alto-contraste .links a[aria-current="page"],
+body.alto-contraste .nav-dropdown-toggle:hover,
+body.alto-contraste .nav-dropdown-toggle:focus-visible,
+body.alto-contraste .nav-dropdown-toggle[aria-expanded="true"],
+body.alto-contraste .nav-dropdown-toggle[data-ativo="true"],
+body.alto-contraste .rodape-links a:hover,
+body.alto-contraste .rodape-links a:focus-visible {
+    background: #ffff00 !important;
+    color: #000000 !important;
+    border-color: #ffff00 !important;
+    font-weight: 700 !important;
+}
+
+body.alto-contraste .botao,
+body.alto-contraste .botao-missao,
+body.alto-contraste .botao-dicas,
+body.alto-contraste .btn-enviar,
+body.alto-contraste .chamada a,
+body.alto-contraste .botao-acessibilidade,
+body.alto-contraste .btn-audiodescricao-item,
+body.alto-contraste .carrossel-seta {
+    background: #000000 !important;
+    color: #ffff00 !important;
+    border: 2px solid #ffff00 !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+}
+
+body.alto-contraste .botao-contato {
+    background: #000000 !important;
+    border: 2px solid #ffff00 !important;
+    box-shadow: none !important;
+}
+
+body.alto-contraste .botao-contato a {
+    color: #ffff00 !important;
+    text-decoration: none !important;
+}
+
+body.alto-contraste .botao:hover,
+body.alto-contraste .botao:focus-visible,
+body.alto-contraste .botao-missao:hover,
+body.alto-contraste .botao-missao:focus-visible,
+body.alto-contraste .botao-dicas:hover,
+body.alto-contraste .botao-dicas:focus-visible,
+body.alto-contraste .btn-enviar:hover,
+body.alto-contraste .btn-enviar:focus-visible,
+body.alto-contraste .chamada a:hover,
+body.alto-contraste .chamada a:focus-visible,
+body.alto-contraste .botao-acessibilidade:hover,
+body.alto-contraste .botao-acessibilidade:focus-visible,
+body.alto-contraste .botao-acessibilidade[aria-pressed="true"],
+body.alto-contraste .btn-audiodescricao-item:hover,
+body.alto-contraste .btn-audiodescricao-item:focus-visible,
+body.alto-contraste .btn-audiodescricao-item[aria-pressed="true"],
+body.alto-contraste .carrossel-seta:hover,
+body.alto-contraste .carrossel-seta:focus-visible,
+body.alto-contraste .botao-contato:hover,
+body.alto-contraste .botao-contato:hover a {
+    background: #ffff00 !important;
+    color: #000000 !important;
+}
+
+body.alto-contraste .carrossel-indicadores a {
+    background-color: #000000 !important;
+    border: 2px solid #ffff00 !important;
+}
+
+body.alto-contraste .carrossel:not(:has(.carrossel-slide:target)) .carrossel-indicadores a[href="#slide-1"],
+body.alto-contraste .carrossel:has(#slide-1:target) .carrossel-indicadores a[href="#slide-1"],
+body.alto-contraste .carrossel:has(#slide-2:target) .carrossel-indicadores a[href="#slide-2"],
+body.alto-contraste .carrossel:has(#slide-3:target) .carrossel-indicadores a[href="#slide-3"],
+body.alto-contraste .carrossel:has(#slide-4:target) .carrossel-indicadores a[href="#slide-4"],
+body.alto-contraste .carrossel:has(#slide-5:target) .carrossel-indicadores a[href="#slide-5"] {
+    background-color: #ffff00 !important;
+}
+
+body.alto-contraste input,
+body.alto-contraste textarea,
+body.alto-contraste select {
+    background: #000000 !important;
+    color: #ffffff !important;
+    border: 2px solid #ffff00 !important;
+}
+
+body.alto-contraste input::placeholder,
+body.alto-contraste textarea::placeholder {
+    color: #cccccc !important;
+}
+
+body.alto-contraste .form-grupo .campo-invalido {
+    border: 2px solid #ff6b6b !important;
+}
+
+body.alto-contraste .form-erro {
+    color: #ff8080 !important;
+}
+
+body.alto-contraste :focus-visible {
+    outline: 3px solid #ffff00 !important;
+    outline-offset: 3px !important;
+}
+
+body.alto-contraste .etiqueta-card {
+    background: #000000 !important;
+    color: #ffff00 !important;
+    border: 1px solid #ffff00 !important;
+}
+
+body.alto-contraste .tabela-sustentavel th {
+    background: #111111 !important;
+    color: #ffff00 !important;
+    border-bottom: 2px solid #ffff00 !important;
+}
+
+body.alto-contraste .tabela-sustentavel td {
+    background: #000000 !important;
+    color: #ffffff !important;
+    border-bottom: 1px solid #ffffff !important;
 }

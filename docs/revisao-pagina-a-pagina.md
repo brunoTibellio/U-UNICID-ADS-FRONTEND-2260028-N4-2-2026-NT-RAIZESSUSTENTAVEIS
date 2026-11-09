@@ -54,3 +54,19 @@ Esta revisão verificou os arquivos HTML, os pontos de navegação e a ligação
 ## Preservação
 
 Nenhum arquivo dentro de `img/` foi editado nesta revisão. O carrossel, os textos centrais e a identidade visual original foram mantidos; as alterações se concentraram em navegação, acessibilidade, responsividade, validação e documentação.
+
+
+## Atualização de Conteúdo, Imagens, Menu e Acessibilidade (AV A1 2-2026)
+
+- **Menu Superior Otimizado (`.nav-dropdown`)**: Os 11 itens de navegação foram organizados em 5 links principais visíveis + menu suspenso acessível **"Mais ▾"** (com ponte de hover invisível `.nav-dropdown-menu::before`, atraso de fechamento de `350ms` e fixação por clique/teclado), evitando quebra de layout no topo.
+- **Modo de Alto Contraste WCAG AAA (`.alto-contraste`)**: Fundo preto absoluto (`#000000`), textos e bordas de `2px` em branco puro (`#ffffff`), destaques, links e foco visível em amarelo de alto contraste (`#ffff00`), com persistência em `localStorage` e atalho `Alt + C`.
+- **Audiodescrição em Português (`Web Speech API`)**: Botão global `🔊 Audiodescrição` no topo (atalho `Alt + A`), botões dedicados `.btn-audiodescricao-item[data-narra]` nas imagens, ilustrações, carrossel e vídeo, além de leitura automática das descrições visuais (`alt`) de todas as imagens.
+- **Novas Ilustrações SVG Autoria Própria em `img/`**:
+  - `img/equipe-comunidade.svg` (Quem Somos e Contatos)
+  - `img/servicos-educacao.svg` (Serviços)
+  - `img/pilares-sustentabilidade.svg` (Sustentabilidade)
+  - `img/energia-solar-agua.svg` (Dicas Sustentáveis)
+  - `img/coleta-seletiva.svg` (Reciclagem)
+  - `img/horta-comunitaria.svg` (Projetos e Iniciativas)
+  - `img/hospedagem-verde.svg` (Orçamento de Hospedagem)
+- **Expansão de Conteúdo em Todas as Páginas**: Inclusão de blocos ilustrados (`.destaque-ilustrado`), cartões com miniaturas (`.card-pagina__img`), tabelas comparativas acessíveis (`.tabela-sustentavel`), seções de **Atitudes que Transformam** e **Dicas Rápidas** na `index.html`, e novas matérias categorizadas em `noticias.html` (incluindo a categoria *Consumo consciente*).

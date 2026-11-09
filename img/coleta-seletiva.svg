@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#123c20"/>
+      <stop offset="100%" stop-color="#1a5c38"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#bg5)"/>
+  <g transform="translate(85, 160)">
+    <rect x="0" y="30" width="90" height="190" rx="12" fill="#2b6cb0" stroke="#fff" stroke-width="3"/>
+    <rect x="-6" y="12" width="102" height="20" rx="8" fill="#63b3ed"/>
+    <rect x="115" y="30" width="90" height="190" rx="12" fill="#2f855a" stroke="#fff" stroke-width="3"/>
+    <rect x="109" y="12" width="102" height="20" rx="8" fill="#68d391"/>
+    <rect x="230" y="30" width="90" height="190" rx="12" fill="#c53030" stroke="#fff" stroke-width="3"/>
+    <rect x="224" y="12" width="102" height="20" rx="8" fill="#fc8181"/>
+    <rect x="345" y="30" width="90" height="190" rx="12" fill="#d69e2e" stroke="#fff" stroke-width="3"/>
+    <rect x="339" y="12" width="102" height="20" rx="8" fill="#f6e05e"/>
+    <rect x="460" y="30" width="90" height="190" rx="12" fill="#7b4a1e" stroke="#fff" stroke-width="3"/>
+    <rect x="454" y="12" width="102" height="20" rx="8" fill="#b7791f"/>
+    <rect x="575" y="30" width="90" height="190" rx="12" fill="#4a5568" stroke="#fff" stroke-width="3"/>
+    <rect x="569" y="12" width="102" height="20" rx="8" fill="#a0aec0"/>
+  </g>
+</svg>

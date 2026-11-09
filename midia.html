@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Explore vídeos e materiais externos para aprofundar o conhecimento sobre educação ambiental.">
-<title>Mídia e aprendizagem | Raízes Sustentáveis</title>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="css/paginas.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore vídeos com audiodescrição, galeria visual comentada e materiais externos sobre educação ambiental.">
+    <title>Mídia e aprendizagem | Raízes Sustentáveis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/paginas.css">
 </head>
+
 <body class="pagina">
-<a class="pular-conteudo" href="#conteudo-principal">Pular para o conteúdo</a>
-<header class="menu-pagina"><div class="menu-interno">
-<div class="logo"><a href="index.html">🍃 Raízes Sustentáveis</a></div>
-<input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Abrir ou fechar menu">
-<label for="nav-toggle" class="nav-hamburguer" aria-hidden="true"><span></span><span></span><span></span></label>
-<nav class="links" aria-label="Menu principal">
+    <a class="pular-conteudo" href="#conteudo-principal">Pular para o conteúdo</a>
+
+    <header class="menu-pagina">
+        <div class="menu-interno">
+            <div class="logo">
+                <a href="index.html">🍃 Raízes Sustentáveis</a>
+            </div>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Abrir ou fechar menu">
+            <label for="nav-toggle" class="nav-hamburguer" aria-hidden="true">
+                <span></span><span></span><span></span>
+            </label>
+
+            <nav class="links" aria-label="Menu principal">
                 <a href="index.html">Início</a>
                 <a href="quemsomos.html">Quem somos</a>
                 <a href="servicos.html">Serviços</a>
@@ -27,18 +37,117 @@
                 <a href="contatos.html">Contato</a>
                 <a href="orcamento_hospedagem.html">Hospedagem</a>
             </nav>
-<div class="botao-contato"><a href="contatos.html">Fale conosco</a></div>
-</div></header>
-<section class="pagina-hero"><p class="eyebrow">🎬 CONTEÚDO MULTIMÍDIA</p><h1>Mídia e aprendizagem</h1><p>Explore vídeos e materiais externos para aprofundar o conhecimento sobre educação ambiental.</p></section>
-<main class="pagina-conteudo" id="conteudo-principal">
-<section class="bloco"><h2>Aprender também é assistir e explorar</h2><p>Esta área reúne um vídeo sobre a natureza e links para continuar estudando. O vídeo é carregado de uma fonte externa.</p></section><section class="bloco"><h2>Vídeos sobre educação ambiental</h2><div class="video-responsivo">
-                <video controls preload="metadata" aria-label="Vídeo de uma flor desabrochando">
+
+            <div class="botao-contato">
+                <a href="contatos.html">Fale conosco</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="pagina-hero">
+        <p class="eyebrow">🎬 CONTEÚDO MULTIMÍDIA</p>
+        <h1>Mídia e aprendizagem</h1>
+        <p>Explore vídeos com audiodescrição, galeria visual comentada e materiais externos para aprofundar o conhecimento ambiental.</p>
+    </section>
+
+    <main class="pagina-conteudo" id="conteudo-principal">
+
+        <section class="bloco">
+            <h2>Aprender também é assistir, escutar e explorar</h2>
+            <p>Esta área reúne recursos audiovisuais e ilustrações educativas com suporte completo de <strong>audiodescrição em voz alta</strong> para pessoas cegas ou com baixa visão, garantindo acesso igualitário ao conhecimento ecológico.</p>
+        </section>
+
+        <section class="bloco" aria-labelledby="titulo-video">
+            <h2 id="titulo-video">Vídeo sobre a natureza com audiodescrição</h2>
+            <div class="video-responsivo">
+                <video id="video-natureza" controls preload="metadata" aria-label="Vídeo em câmera acelerada de uma flor amarela desabrochando" aria-describedby="transcricao-video">
                     <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
                     Seu navegador não oferece suporte à reprodução de vídeo.
                 </video>
-            </div><p><a href="https://www.youtube.com/results?search_query=educa%C3%A7%C3%A3o+ambiental+sustentabilidade" target="_blank" rel="noopener noreferrer">Abrir vídeos sobre educação ambiental no YouTube</a></p></section><section class="grade-cards"><article class="card-pagina"><div class="icone">📖</div><h3>Leitura complementar</h3><p>Pesquise materiais educativos sobre consumo responsável, biodiversidade e mudanças climáticas.</p><a href="https://www.un.org/sustainabledevelopment/pt/" target="_blank" rel="noopener noreferrer">Objetivos de Desenvolvimento Sustentável da ONU →</a></article><article class="card-pagina"><div class="icone">🌍</div><h3>Conhecimento ambiental</h3><p>Consulte informações e campanhas de educação ambiental em fontes institucionais.</p><a href="https://www.gov.br/mma/pt-br" target="_blank" rel="noopener noreferrer">Ministério do Meio Ambiente →</a></article></section>
-</main>
-<footer class="rodape"><div class="rodape-logo">🍃 Raízes Sustentáveis</div><p>Conscientização, sustentabilidade e cuidado com o planeta.</p><div class="rodape-links">
+            </div>
+            <div class="painel-audiodescricao-video" id="transcricao-video">
+                <div class="painel-audiodescricao-cabecalho">
+                    <h3>🔊 Audiodescrição e transcrição visual do vídeo</h3>
+                    <div class="painel-audiodescricao-botoes">
+                        <button type="button" class="btn-audiodescricao-item btn-audiodescricao-item--claro" data-narra="Audiodescrição do vídeo da natureza: O vídeo, sem trilha sonora original, tem duração aproximada de cinco segundos em câmera acelerada. No centro do quadro, sobre um fundo escuro desfocado, surge o botão fechado de uma flor amarela de calêndula. Gradualmente, as pétalas amarelas vibrantes se abrem do centro para as bordas em um movimento suave e simétrico, revelando o miolo alaranjado da flor totalmente desabrochada.">
+                            🔊 Ouvir audiodescrição do vídeo
+                        </button>
+                        <button type="button" id="sincronizar-ad-video" class="btn-audiodescricao-item btn-audiodescricao-item--claro" aria-pressed="true">
+                            🗣️ Narrar automaticamente ao dar Play: Ativado
+                        </button>
+                    </div>
+                </div>
+                <p><strong>Descrição visual cena a cena (0s a 5s):</strong> Em primeiro plano, sobre fundo escuro neutro, um botão floral verde e amarelo começa fechado. Ao longo de cinco segundos em câmera acelerada (<em>time-lapse</em>), dezenas de pétalas amarelas se expandem radialmente até que a flor esteja completamente aberta, exibindo seu centro alaranjado.</p>
+            </div>
+            <p class="link-apoio-video"><a href="https://www.youtube.com/results?search_query=educa%C3%A7%C3%A3o+ambiental+sustentabilidade" target="_blank" rel="noopener noreferrer">Abrir vídeos complementares sobre educação ambiental no YouTube →</a></p>
+        </section>
+
+        <section class="bloco">
+            <h2>Galeria visual educativa com audiodescrição</h2>
+            <p style="margin-bottom: 20px;">Cada painel visual abaixo possui um botão exclusivo para leitura da audiodescrição detalhada da imagem:</p>
+            <div class="grade-2-colunas">
+                <article class="card-pagina">
+                    <img class="card-pagina__img" src="img/Plantinha.jpg" alt="Fotografia aproximada de muda verde brotando na terra">
+                    <h3>Renovação e Reflorestamento</h3>
+                    <p>O plantio de espécies nativas protege nascentes, reduz ilhas de calor nas cidades e recupera a fauna local.</p>
+                    <button type="button" class="btn-audiodescricao-item btn-audiodescricao-item--claro" data-narra="Galeria Visual 1, Renovação e Reflorestamento: Fotografia aproximada de uma pequena muda verde-viva com duas folhas abertas emergindo da terra escura e úmida, com fundo natural verde desfocado pela luz do dia.">
+                        🔊 Ouvir audiodescrição da imagem
+                    </button>
+                </article>
+                <article class="card-pagina">
+                    <img class="card-pagina__img" src="img/energia-solar-agua.svg" alt="Ilustração de residência sustentável com sol e gota de água">
+                    <h3>Cidades e Moradias Eficientes</h3>
+                    <p>O aproveitamento da luz solar e o uso racional da água diminuem a pressão sobre hidrelétricas e reservatórios.</p>
+                    <button type="button" class="btn-audiodescricao-item btn-audiodescricao-item--claro" data-narra="Galeria Visual 2, Cidades e Moradias Eficientes: Ilustração em fundo azul e verde mostrando o sol amarelo iluminando uma casa com telhado ecológico ao lado de uma grande gota de água azul-clara.">
+                        🔊 Ouvir audiodescrição da imagem
+                    </button>
+                </article>
+                <article class="card-pagina">
+                    <img class="card-pagina__img" src="img/coleta-seletiva.svg" alt="Ilustração das seis lixeiras coloridas da coleta seletiva">
+                    <h3>Ciclo da Coleta Seletiva</h3>
+                    <p>A identificação padronizada por cores facilita a triagem de papel, vidro, plástico, metal e orgânicos.</p>
+                    <button type="button" class="btn-audiodescricao-item btn-audiodescricao-item--claro" data-narra="Galeria Visual 3, Ciclo da Coleta Seletiva: Ilustração gráfica com seis coletores lado a lado nas cores azul, verde, vermelho, amarelo, marrom e cinza sobre fundo verde-escuro.">
+                        🔊 Ouvir audiodescrição da imagem
+                    </button>
+                </article>
+                <article class="card-pagina">
+                    <img class="card-pagina__img" src="img/equipe-comunidade.svg" alt="Ilustração de comunidade unida ao redor do planeta verde">
+                    <h3>Mobilização e Cidadania</h3>
+                    <p>A educação ambiental ganha força quando escolas, universidades e famílias atuam juntas na vizinhança.</p>
+                    <button type="button" class="btn-audiodescricao-item btn-audiodescricao-item--claro" data-narra="Galeria Visual 4, Mobilização e Cidadania: Ilustração de quatro pessoas posicionadas abaixo de um emblema circular do planeta Terra com uma planta brotando no centro.">
+                        🔊 Ouvir audiodescrição da imagem
+                    </button>
+                </article>
+            </div>
+        </section>
+
+        <section class="grade-cards" aria-label="Fontes oficiais para estudo">
+            <article class="card-pagina">
+                <div class="icone" aria-hidden="true">📖</div>
+                <h3>Agenda 2030 da ONU</h3>
+                <p>Conheça as 17 metas globais para erradicar a pobreza e proteger o meio ambiente e o clima até 2030.</p>
+                <a href="https://www.un.org/sustainabledevelopment/pt/" target="_blank" rel="noopener noreferrer">Objetivos de Desenvolvimento Sustentável →</a>
+            </article>
+            <article class="card-pagina">
+                <div class="icone" aria-hidden="true">🌍</div>
+                <h3>Ministério do Meio Ambiente</h3>
+                <p>Consulte cartilhas públicas, planos nacionais de resíduos sólidos e campanhas de educação ambiental.</p>
+                <a href="https://www.gov.br/mma/pt-br" target="_blank" rel="noopener noreferrer">Portal do Ministério do Meio Ambiente →</a>
+            </article>
+            <article class="card-pagina">
+                <div class="icone" aria-hidden="true">💧</div>
+                <h3>Agência Nacional de Águas (ANA)</h3>
+                <p>Dados e manuais educativos sobre conservação de bacias hidrográficas e uso sustentável da água no Brasil.</p>
+                <a href="https://www.gov.br/ana/pt-br" target="_blank" rel="noopener noreferrer">Portal da Agência Nacional de Águas →</a>
+            </article>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape-logo">🍃 Raízes Sustentáveis</div>
+        <p>Conscientização, sustentabilidade e cuidado com o planeta.</p>
+        <div class="rodape-links">
             <a href="index.html">Início</a>
             <a href="quemsomos.html">Quem somos</a>
             <a href="servicos.html">Serviços</a>
@@ -50,6 +159,12 @@
             <a href="midia.html">Mídia</a>
             <a href="contatos.html">Contato</a>
             <a href="orcamento_hospedagem.html">Hospedagem</a>
-        </div><div class="rodape-linha"></div><p class="copyright">© 2026 Raízes Sustentáveis. Todos os direitos reservados.</p></footer>
-<script src="js/script.js" defer></script>
-</body></html>
+        </div>
+        <div class="rodape-linha"></div>
+        <p class="copyright">© 2026 Raízes Sustentáveis. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+</body>
+
+</html>
