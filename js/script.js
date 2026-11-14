@@ -313,14 +313,14 @@
 
     dropdown.addEventListener("mouseenter", function () {
       cancelarTimer();
-      if (window.innerWidth > 1080) {
+      if (window.innerWidth > 1300) {
         dropdown.classList.add("aberto");
         botaoToggle.setAttribute("aria-expanded", "true");
       }
     });
 
     dropdown.addEventListener("mouseleave", function () {
-      if (window.innerWidth > 1080 && !fixadoPorClique) {
+      if (window.innerWidth > 1300 && !fixadoPorClique) {
         cancelarTimer();
         timerFechar = setTimeout(function () {
           definirAberto(false);

@@ -1270,7 +1270,7 @@ button:focus-visible {
 }
 
 .menu .links > a {
-    padding: 8px 11px;
+    padding: 8px 9px;
     border-radius: 20px;
     font-size: 13.5px;
     font-weight: 600;
@@ -1287,7 +1287,7 @@ button:focus-visible {
 }
 
 /* Link Contato duplicado no desktop fica oculto pois já temos o botão Fale conosco ao lado */
-@media (min-width: 1081px) {
+@media (min-width: 1301px) {
     .links a.link-contato-duplicado {
         display: none;
     }
@@ -1648,8 +1648,8 @@ button:focus-visible {
     margin-top: 14px;
 }
 
-/* Responsividade do Menu (Tablet e Celular <= 1080px) */
-@media (max-width: 1080px) {
+/* Responsividade do Menu (Tablet e Celular <= 1300px) */
+@media (max-width: 1300px) {
     .menu {
         flex-wrap: wrap;
         border-radius: 22px;
