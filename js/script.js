@@ -243,7 +243,8 @@
     const linksParaDropdown = [];
 
     todosLinks.forEach(function (link) {
-      const href = (link.getAttribute("href") || "").toLowerCase();
+      // Compara só o nome do arquivo: na página inicial o link é "paginas/contatos.html"
+      const href = (link.getAttribute("href") || "").toLowerCase().split("#")[0].split("/").pop();
       if (href === "contatos.html") {
         link.classList.add("link-contato-duplicado");
       } else if (hrefsDropdown.includes(href)) {

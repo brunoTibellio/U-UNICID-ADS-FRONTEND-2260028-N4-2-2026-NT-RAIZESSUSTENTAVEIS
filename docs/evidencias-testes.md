@@ -60,11 +60,11 @@ Os testes funcionais do projeto foram executados e apresentaram resultados satis
 ## 4. Validação W3C Nu HTML Checker
 
 **Data do registro:** 14/11/2026  
-**Resultado informado:** nenhum erro ou aviso a exibir.
+**Resultado informado:** nenhum erro ou aviso a exibir nas dez páginas principais.
 
-A validação foi realizada no [W3C Nu HTML Checker](https://validator.w3.org/nu/). Conforme informado pelo responsável pelo projeto, o validador apresentou o resultado de que não havia erros ou avisos.
+A validação foi realizada no [W3C Nu HTML Checker](https://validator.w3.org/nu/). Conforme informado pelo responsável pelo projeto, o validador apresentou o resultado de que não havia erros ou avisos. A equipe confirmou que as dez páginas principais foram submetidas individualmente.
 
-O relatório ou a captura da validação não foi disponibilizado para anexação. Por isso, este registro documenta o resultado informado, sem afirmar que todos os 12 arquivos HTML foram submetidos individualmente.
+O relatório ou a captura da validação não foi disponibilizado para anexação.
 
 ## 5. Relatório Lighthouse
 
