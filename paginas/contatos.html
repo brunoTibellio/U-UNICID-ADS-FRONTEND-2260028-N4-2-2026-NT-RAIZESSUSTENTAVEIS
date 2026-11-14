@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Raízes Sustentáveis</title>
+    <meta name="description" content="Fale com a equipe do Raízes Sustentáveis, envie sugestões de projetos ou inscreva-se como voluntário.">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/paginas.css">
+</head>
+
+<body class="pagina">
+    <a class="pular-conteudo" href="#conteudo-principal">Pular para o conteúdo</a>
+
+    <header class="menu-pagina">
+        <div class="menu-interno">
+            <div class="logo">
+                <a href="../index.html">🍃 Raízes Sustentáveis</a>
+            </div>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Abrir ou fechar menu">
+            <label for="nav-toggle" class="nav-hamburguer" aria-hidden="true">
+                <span></span><span></span><span></span>
+            </label>
+
+            <nav class="links" aria-label="Menu principal">
+                <a href="../index.html">Início</a>
+                <a href="quemsomos.html">Quem somos</a>
+                <a href="servicos.html">Serviços</a>
+                <a href="sustentabilidade.html">Sustentabilidade</a>
+                <a href="dicas.html">Dicas</a>
+                <a href="reciclagem.html">Reciclagem</a>
+                <a href="projetos.html">Projetos</a>
+                <a href="noticias.html">Conteúdos</a>
+                <a href="midia.html">Mídia</a>
+                <a href="contatos.html" aria-current="page">Contato</a>
+                <a href="orcamento_hospedagem.html">Hospedagem</a>
+            </nav>
+
+            <div class="botao-contato">
+                <a href="contatos.html">Fale conosco</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="pagina-hero">
+        <p class="eyebrow">📬 FALE CONOSCO</p>
+        <h1>Contato e Voluntariado</h1>
+        <p>
+            Envie dúvidas, sugestões de conteúdos ou manifeste interesse em participar
+            de iniciativas sustentáveis na sua escola ou comunidade.
+        </p>
+    </section>
+
+    <main id="conteudo-principal" class="pagina-conteudo">
+
+        <section class="destaque-ilustrado" aria-labelledby="titulo-participacao">
+            <div>
+                <span class="etiqueta-card">Canal Aberto</span>
+                <h2 id="titulo-participacao">Construindo uma rede pela sustentabilidade</h2>
+                <p>
+                    Quer sugerir um tema de artigo, relatar uma iniciativa do seu bairro ou participar como voluntário em ações educativas? Preencha o formulário abaixo.
+                </p>
+                <p>
+                    Seus dados digitados são salvos automaticamente como rascunho no seu navegador (via <code>localStorage</code>) para que você não perca o texto caso a página seja recarregada.
+                </p>
+            </div>
+            <div class="destaque-ilustrado__midia">
+                <img src="../img/carrossel-iniciativas.svg" alt="Ilustração de pessoas reunidas em torno de uma planta representando colaboração e contato comunitário">
+                <button type="button" class="btn-audiodescricao-item btn-audiodescricao-item--claro" data-narra="Audiodescrição da ilustração Canal Aberto: Arte em tons de verde exibindo pessoas conectadas ao redor de uma planta central, simbolizando o diálogo e o trabalho voluntário em prol do meio ambiente.">
+                    🔊 Ouvir audiodescrição da imagem
+                </button>
+            </div>
+        </section>
+
+        <section class="bloco" aria-labelledby="titulo-form">
+            <h2 id="titulo-form" style="text-align: center; margin-bottom: 24px;">Envie sua mensagem</h2>
+
+            <form class="form-contato" id="form-contato" action="obrigado.html" method="get" novalidate>
+                <p class="form-aviso" id="form-aviso" role="status">Este formulário funciona como demonstração acadêmica: os dados ficam salvos somente neste navegador e não são enviados a um servidor.</p>
+
+                <div class="form-grupo">
+                    <label for="nome">Nome completo</label>
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        required
+                        autocomplete="name"
+                        placeholder="Seu nome e sobrenome"
+                        aria-describedby="dica-nome erro-nome">
+                    <span class="form-dica" id="dica-nome">Informe seu nome completo (nome e sobrenome).</span><span class="form-erro" id="erro-nome"></span>
+                </div>
+
+                <div class="form-grupo">
+                    <label for="email">E-mail</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        autocomplete="email"
+                        placeholder="seuemail@exemplo.com"
+                        aria-describedby="dica-email erro-email">
+                    <span class="form-dica" id="dica-email">Use um e-mail válido para retorno.</span><span class="form-erro" id="erro-email"></span>
+                </div>
+
+                <div class="form-grupo">
+                    <label for="telefone">Telefone</label>
+                    <input
+                        type="tel"
+                        id="telefone"
+                        name="telefone"
+                        required
+                        autocomplete="tel"
+                        pattern="[\d\s\(\)\-]{8,20}"
+                        placeholder="(11) 99999-9999"
+                        aria-describedby="dica-telefone erro-telefone">
+                    <span class="form-dica" id="dica-telefone">Inclua DDD. Ex.: (11) 99999-9999</span><span class="form-erro" id="erro-telefone"></span>
+                </div>
+
+                <div class="form-grupo">
+                    <label for="visita">Data da ação / interesse</label>
+                    <input
+                        type="date"
+                        id="visita"
+                        name="visita"
+                        aria-describedby="dica-visita">
+                    <span class="form-dica" id="dica-visita">Escolha uma data prevista para a atividade ou visita, se aplicável.</span>
+                </div>
+
+                <div class="form-grupo">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea
+                        id="mensagem"
+                        name="mensagem"
+                        required
+                        maxlength="1000"
+                        placeholder="Conte sua dúvida, sugestão ou como gostaria de participar como voluntário..."
+                        aria-describedby="dica-mensagem erro-mensagem"></textarea>
+                    <span class="form-dica" id="dica-mensagem">Descreva sua dúvida ou proposta em até 1000 caracteres.</span><span class="form-erro" id="erro-mensagem"></span>
+                </div>
+
+                <button type="submit" class="btn-enviar">Salvar mensagem de demonstração</button>
+            </form>
+        </section>
+
+        <section class="bloco">
+            <h2>Perguntas frequentes (FAQ)</h2>
+            <div class="grade-cards">
+                <article class="card-pagina">
+                    <h3>Posso usar os textos e ilustrações na minha escola?</h3>
+                    <p>Sim! Todo o conteúdo educativo do Raízes Sustentáveis pode ser utilizado livremente por professores e estudantes em trabalhos e feiras de ciências.</p>
+                </article>
+                <article class="card-pagina">
+                    <h3>O projeto recebe doações em dinheiro?</h3>
+                    <p>Não. Trata-se de um projeto universitário sem fins lucrativos. O apoio acontece por meio do voluntariado, compartilhamento de informações e prática dos hábitos sustentáveis.</p>
+                </article>
+                <article class="card-pagina">
+                    <h3>Como ativar a leitura para pessoas cegas?</h3>
+                    <p>Basta clicar no botão <strong>🔊 Audiodescrição</strong> no topo de qualquer página (ou pressionar <code>Alt + A</code> no teclado) para ouvir a descrição visual e o texto completo.</p>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape-logo">🍃 Raízes Sustentáveis</div>
+        <p>Conscientização, sustentabilidade e cuidado com o planeta.</p>
+        <div class="rodape-links">
+            <a href="../index.html">Início</a>
+            <a href="quemsomos.html">Quem somos</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="sustentabilidade.html">Sustentabilidade</a>
+            <a href="dicas.html">Dicas</a>
+            <a href="reciclagem.html">Reciclagem</a>
+            <a href="projetos.html">Projetos</a>
+            <a href="noticias.html">Conteúdos</a>
+            <a href="midia.html">Mídia</a>
+            <a href="contatos.html">Contato</a>
+            <a href="orcamento_hospedagem.html">Hospedagem</a>
+        </div>
+        <div class="rodape-linha"></div>
+        <p class="copyright">© 2026 Raízes Sustentáveis. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="../js/script.js" defer></script>
+</body>
+
+</html>
