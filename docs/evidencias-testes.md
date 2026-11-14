@@ -42,6 +42,7 @@ Foram analisados os dez arquivos das páginas principais e duas páginas auxilia
 
 - [Revisão página por página](revisao-pagina-a-pagina.md): registra a revisão estática e as correções descritas para cada página.
 - [Plano e registro de testes](testes.md): apresenta os cenários funcionais, de acessibilidade e publicação.
+- [Relatório Lighthouse](relatorio-lighthouse.md): registra os resultados apresentados na captura do relatório de 31/10/2026.
 - [Repositório](https://github.com/brunoTibellio/U-UNICID-ADS-FRONTEND-2260028-N4-2-2026-NT-RAIZESSUSTENTAVEIS): permite consultar os arquivos e o histórico de versões.
 
 ## 4. Testes que ainda precisam de evidência de execução
@@ -82,7 +83,8 @@ Usar nomes objetivos e registrar no arquivo `testes.md` a data, o navegador ou f
 ## 6. Limites desta verificação
 
 - A checagem foi feita sobre a marcação dos arquivos, sem simular cliques ou executar o site em navegador.
-- Não foi realizada validação externa W3C nesta etapa.
+- O relatório Lighthouse registrado separadamente é uma evidência visual fornecida para documentação; não representa uma validação W3C.
+- Não foi realizada validação externa W3C Nu HTML Checker nesta etapa.
 - Não foi feita medição de contraste WCAG nesta etapa.
 - A disponibilidade atual das plataformas de publicação precisa ser conferida separadamente.
 - A presença de um recurso no código não comprova, sozinha, que ele funciona corretamente em todos os dispositivos.
