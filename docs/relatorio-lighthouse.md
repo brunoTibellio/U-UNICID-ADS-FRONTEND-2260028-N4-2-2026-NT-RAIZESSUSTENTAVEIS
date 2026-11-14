@@ -23,9 +23,9 @@ Na seção relacionada à experiência dos usuários, a captura exibe a indicaç
 
 ## 3. Leitura do resultado
 
-As pontuações registradas indicam resultados positivos nas categorias de desempenho, práticas recomendadas e SEO. A categoria de acessibilidade apresenta pontuação 94, sendo o principal ponto de atenção para uma análise posterior.
+No relatório, desempenho, práticas recomendadas e SEO aparecem com pontuação 100. A acessibilidade ficou em 94, sendo a categoria com menor pontuação e que merece uma conferência mais detalhada.
 
-Este documento apenas registra os valores visíveis na captura fornecida. Ele não afirma quais verificações específicas foram aprovadas ou reprovadas, pois a imagem não mostra a lista detalhada de auditorias.
+Este documento registra somente os números que aparecem na captura enviada. Como a imagem não mostra o detalhamento das auditorias, não é possível afirmar quais itens específicos foram aprovados ou precisam de correção.
 
 ## 4. Limites e observações
 
