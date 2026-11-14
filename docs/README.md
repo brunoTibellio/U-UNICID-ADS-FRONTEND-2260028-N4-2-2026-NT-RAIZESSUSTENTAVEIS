@@ -1,6 +1,6 @@
 # Documentação — Raízes Sustentáveis
 
-Esta pasta reúne os documentos que acompanham o desenvolvimento e a finalização do projeto. A ideia é deixar claro não só o que foi construído, mas também como o trabalho foi planejado, revisado e verificado.
+Esta pasta reúne os registros do projeto, desde o planejamento até a etapa de finalização. Os arquivos mostram o que foi desenvolvido, quais decisões foram registradas e quais verificações foram realizadas.
 
 ## Documentos
 
@@ -20,4 +20,4 @@ Esta pasta reúne os documentos que acompanham o desenvolvimento e a finalizaç�
 - **A executar:** depende de teste manual, ferramenta externa ou conferência em ambiente publicado.
 - **Não confirmado:** há um endereço ou registro, mas não foi possível comprovar sua disponibilidade atual.
 
-Os documentos não devem ser interpretados como aprovação automática de todos os requisitos. Resultados de navegador, acessibilidade, W3C e publicação só devem ser marcados como concluídos depois da execução correspondente.
+Os registros precisam ser lidos de acordo com o tipo de verificação realizado. A presença de um recurso no código, por exemplo, não significa que ele foi aprovado em um teste de acessibilidade ou em uma ferramenta externa.
