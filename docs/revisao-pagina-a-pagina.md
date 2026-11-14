@@ -3,7 +3,7 @@
 **Revisão estática do código:** 07/11/2026  
 **Branch revisada:** `feat/finalizacao-a1`
 
-Esta revisão verificou os arquivos HTML, os pontos de navegação e a ligação com os arquivos CSS/JavaScript. Não equivale a um teste visual em navegador nem a uma validação W3C.
+A revisão foi feita nos arquivos HTML e conferiu os caminhos de navegação e as referências aos arquivos CSS e JavaScript. Essa análise do código não substitui a conferência visual no navegador nem a validação feita pelo W3C.
 
 ## Resultado por página
 
@@ -22,9 +22,9 @@ Esta revisão verificou os arquivos HTML, os pontos de navegação e a ligação
 | Hospedagem — `orcamento_hospedagem.html` | Comparação GitHub Pages/Railway e justificativa | Navegação completa, item atual, link de salto e conteúdo principal identificado |
 | Confirmação — `obrigado.html` | Confirmação de salvamento local | Link de salto com destino válido, item Contato marcado como atual e navegação/rodapé completos |
 
-## Correções globais
+## Correções feitas em várias páginas
 
-- Padronizado o idioma para `pt-BR` nas páginas HTML revisadas.
+- O idioma foi padronizado como `pt-BR` nos arquivos HTML revisados.
 - Padronizados os 11 destinos do menu e do rodapé: dez páginas de conteúdo e a página complementar de hospedagem.
 - Adicionado link "Pular para o conteúdo" nas páginas que ainda não tinham esse recurso.
 - Identificado o conteúdo principal com `id="conteudo-principal"`.
@@ -34,7 +34,7 @@ Esta revisão verificou os arquivos HTML, os pontos de navegação e a ligação
 - Adicionado tratamento para falhas ou dados inválidos no `localStorage`, sem impedir o restante da página de funcionar.
 - Associadas as mensagens de erro do formulário aos respectivos campos.
 
-## Verificações estáticas concluídas
+## O que foi conferido diretamente no código
 
 - As 12 páginas listadas acima carregam `js/script.js`.
 - As páginas internas têm um elemento principal identificado; a página inicial também possui um único elemento `main`.
@@ -42,7 +42,7 @@ Esta revisão verificou os arquivos HTML, os pontos de navegação e a ligação
 - Cada página tem um único item atual no menu, incluindo a página de confirmação, que aponta para Contato.
 - Os links HTML internos examinados apontam para arquivos previstos no projeto.
 
-## Ainda precisa de teste no navegador / ferramentas externas
+## Verificações que dependem do navegador ou de ferramentas externas
 
 - Validar cada página no W3C Nu HTML Checker e corrigir os erros que forem reportados.
 - Conferir visualmente desktop, tablet e celular, especialmente o menu no ponto de quebra de 1250 px.
@@ -51,9 +51,9 @@ Esta revisão verificou os arquivos HTML, os pontos de navegação e a ligação
 - Testar envio inválido/válido, recuperação do rascunho e preferência de contraste em navegador real.
 - Conferir reprodução do vídeo externo e disponibilidade da publicação depois da integração do Pull Request.
 
-## Preservação
+## O que foi mantido
 
-Nenhum arquivo dentro de `img/` foi editado nesta revisão. O carrossel, os textos centrais e a identidade visual original foram mantidos; as alterações se concentraram em navegação, acessibilidade, responsividade, validação e documentação.
+Nenhum arquivo da pasta `img/` foi alterado nesta revisão. O carrossel, os textos principais e a identidade visual foram preservados. As mudanças registradas ficaram concentradas na navegação, acessibilidade, responsividade, validação e documentação.
 
 
 ## Atualização de Conteúdo, Imagens, Menu e Acessibilidade (AV A1 2-2026)
