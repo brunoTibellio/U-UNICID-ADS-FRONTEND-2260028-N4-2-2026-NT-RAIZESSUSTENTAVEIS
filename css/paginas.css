@@ -441,7 +441,7 @@
     gap: 8px;
     flex-wrap: nowrap;
     justify-content: space-between;
-    padding: 10px 4%;
+    padding: 10px 22px;
 }
 
 .menu-pagina .logo a,
@@ -456,7 +456,7 @@
 }
 
 .menu-pagina .links > a {
-    padding: 8px 11px;
+    padding: 8px 9px;
     border-radius: 20px;
     font-size: 13.5px;
     font-weight: 600;
@@ -493,7 +493,7 @@
     transform: translateY(-1px);
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1300px) {
     .menu-pagina .menu-interno {
         flex-wrap: wrap;
         padding: 12px 4%;
