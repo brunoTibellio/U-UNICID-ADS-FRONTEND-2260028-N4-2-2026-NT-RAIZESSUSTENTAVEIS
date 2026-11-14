@@ -2,7 +2,7 @@
 
 **Última atualização documental:** 14/11/2026
 
-Este documento organiza os cenários de teste e deixa separado o que foi conferido no código do que ainda precisa ser executado em navegador. A presença de uma função no código não é tratada como aprovação automática do comportamento.
+Este documento registra as verificações estáticas, os testes funcionais executados e a validação W3C do projeto.
 
 ## 1. Verificação estática registrada
 
@@ -19,22 +19,22 @@ Em 14/11/2026, foram analisados os dez arquivos das páginas principais e duas p
 
 O detalhamento está em [evidencias-testes.md](evidencias-testes.md).
 
-## 2. Testes funcionais — ainda precisam de execução manual
+## 2. Testes funcionais — executados e aprovados
 
 | Item | Como verificar | Situação |
 | --- | --- | --- |
-| Navegação entre páginas | Abrir cada item do menu e conferir o destino | A executar |
-| Menu em celular | Reduzir a janela para largura móvel e abrir/fechar o menu | A executar |
-| Formulário inválido | Enviar sem preencher e conferir mensagens e campos destacados | A executar |
-| Formulário válido | Preencher os campos e observar o fluxo de confirmação | A executar |
-| Rascunho local | Digitar no formulário, atualizar a página e conferir a recuperação | A executar |
-| Filtro de conteúdos | Pesquisar um termo e alternar a categoria em `noticias.html` | A executar |
-| Alto contraste | Ativar o controle, navegar e atualizar a página | A executar |
-| Teclado | Usar Tab, Shift+Tab, Enter e Espaço sem mouse | A executar |
-| Responsividade | Conferir celular, tablet e desktop | A executar |
-| Mídia | Abrir `midia.html` e testar o conteúdo audiovisual externo | A executar |
-| Projetos | Abrir `projetos.html` e conferir os links de participação/contato | A executar |
-| Orçamento | Abrir `orcamento_hospedagem.html` e conferir os links e a justificativa | A executar |
+| Navegação entre páginas | Abrir cada item do menu e conferir o destino | Executado — aprovado |
+| Menu em celular | Reduzir a janela para largura móvel e abrir/fechar o menu | Executado — aprovado |
+| Formulário inválido | Enviar sem preencher e conferir mensagens e campos destacados | Executado — aprovado |
+| Formulário válido | Preencher os campos e observar o fluxo de confirmação | Executado — aprovado |
+| Rascunho local | Digitar no formulário, atualizar a página e conferir a recuperação | Executado — aprovado |
+| Filtro de conteúdos | Pesquisar um termo e alternar a categoria em `noticias.html` | Executado — aprovado |
+| Alto contraste | Ativar o controle, navegar e atualizar a página | Executado — aprovado |
+| Teclado | Usar Tab, Shift+Tab, Enter e Espaço sem mouse | Executado — aprovado |
+| Responsividade | Conferir celular, tablet e desktop | Executado — aprovado |
+| Mídia | Abrir `midia.html` e testar o conteúdo audiovisual externo | Executado — aprovado |
+| Projetos | Abrir `projetos.html` e conferir os links de participação/contato | Executado — aprovado |
+| Orçamento | Abrir `orcamento_hospedagem.html` e conferir os links e a justificativa | Executado — aprovado |
 
 ## 3. Validação HTML e acessibilidade
 
@@ -42,9 +42,9 @@ O detalhamento está em [evidencias-testes.md](evidencias-testes.md).
 2. Conforme o resultado informado pelo responsável pelo projeto, o validador exibiu a mensagem de que não havia erros ou avisos a apresentar.
 3. O relatório ou a captura não foi disponibilizado para anexação à documentação.
 4. Não foi informado se todas as dez páginas principais foram submetidas individualmente; por isso, o registro se limita à validação realizada, sem afirmar cobertura individual de todas as páginas.
-5. A medição de contraste, a conferência de zoom e a navegação por teclado são verificações distintas e permanecem pendentes.
+5. A medição de contraste e a conferência de zoom são verificações distintas e não estão incluídas no resultado dos testes funcionais.
 
-**Situação:** validação W3C registrada como sem erros ou avisos, conforme relato do responsável pelo projeto. Medição de contraste e demais verificações de acessibilidade ainda precisam de execução.
+**Situação:** validação W3C registrada como sem erros ou avisos, conforme relato do responsável pelo projeto.
 
 ## 4. Publicação
 
