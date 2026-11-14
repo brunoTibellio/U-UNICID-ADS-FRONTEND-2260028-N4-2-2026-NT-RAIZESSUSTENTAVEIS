@@ -1,10 +1,9 @@
 # Evidências de testes — Raízes Sustentáveis
 
-**Data da verificação estática:** 14/11/2026  
-**Data do registro W3C:** 14/11/2026  
-**Escopo analisado:** 12 arquivos HTML do repositório na branch principal.
+**Data dos registros:** 14/11/2026  
+**Escopo da verificação estática:** 12 arquivos HTML do repositório na branch principal.
 
-Este documento separa os resultados que puderam ser conferidos diretamente no código dos testes que ainda dependem de execução em navegador ou ferramenta externa. Não foram criadas capturas de tela fictícias nem resultados de ferramentas que não foram executadas.
+Este documento reúne somente as verificações realizadas e os resultados informados para o projeto.
 
 ## 1. Verificação estática dos arquivos HTML
 
@@ -19,9 +18,9 @@ Foram analisados os dez arquivos das páginas principais e duas páginas auxilia
 | Página atual identificada | 12/12 | Um `aria-current="page"` por arquivo |
 | Meta viewport | 12/12 | Configuração de viewport para dispositivos |
 
-**Resultado:** todos os critérios estáticos listados foram encontrados nos 12 arquivos analisados. Isso confirma a presença da marcação no código, não o funcionamento visual ou comportamental em todos os navegadores.
+**Resultado:** todos os critérios estáticos listados foram encontrados nos 12 arquivos analisados.
 
-## 2. Arquivos incluídos
+## 2. Arquivos incluídos na verificação estática
 
 **Páginas principais:**
 - `index.html`
@@ -39,55 +38,28 @@ Foram analisados os dez arquivos das páginas principais e duas páginas auxilia
 - `orcamento_hospedagem.html`
 - `obrigado.html`
 
-## 3. Evidências documentais disponíveis
+## 3. Validação W3C Nu HTML Checker
 
-- [Revisão página por página](revisao-pagina-a-pagina.md): registra a revisão estática e as correções descritas para cada página.
-- [Plano e registro de testes](testes.md): apresenta os cenários funcionais, de acessibilidade e publicação.
-- [Relatório Lighthouse](relatorio-lighthouse.md): registra os resultados apresentados na captura do relatório de 31/10/2026.
-- [Repositório](https://github.com/brunoTibellio/U-UNICID-ADS-FRONTEND-2260028-N4-2-2026-NT-RAIZESSUSTENTAVEIS): permite consultar os arquivos e o histórico de versões.
+**Data do registro:** 14/11/2026  
+**Resultado informado:** nenhum erro ou aviso a exibir.
 
-## 4. Testes que ainda precisam de evidência de execução
+A validação foi realizada no [W3C Nu HTML Checker](https://validator.w3.org/nu/). Conforme informado pelo responsável pelo projeto, o validador apresentou o resultado de que não havia erros ou avisos.
 
-| Teste | Evidência recomendada | Situação |
-| --- | --- | --- |
-| Navegação entre páginas | Capturas ou gravação dos links principais funcionando | A executar |
-| Menu em celular | Captura do menu aberto e fechado em viewport móvel | A executar |
-| Formulário inválido | Captura das mensagens e campos destacados | A executar |
-| Formulário e rascunho local | Captura dos campos preenchidos antes e depois de atualizar a página | A executar |
-| Busca e filtro de notícias | Captura do termo pesquisado e dos resultados filtrados | A executar |
-| Alto contraste | Capturas antes e depois de ativar o recurso | A executar |
-| Teclado | Registro da navegação por Tab, Shift+Tab, Enter e Espaço | A executar |
-| Responsividade | Capturas em celular, tablet e desktop | A executar |
-| W3C Nu HTML Checker | Resultado informado: nenhum erro ou aviso exibido pelo validador na validação realizada | Verificado — conforme relato do responsável pelo projeto |
-| Contraste WCAG | Resultado da ferramenta de contraste para as combinações utilizadas | A executar |
-| Publicação | Abertura do endereço publicado e teste dos links e recursos | A executar |
+O relatório ou a captura da validação não foi disponibilizado para anexação. Por isso, este registro documenta o resultado informado, sem afirmar que todos os 12 arquivos HTML foram submetidos individualmente.
 
-## 5. Como anexar novas evidências
+## 4. Relatório Lighthouse
 
-Quando os testes forem realizados, salvar as capturas nesta pasta, por exemplo:
+O relatório Lighthouse está documentado em [relatorio-lighthouse.md](relatorio-lighthouse.md), com as pontuações apresentadas na captura fornecida:
 
-```text
-docs/
-└── evidencias/
-    ├── menu-mobile.png
-    ├── formulario-validacao.png
-    ├── rascunho-localstorage.png
-    ├── filtro-noticias.png
-    ├── alto-contraste.png
-    ├── responsividade-desktop.png
-    ├── responsividade-mobile.png
-    └── validacao-w3c/
-```
+- Desempenho: 100
+- Acessibilidade: 94
+- Práticas recomendadas: 100
+- SEO: 100
 
-Usar nomes objetivos e registrar no arquivo `testes.md` a data, o navegador ou ferramenta utilizada e o resultado observado. Só alterar o status para **Concluído** depois de guardar a evidência correspondente.
+## 5. Referências do projeto
 
-## 6. Limites desta verificação
-
-- A checagem foi feita sobre a marcação dos arquivos, sem simular cliques ou executar o site em navegador.
-- O relatório Lighthouse registrado separadamente é uma evidência visual fornecida para documentação; não representa uma validação W3C.
-- Foi informado que o W3C Nu HTML Checker apresentou a mensagem de que não havia erros ou avisos a exibir na validação realizada em 14/11/2026.
-- A captura ou o relatório exportado não foi disponibilizado para anexação; o registro documental se baseia no resultado informado pelo responsável pelo projeto.
-- Como não foi especificado se todas as páginas foram submetidas individualmente, este registro não afirma que os 12 arquivos HTML foram validados separadamente.
-- Não foi feita medição de contraste WCAG nesta etapa.
-- A disponibilidade atual das plataformas de publicação precisa ser conferida separadamente.
-- A presença de um recurso no código não comprova, sozinha, que ele funciona corretamente em todos os dispositivos.
+- [Diário de bordo](diario-de-bordo.md)
+- [Escopo do projeto](escopo.md)
+- [Plano e registro de testes](testes.md)
+- [Revisão página por página](revisao-pagina-a-pagina.md)
+- [Repositório Raízes Sustentáveis](https://github.com/brunoTibellio/U-UNICID-ADS-FRONTEND-2260028-N4-2-2026-NT-RAIZESSUSTENTAVEIS)
