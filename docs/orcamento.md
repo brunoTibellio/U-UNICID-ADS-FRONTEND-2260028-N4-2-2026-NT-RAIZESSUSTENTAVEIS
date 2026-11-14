@@ -1,25 +1,43 @@
 # Orçamento de hospedagem — Raízes Sustentáveis
 
-**Data da consulta:** 07/11/2026
+**Data da consulta registrada:** 07/11/2026  
+**Atualização documental:** 14/11/2026
 
-## Necessidade do projeto
-O site atual é estático: HTML, CSS e JavaScript no navegador, sem API, banco de dados ou processamento no servidor.
+## 1. Necessidade atual
 
-## Comparação
+O site é composto por HTML, CSS e JavaScript executados no navegador. A versão documentada não depende de API, banco de dados ou processamento no servidor. Por isso, a hospedagem estática atende à necessidade atual.
 
-| Plataforma | Condição consultada | Adequação |
+## 2. Comparação das opções
+
+| Plataforma | Condição registrada | Adequação ao projeto |
 | --- | --- | --- |
-| GitHub Pages | Disponível para repositórios públicos no GitHub Free; publica arquivos estáticos diretamente do repositório | Adequado à arquitetura atual e sem mensalidade de hospedagem para este projeto |
-| Railway | Plano Free com crédito limitado de uso; Hobby com valor base de US$ 5/mês aplicado como crédito de uso, podendo haver consumo adicional | Mais flexível para serviços e backend, mas desnecessário para a versão estática atual |
+| GitHub Pages | Disponível para repositórios públicos no GitHub Free e voltado à publicação de sites estáticos | Atende à arquitetura atual e não exige mensalidade de hospedagem para este projeto |
+| Railway | Plano Free com crédito limitado de uso; plano Hobby com valor base de US$ 5/mês aplicado como crédito de uso, sujeito a consumo adicional | Pode atender a aplicações com backend, mas não é necessário para a versão estática atual |
 
-## Escolha
+## 3. Escolha e estimativa
 
-**Recomendação: GitHub Pages.** O repositório é público e o site não necessita de backend. A plataforma publica HTML, CSS e JavaScript a partir do repositório e disponibiliza HTTPS. Isso atende à necessidade atual sem contratar um servidor.
+**Opção recomendada: GitHub Pages.**
 
-O Railway permanece como alternativa se o projeto ganhar API, banco de dados ou processos no servidor. O endereço Railway já existente não deve ser considerado ativo ou atualizado sem uma verificação de publicação.
+A escolha considera o tipo de projeto, que utiliza arquivos estáticos e já está versionado em um repositório público. A publicação pelo GitHub Pages evita contratar um servidor apenas para disponibilizar HTML, CSS e JavaScript.
 
-## Fontes oficiais consultadas
-- GitHub Pages: https://docs.github.com/en/pages/getting-started-with-github-pages
-- Railway planos e preços: https://docs.railway.com/pricing/plans
+| Item | Estimativa para a versão atual |
+| --- | ---: |
+| Hospedagem pelo GitHub Pages | R$ 0,00/mês |
+| Backend ou banco de dados | Não utilizado |
+| Domínio personalizado | Não incluído na estimativa |
+| **Total mensal estimado de hospedagem** | **R$ 0,00** |
 
-Os valores e condições podem mudar; conferir as páginas oficiais antes de contratar.
+O valor de domínio personalizado não foi incluído porque não há contratação registrada neste orçamento.
+
+O Railway permanece como alternativa caso o projeto passe a utilizar API, banco de dados ou processos no servidor. O endereço Railway que aparece no README é uma referência registrada e não deve ser considerado uma publicação ativa sem verificação.
+
+## 4. Observações
+
+- Os valores e limites dos planos podem mudar.
+- A estimativa de R$ 0,00 considera a hospedagem estática pelo GitHub Pages nas condições descritas.
+- Antes de contratar qualquer serviço, conferir os preços e limites diretamente nas páginas oficiais.
+
+## 5. Fontes oficiais consultadas
+
+- [GitHub Pages — documentação oficial](https://docs.github.com/en/pages/getting-started-with-github-pages)
+- [Railway — planos e preços](https://docs.railway.com/pricing/plans)
