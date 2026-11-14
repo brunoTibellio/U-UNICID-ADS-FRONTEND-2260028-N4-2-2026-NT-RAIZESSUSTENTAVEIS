@@ -1,59 +1,61 @@
 # 🍃 Raízes Sustentáveis
 
-Site informativo e educativo sobre sustentabilidade, desenvolvido em **HTML, CSS e JavaScript** para a disciplina de **Front-End para Web (UNICID)**.
+Um projeto acadêmico desenvolvido para a disciplina de **Front-End para Web**, na UNICID. O site reúne informações, orientações e conteúdos educativos para aproximar a sustentabilidade das escolhas do dia a dia.
 
-🌐 **Acesse o site**
-- [Versão publicada no Railway](https://raizes-sustentaveis-production-cafe.up.railway.app)
-- [Versão publicada no GitHub Pages](https://brunotibellio.github.io/U-UNICID-ADS-FRONTEND-2260028-N4-2-2026-NT-RAIZESSUSTENTAVEIS/)
+A proposta é simples: mostrar que atitudes cotidianas — como separar resíduos, economizar água e consumir com consciência — também fazem parte da preservação ambiental.
 
+## 🌐 Acesse o projeto
 
-## Sobre o projeto
+- [Repositório no GitHub](https://github.com/brunoTibellio/U-UNICID-ADS-FRONTEND-2260028-N4-2-2026-NT-RAIZESSUSTENTAVEIS)
+- [Endereço do GitHub Pages](https://brunotibellio.github.io/U-UNICID-ADS-FRONTEND-2260028-N4-2-2026-NT-RAIZESSUSTENTAVEIS/)
+- [Endereço Railway registrado no projeto](https://raizes-sustentaveis-production-cafe.up.railway.app) — manter como referência; a publicação atual precisa ser confirmada separadamente.
 
-O Raízes Sustentáveis aborda o descarte incorreto de resíduos, o desperdício de recursos naturais e a falta de informação sobre práticas sustentáveis. O objetivo é apresentar informações acessíveis e incentivar atitudes cotidianas que contribuam para a preservação ambiental.
+## 🌱 Sobre o projeto
 
-## Páginas principais
+O Raízes Sustentáveis aborda questões como descarte incorreto de resíduos, desperdício de recursos naturais e falta de informação sobre práticas sustentáveis. O objetivo é oferecer conteúdo acessível e incentivar mudanças possíveis na rotina.
 
-| Página | Arquivo | Conteúdo |
+O projeto foi construído em equipe, passando por etapas de planejamento, desenvolvimento das páginas, criação de conteúdo, identidade visual, revisão e documentação.
+
+## Páginas do site
+
+| Página | Arquivo | O que você encontra |
 | --- | --- | --- |
-| Início | `index.html` | Apresentação, carrossel, missão e caminhos para explorar o site |
-| Quem somos | `quemsomos.html` | Apresentação do projeto e da equipe |
-| Serviços | `servicos.html` | Conteúdos e orientações oferecidos |
-| Sustentabilidade | `sustentabilidade.html` | Conceitos e práticas sustentáveis |
-| Dicas | `dicas.html` | Hábitos sustentáveis no cotidiano |
+| Início | `index.html` | Apresentação, carrossel, missão e acesso às demais áreas |
+| Quem somos | `quemsomos.html` | História, propósito e equipe |
+| Serviços | `servicos.html` | Conteúdos e orientações do projeto |
+| Sustentabilidade | `sustentabilidade.html` | Conceitos e pilares da sustentabilidade |
+| Dicas | `dicas.html` | Hábitos sustentáveis para o cotidiano |
 | Reciclagem | `reciclagem.html` | Separação e destinação de resíduos |
 | Projetos | `projetos.html` | Ideias de ações comunitárias e educativas |
-| Conteúdos | `noticias.html` | Busca e filtro de conteúdos por tema |
-| Mídia | `midia.html` | Conteúdo audiovisual e links externos |
-| Contato | `contatos.html` | Formulário demonstrativo com validação e rascunho local |
+| Conteúdos | `noticias.html` | Notícias com busca e filtro por categoria |
+| Mídia | `midia.html` | Conteúdo audiovisual e materiais externos |
+| Contato | `contatos.html` | Formulário demonstrativo com validação |
 
-**Página complementar:** `orcamento_hospedagem.html` — comparação e justificativa da hospedagem.
+**Páginas de apoio:** `orcamento_hospedagem.html` apresenta a comparação de hospedagem e `obrigado.html` exibe a confirmação após a interação com o formulário. Elas não entram na contagem das dez páginas principais.
 
-A página `orcamento_hospedagem.html` complementa a entrega com a justificativa da plataforma de publicação. `obrigado.html` confirma a conclusão do formulário e `Faleconosco.html` é um redirecionamento legado; essas páginas de apoio não entram na contagem das dez páginas de conteúdo.
+## O que o site oferece
 
-## Funcionalidades
+- Navegação entre as dez páginas principais e menu adaptado a telas menores.
+- Recurso de alto contraste, com preferência salva no navegador.
+- Audiodescrição e recursos de apoio à navegação.
+- Formulário demonstrativo com validação em JavaScript.
+- Salvamento e recuperação local do rascunho do formulário por `localStorage`.
+- Busca e filtro de conteúdos na página de notícias.
+- Carrossel na página inicial.
+- Foco visível e suporte a navegação por teclado.
 
-- Navegação entre as dez páginas principais.
-- Menu responsivo para telas menores.
-- Alternância de alto contraste, com preferência salva no navegador.
-- Formulário com validação em JavaScript, mensagens de erro e destaque dos campos inválidos.
-- Rascunho do formulário salvo no `localStorage`.
-- Busca e filtro de conteúdos na página Conteúdos.
-- Carrossel da página inicial construído com HTML e CSS.
-- Foco visível e recursos para navegação por teclado.
+> **Importante:** o formulário tem finalidade demonstrativa. As informações ficam no armazenamento local do navegador; não são enviadas para um servidor, e-mail ou para a equipe.
 
-**Importante sobre o formulário:** trata-se de uma demonstração acadêmica. Os dados ficam no armazenamento local do navegador e não são enviados para um servidor ou para a equipe.
+## Tecnologias e ferramentas
 
-## Tecnologias
+- **HTML5** — estrutura das páginas.
+- **CSS3** — identidade visual, layout e responsividade.
+- **JavaScript** — validações, filtros e interações.
+- **Git e GitHub** — versionamento e colaboração.
+- **Visual Studio Code** — ambiente de desenvolvimento.
+- **GitHub Pages / Railway** — opções de publicação registradas no projeto.
 
-- HTML5
-- CSS3
-- JavaScript
-- Git e GitHub
-- Visual Studio Code
-- Railway e GitHub Pages (endereços de publicação registrados no projeto)
-
-
-## Estrutura principal
+## Estrutura do repositório
 
 ```text
 .
@@ -62,12 +64,14 @@ A página `orcamento_hospedagem.html` complementa a entrega com a justificativa 
 │   └── paginas.css
 ├── docs/
 │   ├── README.md
+│   ├── diario-de-bordo.md
 │   ├── escopo.md
+│   ├── orcamento.md
 │   ├── testes.md
+│   ├── evidencias-testes.md
 │   ├── revisao-pagina-a-pagina.md
 │   ├── diario-ia.md
-│   ├── melhorias-mvp.md
-│   └── orcamento.md
+│   └── melhorias-mvp.md
 ├── img/
 ├── js/
 │   └── script.js
@@ -86,29 +90,41 @@ A página `orcamento_hospedagem.html` complementa a entrega com a justificativa 
 └── style.css
 ```
 
-## Equipe
-
-| Integrante | Participação registrada no projeto |
-| --- | --- |
-| Bruno Gomes Tibellio | Desenvolvimento das páginas e criação do conteúdo |
-| Mateus Lima Monteiro | Desenvolvimento das páginas e criação do conteúdo |
-| Gabriel Marques Lopes | Criação do conteúdo e identidade visual |
-| Murilo Domingues Saes | Criação do conteúdo e identidade visual |
-| Erick Andrade de Péder | Testes e documentação e Identidade visual|
-
 ## Documentação
 
-- [Escopo do projeto](docs/escopo.md)
-- [Plano e registro de testes](docs/testes.md)
-- [Revisão página por página](docs/revisao-pagina-a-pagina.md)
-- [Diário de uso de IA](docs/diario-ia.md)
-- [Melhorias identificadas no MVP](docs/melhorias-mvp.md)
-- [Orçamento de hospedagem](docs/orcamento.md)
+A documentação foi organizada na pasta [`docs/`](docs/README.md), para que o planejamento e o histórico do projeto fiquem junto com o código.
 
-## Dados da disciplina
+| Documento | Conteúdo |
+| --- | --- |
+| [Diário de bordo](docs/diario-de-bordo.md) | Registro das etapas e decisões do desenvolvimento |
+| [Escopo do projeto](docs/escopo.md) | Objetivos, público, funcionalidades e limites da entrega |
+| [Orçamento](docs/orcamento.md) | Comparação de hospedagem e estimativa de custos |
+| [Plano de testes](docs/testes.md) | Cenários, procedimentos e situação dos testes |
+| [Evidências de testes](docs/evidencias-testes.md) | Verificações realizadas, resultados estáticos e itens pendentes |
+| [Revisão página por página](docs/revisao-pagina-a-pagina.md) | Registro técnico das páginas e melhorias aplicadas |
+| [Diário de uso de IA](docs/diario-ia.md) | Apoios utilizados, sugestões incorporadas e limites |
+| [Melhorias do MVP](docs/melhorias-mvp.md) | Comparação entre a versão anterior e a versão de finalização |
 
+## Equipe
+
+| Integrante | Participação registrada |
+| --- | --- |
+| Bruno Gomes Tibellio | Desenvolvimento das páginas e criação de conteúdo |
+| Mateus Lima Monteiro | Desenvolvimento das páginas e criação de conteúdo |
+| Gabriel Marques Lopes | Criação de conteúdo e identidade visual |
+| Murilo Domingues Saes | Criação de conteúdo e identidade visual |
+| Erick Andrade de Péder | Testes, documentação e identidade visual |
+
+## Sobre os testes
+
+Na verificação estática realizada em **14/11/2026**, os 12 arquivos HTML analisados apresentaram idioma `pt-BR`, link para pular ao conteúdo, elemento principal, carregamento do JavaScript e identificação da página atual.
+
+Essa checagem não substitui testes em navegador, validação externa pelo W3C ou conferência visual em diferentes dispositivos. Os resultados e o que ainda precisa ser executado estão detalhados em [Evidências de testes](docs/evidencias-testes.md).
+
+## Dados acadêmicos
+
+- **Instituição:** UNICID
 - **Disciplina:** Front-End para Web
 - **Professor:** Paulo Fratta
-- **Instituição:** UNICID
 - **Atividade:** A2
 - **Ano:** 2026
