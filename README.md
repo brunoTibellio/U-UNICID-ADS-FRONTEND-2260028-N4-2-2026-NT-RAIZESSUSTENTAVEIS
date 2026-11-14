@@ -44,7 +44,6 @@ O projeto foi construído em equipe, passando por etapas de planejamento, desenv
 - Carrossel na página inicial.
 - Foco visível e suporte a navegação por teclado.
 
-> **Importante:** o formulário tem finalidade demonstrativa. As informações ficam no armazenamento local do navegador; não são enviadas para um servidor, e-mail ou para a equipe.
 
 ## Tecnologias e ferramentas
 
