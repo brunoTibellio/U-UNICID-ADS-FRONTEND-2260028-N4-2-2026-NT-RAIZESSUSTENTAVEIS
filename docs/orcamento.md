@@ -5,7 +5,7 @@
 
 ## 1. Necessidade atual
 
-O site é composto por HTML, CSS e JavaScript executados no navegador. A versão documentada não depende de API, banco de dados ou processamento no servidor. Por isso, a hospedagem estática atende à necessidade atual.
+Como o site usa HTML, CSS e JavaScript no próprio navegador, não precisa, nesta versão, de API, banco de dados ou processamento no servidor. Por esse motivo, uma hospedagem estática é suficiente para manter o projeto disponível.
 
 ## 2. Comparação das opções
 
@@ -18,7 +18,7 @@ O site é composto por HTML, CSS e JavaScript executados no navegador. A versão
 
 **Opção recomendada: GitHub Pages.**
 
-A escolha considera o tipo de projeto, que utiliza arquivos estáticos e já está versionado em um repositório público. A publicação pelo GitHub Pages evita contratar um servidor apenas para disponibilizar HTML, CSS e JavaScript.
+O GitHub Pages foi escolhido porque o projeto é formado por arquivos estáticos e já está em um repositório público. Assim, é possível publicar o site sem contratar um servidor apenas para disponibilizar HTML, CSS e JavaScript.
 
 | Item | Estimativa para a versão atual |
 | --- | ---: |
@@ -29,7 +29,7 @@ A escolha considera o tipo de projeto, que utiliza arquivos estáticos e já est
 
 O valor de domínio personalizado não foi incluído porque não há contratação registrada neste orçamento.
 
-O Railway permanece como alternativa caso o projeto passe a utilizar API, banco de dados ou processos no servidor. O endereço Railway que aparece no README é uma referência registrada e não deve ser considerado uma publicação ativa sem verificação.
+O Railway pode ser considerado novamente se o projeto passar a precisar de uma API, banco de dados ou processamento no servidor. O endereço dessa plataforma aparece como referência no README, mas sua disponibilidade atual precisa ser conferida antes de ser apresentada como publicação ativa.
 
 ## 4. Observações
 
