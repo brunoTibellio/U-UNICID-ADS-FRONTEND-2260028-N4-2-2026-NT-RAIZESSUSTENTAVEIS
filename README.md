@@ -94,7 +94,7 @@ A página `orcamento_hospedagem.html` complementa a entrega com a justificativa 
 | Mateus Lima Monteiro | Desenvolvimento das páginas e criação do conteúdo |
 | Gabriel Marques Lopes | Criação do conteúdo e identidade visual |
 | Murilo Domingues Saes | Criação do conteúdo e identidade visual |
-| Erick Andrade de Péder | Testes e documentação |
+| Erick Andrade de Péder | Testes e documentação e Identidade visual|
 
 ## Documentação
 
