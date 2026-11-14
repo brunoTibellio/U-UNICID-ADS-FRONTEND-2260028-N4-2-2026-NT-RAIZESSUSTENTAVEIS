@@ -6,8 +6,7 @@ A proposta é simples: mostrar que atitudes cotidianas — como separar resíduo
 
 ## 🌐 Acesse o projeto
 
-- [Repositório no GitHub](https://github.com/brunoTibellio/U-UNICID-ADS-FRONTEND-2260028-N4-2-2026-NT-RAIZESSUSTENTAVEIS)
-- [Endereço do GitHub Pages](https://brunotibellio.github.io/U-UNICID-ADS-FRONTEND-2260028-N4-2-2026-NT-RAIZESSUSTENTAVEIS/)
+- [Pagina Web/Github](https://brunotibellio.github.io/U-UNICID-ADS-FRONTEND-2260028-N4-2-2026-NT-RAIZESSUSTENTAVEIS/)
 - [Endereço Railway registrado no projeto](https://raizes-sustentaveis-production-cafe.up.railway.app) — manter como referência; a publicação atual precisa ser confirmada separadamente.
 
 ## 🌱 Sobre o projeto
