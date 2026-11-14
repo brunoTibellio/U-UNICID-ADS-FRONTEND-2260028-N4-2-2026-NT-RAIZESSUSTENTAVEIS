@@ -21,11 +21,11 @@ Projeto acadêmico de desenvolvimento web com conteúdos educativos sobre susten
 
 ## 🌱 Sobre o projeto
 
-O **Raízes Sustentáveis** é um projeto acadêmico desenvolvido para a disciplina de **Front-End para Web**, na UNICID. O site reúne informações, orientações e conteúdos educativos para aproximar a sustentabilidade das escolhas do cotidiano.
+O **Raízes Sustentáveis** foi desenvolvido como projeto acadêmico para a disciplina de **Front-End para Web**, na UNICID. O site reúne informações e orientações sobre sustentabilidade, com exemplos de atitudes que podem ser aplicadas no cotidiano.
 
-A proposta é mostrar que atitudes simples — como separar resíduos, economizar água e consumir com consciência — também contribuem para a preservação ambiental.
+O conteúdo aborda atitudes como separar resíduos, economizar água e consumir com mais consciência, relacionando essas escolhas à preservação ambiental.
 
-O desenvolvimento foi realizado em equipe e envolveu planejamento, criação das páginas, produção de conteúdo, identidade visual, revisão, testes e documentação.
+O trabalho foi feito em equipe. As etapas registradas incluem o planejamento, a criação das páginas e dos conteúdos, a identidade visual, a revisão, os testes e a documentação.
 
 ## 🌐 Acesse o projeto
 
