@@ -19,9 +19,9 @@
 
 ## 2. Contexto e justificativa
 
-O site aborda problemas relacionados ao descarte incorreto de resíduos, ao desperdício de recursos naturais e à falta de informação sobre práticas sustentáveis no dia a dia.
+O projeto trata de questões presentes no cotidiano, como o descarte incorreto de resíduos, o desperdício de recursos naturais e a falta de informação sobre hábitos sustentáveis.
 
-A proposta é reunir informações acessíveis e incentivar atitudes como reciclar, economizar água, reduzir o desperdício e consumir de forma consciente. O projeto tem caráter educativo e busca aproximar o tema da rotina das pessoas.
+A ideia é apresentar informações de forma simples e mostrar algumas atitudes que podem ser adotadas no dia a dia, como separar resíduos, economizar água, evitar desperdícios e consumir com mais consciência. O foco do site é educativo.
 
 ## 3. Objetivos
 
@@ -36,7 +36,7 @@ A proposta é reunir informações acessíveis e incentivar atitudes como recicl
 
 ## 4. Público-alvo
 
-Pessoas interessadas em sustentabilidade e preservação ambiental, com foco em jovens e adultos. O conteúdo é destinado ao público brasileiro e utiliza linguagem direta e acessível.
+O site é voltado a pessoas interessadas em sustentabilidade e preservação ambiental, principalmente jovens e adultos. Como o público é brasileiro, os textos usam linguagem direta e acessível.
 
 ## 5. Escopo funcional — versão implementada
 
@@ -77,7 +77,7 @@ Pessoas interessadas em sustentabilidade e preservação ambiental, com foco em 
 - **Usabilidade:** menus e conteúdos organizados de forma clara.
 - **SEO básico:** títulos, idioma e descrições adequadas nas páginas.
 
-A presença desses recursos no código deve ser complementada pelos testes descritos em [testes.md](testes.md); não representa, por si só, aprovação de acessibilidade ou validação externa.
+A existência desses recursos no código não garante, sozinha, que todos funcionem como esperado. Por isso, eles também precisam ser considerados nos testes descritos em [testes.md](testes.md).
 
 ## 8. Identidade visual e conteúdo
 
@@ -105,7 +105,7 @@ A presença desses recursos no código deve ser complementada pelos testes descr
 | Murilo Domingues Saes e Gabriel Marques Lopes | Identidade visual |
 | Erick Andrade de Péder | Testes, documentação e identidade visual |
 
-A divisão acima reproduz o registro de participação disponível no documento do projeto; não substitui um histórico individual de commits ou entregas.
+A tabela mantém a divisão de tarefas registrada no projeto. Ela não representa um levantamento individual de commits ou de cada entrega feita pelos integrantes.
 
 ## 11. Cronograma de referência
 
@@ -118,7 +118,7 @@ O planejamento inicial registrou as seguintes datas:
 | 15/10/2026 | Identidade visual |
 | 17/10/2026 | Testes e documentação |
 
-As datas representam o cronograma planejado, não uma comprovação isolada da conclusão de cada atividade.
+Essas datas mostram o que estava previsto no planejamento. Elas não comprovam, por si só, o dia em que cada atividade foi concluída.
 
 ## 12. Riscos e restrições
 
@@ -142,7 +142,7 @@ As datas representam o cronograma planejado, não uma comprovação isolada da c
 
 ## 14. Histórico do planejamento e ajustes
 
-O escopo inicial de 26/09/2026 previa páginas com nomes como Sobre, Impacto, Acessibilidade e Galeria. Durante a implementação, a organização foi ajustada para a estrutura de dez páginas descrita na seção 5. O registro inicial foi consolidado nesta versão para evitar que o planejamento antigo seja confundido com a estrutura efetivamente presente no repositório.
+Na primeira versão do escopo, registrada em 26/09/2026, estavam previstas páginas como Sobre, Impacto, Acessibilidade e Galeria. Durante o desenvolvimento, a estrutura mudou e chegou às dez páginas listadas na seção 5. Esta versão reúne o planejamento inicial e a organização que ficou no repositório, deixando clara essa diferença.
 
 A página `projetos.html` apresenta formas de participação e apoio por compartilhamento de conteúdo, sugestões e interesse em voluntariado. O site não processa doações financeiras.
 
