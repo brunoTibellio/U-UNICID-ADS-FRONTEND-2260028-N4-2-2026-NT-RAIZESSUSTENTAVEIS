@@ -1,32 +1,51 @@
+<!-- Raízes Sustentáveis | README principal -->
+
+<div align="center">
+
 # 🍃 Raízes Sustentáveis
 
-Um projeto acadêmico desenvolvido para a disciplina de **Front-End para Web**, na UNICID. O site reúne informações, orientações e conteúdos educativos para aproximar a sustentabilidade das escolhas do dia a dia.
+**Pequenas atitudes. Um futuro mais sustentável.**
 
-A proposta é simples: mostrar que atitudes cotidianas — como separar resíduos, economizar água e consumir com consciência — também fazem parte da preservação ambiental.
+Projeto acadêmico de desenvolvimento web com conteúdos educativos sobre sustentabilidade e práticas que podem fazer parte do dia a dia.
 
-## 🌐 Acesse o projeto
+[🌐 Acessar o site](https://brunotibellio.github.io/U-UNICID-ADS-FRONTEND-2260028-N4-2-2026-NT-RAIZESSUSTENTAVEIS/) · [📂 Repositório](https://github.com/brunoTibellio/U-UNICID-ADS-FRONTEND-2260028-N4-2-2026-NT-RAIZESSUSTENTAVEIS) · [📚 Documentação](docs/README.md)
 
-- **Site publicado (GitHub Pages, endereço principal):** https://brunotibellio.github.io/U-UNICID-ADS-FRONTEND-2260028-N4-2-2026-NT-RAIZESSUSTENTAVEIS/
-- **Endereço alternativo (Railway):** https://raizes-sustentaveis-production-cafe.up.railway.app
-- **Repositório:** https://github.com/brunoTibellio/U-UNICID-ADS-FRONTEND-2260028-N4-2-2026-NT-RAIZESSUSTENTAVEIS
+![HTML5](https://img.shields.io/badge/HTML5-estrutura-EF652A?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-estilização-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-interatividade-F7DF1E?style=flat-square&logo=javascript&logoColor=222222)
+![GitHub Pages](https://img.shields.io/badge/publicação-GitHub%20Pages-222222?style=flat-square&logo=githubpages&logoColor=white)
 
-## 📌 Situação atual
+</div>
 
-Versão final da 2ª entrega: site publicado com HTTPS, JavaScript integrado, documentação atualizada na pasta [`docs/`](docs/README.md) e apresentação para a turma.
-
-Em **14/11/2026** os arquivos foram reorganizados em pastas (as páginas internas estão em `paginas/` e todos os estilos em `css/`). O conteúdo das páginas não mudou, e o endereço principal do site continua o mesmo.
+---
 
 ## 🌱 Sobre o projeto
 
-O Raízes Sustentáveis aborda questões como descarte incorreto de resíduos, desperdício de recursos naturais e falta de informação sobre práticas sustentáveis. O objetivo é oferecer conteúdo acessível e incentivar mudanças possíveis na rotina.
+O **Raízes Sustentáveis** é um projeto acadêmico desenvolvido para a disciplina de **Front-End para Web**, na UNICID. O site reúne informações, orientações e conteúdos educativos para aproximar a sustentabilidade das escolhas do cotidiano.
 
-O projeto foi construído em equipe, passando por etapas de planejamento, desenvolvimento das páginas, criação de conteúdo, identidade visual, revisão e documentação.
+A proposta é mostrar que atitudes simples — como separar resíduos, economizar água e consumir com consciência — também contribuem para a preservação ambiental.
 
-## Páginas do site
+O desenvolvimento foi realizado em equipe e envolveu planejamento, criação das páginas, produção de conteúdo, identidade visual, revisão, testes e documentação.
 
-| Página | Arquivo | O que você encontra |
+## 🌐 Acesse o projeto
+
+| Ambiente | Endereço |
+| --- | --- |
+| **Site principal — GitHub Pages** | [Abrir projeto](https://brunotibellio.github.io/U-UNICID-ADS-FRONTEND-2260028-N4-2-2026-NT-RAIZESSUSTENTAVEIS/) |
+| **Endereço alternativo — Railway** | [Abrir endereço](https://raizes-sustentaveis-production-cafe.up.railway.app) |
+| **Código-fonte** | [Ver repositório no GitHub](https://github.com/brunoTibellio/U-UNICID-ADS-FRONTEND-2260028-N4-2-2026-NT-RAIZESSUSTENTAVEIS) |
+
+> **Situação da entrega:** versão final da 2ª entrega, com site publicado, JavaScript integrado e documentação organizada na pasta [docs/](docs/README.md).
+
+Em **14/11/2026**, os arquivos foram reorganizados: as páginas internas passaram para `paginas/` e os estilos para `css/`. O conteúdo das páginas foi mantido e o endereço principal do site permaneceu o mesmo.
+
+## 🧭 Navegue pelo site
+
+O projeto conta com dez páginas principais:
+
+| Página | Arquivo | Conteúdo |
 | --- | --- | --- |
-| Início | `index.html` | Apresentação, carrossel, missão e acesso às demais áreas |
+| 🏠 Início | `index.html` | Apresentação, carrossel, missão e acesso às demais áreas |
 | Quem somos | `paginas/quemsomos.html` | História, propósito e equipe |
 | Serviços | `paginas/servicos.html` | Conteúdos e orientações do projeto |
 | Sustentabilidade | `paginas/sustentabilidade.html` | Conceitos e pilares da sustentabilidade |
@@ -37,48 +56,62 @@ O projeto foi construído em equipe, passando por etapas de planejamento, desenv
 | Mídia | `paginas/midia.html` | Conteúdo audiovisual e materiais externos |
 | Contato | `paginas/contatos.html` | Formulário demonstrativo com validação |
 
-**Páginas de apoio:** `paginas/orcamento_hospedagem.html` apresenta a comparação de hospedagem e `paginas/obrigado.html` exibe a confirmação após a interação com o formulário. `Faleconosco.html`, na raiz, apenas redireciona endereços antigos para a página de contato. Essas páginas não entram na contagem das dez páginas principais.
+**Páginas de apoio:** `paginas/orcamento_hospedagem.html` apresenta a comparação de hospedagem e `paginas/obrigado.html` exibe a confirmação após a interação com o formulário. O arquivo `Faleconosco.html`, na raiz, redireciona endereços antigos para a página de contato. Essas páginas não entram na contagem das dez páginas principais.
 
-## O que o site oferece
+## ✨ Funcionalidades
 
-- Navegação entre as dez páginas principais e menu adaptado a telas menores.
+- Navegação entre as páginas e menu adaptado a telas menores.
 - Recurso de alto contraste, com preferência salva no navegador.
 - Audiodescrição e recursos de apoio à navegação.
 - Formulário demonstrativo com validação em JavaScript.
 - Salvamento e recuperação local do rascunho do formulário por `localStorage`.
 - Busca e filtro de conteúdos na página de notícias.
 - Carrossel na página inicial.
-- Foco visível e suporte a navegação por teclado.
+- Foco visível e suporte à navegação por teclado.
 
-**Sobre o formulário:** é uma demonstração acadêmica. Os dados ficam salvos apenas no navegador de quem preenche e não são enviados a nenhum servidor.
+> **Importante:** o formulário é uma demonstração acadêmica. Os dados ficam salvos apenas no navegador de quem preenche e não são enviados a um servidor.
 
-## Tecnologias e ferramentas
+## 🛠️ Tecnologias e ferramentas
 
-- **HTML5** — estrutura das páginas.
-- **CSS3** — identidade visual, layout e responsividade.
-- **JavaScript** — validações, filtros e interações.
-- **Git e GitHub** — versionamento e colaboração.
-- **Visual Studio Code** — ambiente de desenvolvimento.
-- **GitHub Pages** — publicação principal do site; **Railway** — endereço alternativo e comparação de custos.
+| Tecnologia | Utilização |
+| --- | --- |
+| **HTML5** | Estrutura e organização das páginas |
+| **CSS3** | Identidade visual, layout e responsividade |
+| **JavaScript** | Validações, filtros e interações |
+| **Git e GitHub** | Versionamento e colaboração |
+| **Visual Studio Code** | Ambiente de desenvolvimento |
+| **GitHub Pages** | Publicação principal do site |
+| **Railway** | Endereço alternativo e comparação de hospedagem |
 
-## ▶️ Como rodar
+## ▶️ Como executar
 
-**Online:** basta abrir o endereço do GitHub Pages acima. Não é preciso login.
+### Acessar online
 
-**No computador:**
+Abra o [site publicado no GitHub Pages](https://brunotibellio.github.io/U-UNICID-ADS-FRONTEND-2260028-N4-2-2026-NT-RAIZESSUSTENTAVEIS/). Não é necessário login.
 
-1. Baixe o repositório (botão **Code › Download ZIP**) ou clone com `git clone https://github.com/brunoTibellio/U-UNICID-ADS-FRONTEND-2260028-N4-2-2026-NT-RAIZESSUSTENTAVEIS.git`.
-2. Abra o arquivo `index.html` no navegador.
-3. Opcional: no Visual Studio Code, use a extensão **Live Server** (clique com o botão direito em `index.html` › *Open with Live Server*) para ver as alterações atualizarem automaticamente.
+### Executar no computador
 
-O site não precisa de instalação, servidor ou banco de dados: é feito só com HTML, CSS e JavaScript.
+1. Baixe o repositório pelo botão **Code → Download ZIP** ou clone pelo terminal:
 
-## Estrutura do repositório
+   ```bash
+   git clone https://github.com/brunoTibellio/U-UNICID-ADS-FRONTEND-2260028-N4-2-2026-NT-RAIZESSUSTENTAVEIS.git
+   ```
+
+2. Abra a pasta do projeto.
+3. Execute o arquivo `index.html` no navegador.
+4. Opcionalmente, no Visual Studio Code, utilize a extensão **Live Server** para atualizar a página automaticamente durante as alterações.
+
+O projeto utiliza HTML, CSS e JavaScript e não exige instalação de dependências, banco de dados ou servidor para a execução local básica.
+
+## 📁 Estrutura do repositório
+
+<details>
+<summary><strong>Ver organização dos arquivos</strong></summary>
 
 ```text
 .
-├── index.html               ← página inicial (endereço principal do site)
-├── Faleconosco.html         ← redireciona endereços antigos para o contato
+├── index.html
+├── Faleconosco.html
 ├── paginas/
 │   ├── quemsomos.html
 │   ├── servicos.html
@@ -112,25 +145,44 @@ O site não precisa de instalação, servidor ou banco de dados: é feito só co
 └── README.md
 ```
 
-## Documentação
+</details>
 
-A documentação foi organizada na pasta [`docs/`](docs/README.md), para que o planejamento e o histórico do projeto fiquem junto com o código.
+## 📚 Documentação
 
-| Documento | Conteúdo |
+A pasta [docs/](docs/README.md) reúne os registros do planejamento, desenvolvimento e verificação do projeto.
+
+| Documento | O que apresenta |
 | --- | --- |
-| [Diário de bordo](docs/diario-de-bordo.md) | Registro das etapas e decisões do desenvolvimento |
+| [Diário de bordo](docs/diario-de-bordo.md) | Etapas, decisões e registros do desenvolvimento |
 | [Escopo do projeto](docs/escopo.md) | Objetivos, público, funcionalidades e limites da entrega |
 | [Orçamento](docs/orcamento.md) | Comparação de hospedagem e estimativa de custos |
-| [Plano de testes](docs/testes.md) | Cenários, procedimentos e situação dos testes |
-| [Evidências de testes](docs/evidencias-testes.md) | Verificações realizadas, resultados estáticos e itens pendentes |
+| [Plano e registro de testes](docs/testes.md) | Cenários executados e resultados |
+| [Evidências de testes](docs/evidencias-testes.md) | Verificações estáticas, testes funcionais e validação W3C |
 | [Relatório Lighthouse](docs/relatorio-lighthouse.md) | Pontuações de desempenho, acessibilidade, boas práticas e SEO |
 | [Revisão página por página](docs/revisao-pagina-a-pagina.md) | Registro técnico das páginas e melhorias aplicadas |
 | [Diário de uso de IA](docs/diario-ia.md) | Apoios utilizados, sugestões incorporadas e limites |
 | [Melhorias do MVP](docs/melhorias-mvp.md) | Comparação entre a versão anterior e a versão de finalização |
 
-> Os documentos da pasta `docs/` foram escritos antes da reorganização das pastas e citam os arquivos pelo nome (por exemplo, `contatos.html`). Na estrutura atual, essas páginas estão dentro de `paginas/`.
+> Parte da documentação foi escrita antes da reorganização das pastas e pode citar arquivos apenas pelo nome. Na estrutura atual, as páginas internas estão em `paginas/`.
 
-## Equipe
+## 🧪 Testes e validações
+
+Os testes funcionais previstos para o projeto foram executados e aprovados. A validação W3C das dez páginas principais também foi realizada.
+
+| Verificação | Resultado registrado |
+| --- | --- |
+| Testes funcionais | Executados e aprovados |
+| W3C Nu HTML Checker | Dez páginas principais validadas, sem erros ou avisos |
+| Verificação estática | 12 arquivos HTML analisados |
+| Reorganização das pastas | Páginas, estilos, scripts e imagens conferidos após a mudança |
+
+Na verificação estática de **14/11/2026**, os 12 arquivos analisados apresentaram idioma `pt-BR`, link para pular ao conteúdo, elemento principal, carregamento do JavaScript, identificação da página atual e configuração de viewport.
+
+Após a reorganização, as 11 páginas acessíveis pelo menu foram abertas individualmente. Foram conferidos os links internos, estilos, scripts e imagens, além do menu para celular, menu “Mais”, alto contraste, filtro de notícias, validação do formulário, rascunho salvo e redirecionamento para a página de confirmação.
+
+Os resultados e procedimentos estão detalhados em [Evidências de testes](docs/evidencias-testes.md) e [Plano e registro de testes](docs/testes.md).
+
+## 👥 Equipe
 
 | Integrante | Participação registrada |
 | --- | --- |
@@ -140,20 +192,19 @@ A documentação foi organizada na pasta [`docs/`](docs/README.md), para que o p
 | Murilo Domingues Saes | Criação de conteúdo e identidade visual |
 | Erick Andrade de Péder | Testes, documentação e identidade visual |
 
-## Sobre os testes
-
-- **Verificação estática (14/11/2026):** os 12 arquivos HTML analisados apresentaram idioma `pt-BR`, link para pular ao conteúdo, elemento principal, carregamento do JavaScript e identificação da página atual.
-- **Testes funcionais:** navegação, menu do celular, formulário, rascunho, filtro, alto contraste, teclado, responsividade, mídia, projetos e orçamento foram executados e aprovados, conforme [Plano de testes](docs/testes.md).
-- **W3C Nu HTML Checker:** as dez páginas principais foram validadas, sem erros ou avisos.
-- **Lighthouse (PageSpeed Insights), 14/11/2026, versão computador, no endereço do GitHub Pages:** Desempenho 100 · Acessibilidade 96 · Práticas recomendadas 100 · SEO 100. O registro anterior, de 31/10/2026 no endereço Railway, está em [Relatório Lighthouse](docs/relatorio-lighthouse.md).
-- **Reorganização das pastas (14/11/2026):** depois da mudança, as 11 páginas acessíveis pelo menu foram abertas uma a uma; todos os links internos, estilos, scripts e imagens carregaram, e a aparência das páginas ficou igual à anterior. Menu do celular, menu "Mais", alto contraste, filtro de notícias, validação do formulário, rascunho salvo e redirecionamento para a página de confirmação continuaram funcionando.
-
-Os resultados detalhados estão em [Evidências de testes](docs/evidencias-testes.md).
-
-## Dados acadêmicos
+## 🎓 Informações acadêmicas
 
 - **Instituição:** UNICID
 - **Disciplina:** Front-End para Web
 - **Professor:** Paulo Fratta
 - **Atividade:** AV A1 — 2ª entrega (versão final)
 - **Ano:** 2026
+
+---
+
+<div align="center">
+
+**Raízes Sustentáveis** 🍃  
+*Informação, consciência e atitudes que fazem a diferença.*
+
+</div>
