@@ -1,196 +1,156 @@
 # Escopo do Projeto — Raízes Sustentáveis
 
-**Atividade A2 – Front-End para Web – UNICID**
+**Atividade:** A2 — Front-End para Web  
+**Instituição:** UNICID  
+**Professor:** Paulo Fratta  
+**Data do escopo inicial registrada:** 26/09/2026  
+**Atualização documental:** 14/11/2026
 
----
+## 1. Identificação
 
-## 01. Identificação
+**Projeto:** Raízes Sustentáveis
 
-- **Nome da equipe:** Raízes Sustentáveis
-- **Nome do projeto/site:** Raízes Sustentáveis
-- **Integrantes:**
-  - Murilo Domingues Saes
-  - Bruno Gomes Tibellio
-  - Gabriel Marques Lopes
-  - Mateus Lima Monteiro
-  - Erick Andrade de Péder
-- **Data:** 26/09/2026
-- **Professor:** Paulo Fratta
-- **Disciplina:** Front-End para Web
+**Integrantes:**
+- Murilo Domingues Saes
+- Bruno Gomes Tibellio
+- Gabriel Marques Lopes
+- Mateus Lima Monteiro
+- Erick Andrade de Péder
 
-## 02. Contexto e Justificativa
+## 2. Contexto e justificativa
 
-**Qual problema social ou ambiental o site aborda?**
-O site Raízes Sustentáveis aborda problemas relacionados ao descarte incorreto de resíduos, desperdício de recursos naturais e falta de informação sobre práticas sustentáveis no dia a dia.
+O site aborda problemas relacionados ao descarte incorreto de resíduos, ao desperdício de recursos naturais e à falta de informação sobre práticas sustentáveis no dia a dia.
 
-**Por que esse tema é relevante?**
-A sustentabilidade é importante porque pequenas atitudes, como reciclar, economizar água, reduzir o desperdício e consumir de forma consciente, podem contribuir para a preservação do meio ambiente.
+A proposta é reunir informações acessíveis e incentivar atitudes como reciclar, economizar água, reduzir o desperdício e consumir de forma consciente. O projeto tem caráter educativo e busca aproximar o tema da rotina das pessoas.
 
-**Qual a relação com sustentabilidade e impacto social?**
-O projeto busca incentivar hábitos mais sustentáveis e conscientizar as pessoas sobre como suas escolhas podem gerar impactos positivos para o meio ambiente e para a sociedade.
+## 3. Objetivos
 
-## 03. Objetivos
-
-**Objetivo geral:** criar um site informativo e acessível que incentive práticas sustentáveis e conscientize os usuários sobre a importância da preservação ambiental.
+**Objetivo geral:** desenvolver um site informativo e educativo que incentive práticas sustentáveis e conscientize sobre a preservação ambiental.
 
 **Objetivos específicos:**
-
 - Divulgar informações sobre sustentabilidade.
-- Apresentar formas simples de preservar o meio ambiente.
+- Apresentar atitudes simples que podem ser aplicadas no cotidiano.
 - Incentivar a reciclagem e o consumo consciente.
-- Divulgar projetos e iniciativas sustentáveis.
-- Garantir que o conteúdo seja acessível para pessoas com deficiência.
+- Reunir projetos, notícias e materiais educativos.
+- Considerar acessibilidade e navegação em diferentes dispositivos.
 
-## 04. Público-Alvo
+## 4. Público-alvo
 
-O site será destinado a pessoas interessadas em sustentabilidade e preservação ambiental, principalmente jovens e adultos.
+Pessoas interessadas em sustentabilidade e preservação ambiental, com foco em jovens e adultos. O conteúdo é destinado ao público brasileiro e utiliza linguagem direta e acessível.
 
-- **Faixa etária:** a partir de 14 anos.
-- **Localização:** todo o Brasil.
-- **Necessidades:** acesso simples a informações e dicas sobre sustentabilidade.
-- **Acessibilidade:** o site também será desenvolvido pensando em pessoas com deficiência, utilizando recursos que facilitem a navegação e compreensão do conteúdo.
+## 5. Escopo funcional — versão implementada
 
-## 05. Escopo Funcional
-
-| Página | Arquivo | Descrição |
+| Página | Arquivo | Finalidade |
 | --- | --- | --- |
-| Início | `index.html` | Apresentação do Raízes Sustentáveis e resumo do conteúdo. |
-| Sobre | `sobre.html` | História, missão, visão e valores do projeto. |
-| Projetos | `projetos.html` | Apresentação de projetos e ações sustentáveis. |
-| Impacto | `impacto.html` | Dados e informações sobre impactos ambientais e sociais. |
-| Acessibilidade | `acessibilidade.html` | Informações sobre acessibilidade e inclusão. |
-| Galeria | `galeria.html` | Imagens relacionadas à natureza e sustentabilidade. |
-| Mídia | `midia.html` | Vídeos, áudios e outros conteúdos educativos. |
-| Notícias | `noticias.html` | Notícias e artigos relacionados à sustentabilidade. |
-| Contato | `contato.html` | Formulário para contato e informações da equipe. |
-| Hospedagem | `orcamento_hospedagem.html` | Comparação de opções de hospedagem e domínio. |
+| Início | `index.html` | Apresentação do projeto, carrossel, missão e atalhos |
+| Quem somos | `quemsomos.html` | História, propósito e equipe |
+| Serviços | `servicos.html` | Conteúdos e orientações oferecidos |
+| Sustentabilidade | `sustentabilidade.html` | Conceitos e pilares da sustentabilidade |
+| Dicas | `dicas.html` | Hábitos sustentáveis no cotidiano |
+| Reciclagem | `reciclagem.html` | Separação e destinação de resíduos |
+| Projetos | `projetos.html` | Ideias de ações comunitárias e educativas |
+| Conteúdos | `noticias.html` | Notícias com busca e filtro por categoria |
+| Mídia | `midia.html` | Conteúdo audiovisual e materiais externos |
+| Contato | `contatos.html` | Formulário demonstrativo com validação |
 
-## 06. Escopo Não Funcional
+**Páginas auxiliares:** `orcamento_hospedagem.html` documenta a comparação de hospedagem; `obrigado.html` apresenta a confirmação da interação com o formulário. Essas páginas não entram na contagem das dez páginas principais.
 
-- **Acessibilidade:** imagens terão textos alternativos, bom contraste entre texto e fundo, navegação por teclado e estrutura adequada para leitores de tela.
-- **Sustentabilidade:** utilização de imagens otimizadas, conteúdo educativo e análise de opções de hospedagem sustentável.
-- **Responsividade:** o site será adaptado para computadores, tablets e celulares.
-- **Desempenho:** serão utilizadas imagens otimizadas e código organizado para melhorar o carregamento.
-- **SEO básico:** utilização adequada de títulos, descrições e organização dos conteúdos.
+## 6. Funcionalidades previstas e implementadas no código
 
-## 07. Mapa do Site
+- Navegação entre as dez páginas principais.
+- Menu adaptado para telas menores.
+- Recurso de alto contraste com preferência armazenada no navegador.
+- Recursos de audiodescrição.
+- Formulário demonstrativo com validação em JavaScript.
+- Salvamento e recuperação local do rascunho do formulário por `localStorage`.
+- Busca e filtro de conteúdos na página de notícias.
+- Carrossel na página inicial.
+- Link para pular ao conteúdo, foco visível e estrutura semântica.
 
-Estrutura principal do site:
+**Limite importante:** o formulário é demonstrativo. Os dados são armazenados localmente no navegador e não são enviados para servidor, e-mail ou para a equipe.
 
-- Início
-- Sobre
-- Projetos
-- Impacto
-- Acessibilidade
-- Galeria
-- Mídia
-- Notícias
-- Contato
-- Hospedagem
+## 7. Requisitos não funcionais
 
-Todas as páginas terão um menu principal permitindo que o usuário navegue entre as principais áreas do site.
+- **Acessibilidade:** textos alternativos, estrutura semântica, foco visível, navegação por teclado e recursos de contraste/audiodescrição.
+- **Responsividade:** adaptação para computadores, tablets e celulares.
+- **Desempenho:** organização de arquivos e uso de imagens adequadas à experiência do site.
+- **Usabilidade:** menus e conteúdos organizados de forma clara.
+- **SEO básico:** títulos, idioma e descrições adequadas nas páginas.
 
-## 08. Conteúdo e Identidade Visual
+A presença desses recursos no código deve ser complementada pelos testes descritos em [testes.md](testes.md); não representa, por si só, aprovação de acessibilidade ou validação externa.
+
+## 8. Identidade visual e conteúdo
 
 - **Tom de voz:** educativo, simples, positivo e informativo.
-- **Cores:** tons de verde, branco e cores relacionadas à natureza.
-- **Tipografia:** fontes simples e de fácil leitura.
-- **Logotipo:** identidade visual relacionada à natureza, sustentabilidade e ao conceito de raízes.
-- **Imagens:** imagens próprias ou de fontes que permitam sua utilização, sempre com a indicação da fonte quando necessário.
+- **Cores:** tons de verde e branco, associados à natureza.
+- **Conteúdo:** sustentabilidade, reciclagem, consumo consciente, preservação e iniciativas comunitárias.
+- **Imagens:** materiais relacionados ao tema, com textos alternativos quando aplicável.
 
-## 09. Tecnologias e Ferramentas
+## 9. Tecnologias e ferramentas
 
-- HTML5 para estruturação das páginas.
-- CSS3 para estilização.
-- Visual Studio Code para desenvolvimento.
-- GitHub para armazenamento e controle de versão.
-- W3C Validator para validação do HTML.
+- HTML5
+- CSS3
+- JavaScript
+- Visual Studio Code
+- Git e GitHub
+- W3C Nu HTML Checker (previsto para validação externa)
+- GitHub Pages e Railway como opções de publicação registradas
 
-## 10. Cronograma e Divisão de Tarefas
+## 10. Divisão de tarefas registrada
 
-A divisão das tarefas será definida de acordo com os integrantes da equipe. As atividades poderão ser separadas entre desenvolvimento das páginas, criação do conteúdo, identidade visual, testes e documentação.
-
-**Responsáveis:**
-
-| Responsável | Tarefa |
+| Integrante(s) | Participação registrada |
 | --- | --- |
-| Bruno e Mateus | Desenvolvimento das páginas |
-| Bruno, Mateus, Gabriel e Murilo | Criação do conteúdo |
-| Murilo e Gabriel | Identidade visual |
-| Erick | Testes e documentação |
+| Bruno Gomes Tibellio e Mateus Lima Monteiro | Desenvolvimento das páginas |
+| Bruno, Mateus, Gabriel e Murilo | Criação de conteúdo |
+| Murilo Domingues Saes e Gabriel Marques Lopes | Identidade visual |
+| Erick Andrade de Péder | Testes, documentação e identidade visual |
 
-**Datas das etapas:**
+A divisão acima reproduz o registro de participação disponível no documento do projeto; não substitui um histórico individual de commits ou entregas.
 
-| Data | Etapa |
+## 11. Cronograma de referência
+
+O planejamento inicial registrou as seguintes datas:
+
+| Data | Etapa prevista |
 | --- | --- |
 | 01/10/2026 | Desenvolvimento |
 | 08/10/2026 | Criação do conteúdo |
 | 15/10/2026 | Identidade visual |
 | 17/10/2026 | Testes e documentação |
 
-**Ferramenta de gestão:** Trello
+As datas representam o cronograma planejado, não uma comprovação isolada da conclusão de cada atividade.
 
-## 11. Riscos e Restrições
+## 12. Riscos e restrições
 
-- Prazo limitado para desenvolvimento.
-- Dificuldade na divisão das tarefas entre os integrantes.
-- Possíveis dificuldades com HTML e CSS.
-- Problemas de compatibilidade entre diferentes dispositivos.
-- Dificuldades para implementar corretamente os recursos de acessibilidade.
+- Prazo acadêmico limitado.
+- Necessidade de conciliar as tarefas da equipe.
+- Compatibilidade entre diferentes dispositivos e navegadores.
+- Limites de acessibilidade que precisam de avaliação prática.
+- Dependência de serviços externos para conteúdo audiovisual e publicação.
+- O formulário não possui backend nem transmissão de dados.
 
-## 12. Critérios de Aceitação
+## 13. Critérios de aceitação
 
-- As 10 páginas estiverem desenvolvidas e interligadas.
-- O menu de navegação funcionar corretamente.
-- O formulário de contato estiver funcionando e validado.
-- O site possuir recursos de acessibilidade.
-- O layout funcionar em diferentes tamanhos de tela.
-- As imagens estiverem otimizadas e com textos alternativos.
-- O código HTML for validado pelo W3C sem erros importantes.
-- A documentação solicitada estiver completa.
+- Dez páginas principais disponíveis e interligadas.
+- Menu e links internos com destinos corretos.
+- Formulário demonstrativo com validação e indicação clara de seu limite.
+- Recursos de acessibilidade presentes e testados.
+- Layout utilizável em diferentes tamanhos de tela.
+- Imagens com textos alternativos quando necessário.
+- Validação HTML externa realizada e resultados registrados.
+- Documentação organizada na pasta `docs/`.
 
-## 13. Aprovação
+## 14. Histórico do planejamento e ajustes
 
-- **Responsável pela validação do escopo:** Gabriel Marques Lopes
-- **Data:** 26/09/2026
-- **Assinatura:** Gabriel M. Lopes
+O escopo inicial de 26/09/2026 previa páginas com nomes como Sobre, Impacto, Acessibilidade e Galeria. Durante a implementação, a organização foi ajustada para a estrutura de dez páginas descrita na seção 5. O registro inicial foi consolidado nesta versão para evitar que o planejamento antigo seja confundido com a estrutura efetivamente presente no repositório.
 
----
+A página `projetos.html` apresenta formas de participação e apoio por compartilhamento de conteúdo, sugestões e interesse em voluntariado. O site não processa doações financeiras.
 
-*Documento salvo na pasta `/docs` do projeto, conforme as orientações da atividade.*
+## 15. Documentos relacionados
 
-
-## 14. Estrutura implementada na versão de finalização
-
-O escopo inicial acima foi mantido como registro do planejamento. Durante o desenvolvimento, a equipe ajustou os nomes e a quantidade de páginas. A navegação principal desta versão está organizada em dez páginas:
-
-1. Início — `index.html`
-2. Quem somos — `quemsomos.html`
-3. Serviços — `servicos.html`
-4. Sustentabilidade — `sustentabilidade.html`
-5. Dicas — `dicas.html`
-6. Reciclagem — `reciclagem.html`
-7. Projetos — `projetos.html`
-8. Conteúdos — `noticias.html`
-9. Mídia — `midia.html`
-10. Contato — `contatos.html`
-
-A página `obrigado.html` é a confirmação do formulário e não entra na contagem. A página complementar `orcamento_hospedagem.html` documenta a comparação e a justificativa da hospedagem, conforme exigido na atividade.
-
-### Apoio e participação
-
-A página `projetos.html` apresenta formas de apoiar a iniciativa por meio de compartilhamento de conteúdo, sugestões de ações e interesse em voluntariado. O site não processa doações financeiras.
-
-### Recursos JavaScript adicionados
-
-- Validação personalizada do formulário, com `preventDefault()`, mensagens por campo e destaque de campos inválidos.
-- Salvamento e recuperação do rascunho do formulário usando `localStorage`.
-- Alternância de alto contraste, com preferência persistida no navegador.
-- Busca e filtro de conteúdos na página `noticias.html`, com atualização do DOM por eventos.
-
-**Limite do formulário:** o envio é demonstrativo e local. Os dados não são transmitidos a um servidor, e-mail ou serviço externo.
-
-### Documentação complementar
-
-- `docs/testes.md`: plano de testes funcionais, acessibilidade, HTML e publicação. Os itens permanecem pendentes até execução pela equipe.
-- `docs/diario-ia.md`: registro do apoio de IA, sugestões incorporadas e limites que exigem revisão humana.
+- [Diário de bordo](diario-de-bordo.md)
+- [Orçamento de hospedagem](orcamento.md)
+- [Plano e registro de testes](testes.md)
+- [Evidências de testes](evidencias-testes.md)
+- [Revisão página por página](revisao-pagina-a-pagina.md)
+- [Diário de uso de IA](diario-ia.md)
