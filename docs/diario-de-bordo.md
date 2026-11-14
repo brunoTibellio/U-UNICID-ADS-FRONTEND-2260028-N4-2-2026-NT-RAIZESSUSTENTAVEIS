@@ -1,18 +1,18 @@
 # Diário de bordo — Raízes Sustentáveis
 
-Este diário reúne os principais marcos registrados durante o desenvolvimento. Ele complementa o escopo e o diário de uso de IA: aqui o foco é a evolução do projeto, as decisões tomadas e o que ficou para a etapa seguinte.
+Neste arquivo estão reunidos os principais registros do desenvolvimento do Raízes Sustentáveis. O objetivo é acompanhar a evolução do site, as decisões tomadas e as atividades previstas em cada etapa.
 
 ## Registro das etapas
 
 ### 26/09/2026 — Planejamento e definição do projeto
 
-O escopo inicial foi documentado para a atividade A2 de Front-End para Web. O grupo definiu o tema da sustentabilidade, o público, os objetivos educativos, a identidade visual em tons de verde e as primeiras páginas previstas.
+O grupo registrou o escopo inicial da atividade A2 de Front-End para Web. Nessa etapa, foram definidos o tema da sustentabilidade, o público, os objetivos educativos, a identidade visual em tons de verde e as primeiras páginas do site.
 
 **Registro:** definição do problema abordado, objetivos, público-alvo, mapa inicial do site, tecnologias e divisão de tarefas.
 
 ### Outubro/2026 — Desenvolvimento e organização do conteúdo
 
-O cronograma inicial previa etapas de desenvolvimento, produção de conteúdo, identidade visual e testes/documentação ao longo de outubro. Na versão de finalização, o site passou a contar com dez páginas principais, mantendo páginas auxiliares separadas da contagem.
+Para outubro, o planejamento previa o desenvolvimento do site, a produção dos textos, a definição da identidade visual e a realização dos testes e da documentação. Na versão final, o projeto ficou organizado em dez páginas principais e páginas auxiliares, que não entram nessa contagem.
 
 **Evolução registrada:** ampliação da navegação, organização dos conteúdos por assunto e consolidação da identidade visual.
 
@@ -20,7 +20,7 @@ O cronograma inicial previa etapas de desenvolvimento, produção de conteúdo, 
 
 ### 07/11/2026 — Revisão técnica da versão de finalização
 
-Foi registrada uma revisão estática página por página, contemplando estrutura HTML, navegação, carregamento de CSS e JavaScript, identificação do conteúdo principal, idioma e recursos de acessibilidade presentes no código.
+Foi feita uma revisão dos arquivos HTML para conferir a estrutura das páginas, os links de navegação, o carregamento dos arquivos CSS e JavaScript, a identificação do conteúdo principal, o idioma e os recursos de acessibilidade presentes no código.
 
 **Decisões e cuidados:**
 - preservar a identidade visual, os textos centrais e os arquivos de imagem;
@@ -30,7 +30,7 @@ Foi registrada uma revisão estática página por página, contemplando estrutur
 
 ### 14/11/2026 — Atualização da documentação
 
-A documentação foi reorganizada para facilitar a leitura por quem avalia ou consulta o repositório. O README passou a apresentar os documentos de forma direta, e foram acrescentados este diário de bordo e um arquivo específico para evidências de testes.
+Os arquivos de documentação foram organizados para facilitar a consulta no repositório. O README passou a reunir os links dos documentos, e foram incluídos este diário de bordo e um arquivo separado para registrar as evidências dos testes.
 
 Também foi feita uma nova checagem estática dos 12 arquivos HTML principais e auxiliares.
 
@@ -40,4 +40,4 @@ Também foi feita uma nova checagem estática dos 12 arquivos HTML principais e 
 
 ## Observação final
 
-O diário registra os marcos que aparecem no planejamento e nos arquivos do projeto. Ele não substitui atas, commits ou evidências de execução, e não atribui ao grupo atividades que não estejam documentadas.
+Este diário apresenta os marcos que constam no planejamento e nos arquivos do projeto. Ele não substitui atas, commits ou comprovantes de execução, e mantém o registro limitado às atividades que estão documentadas.
