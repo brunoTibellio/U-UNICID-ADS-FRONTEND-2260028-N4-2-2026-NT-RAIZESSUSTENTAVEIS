@@ -1,6 +1,6 @@
 # Melhorias identificadas na revisão do MVP
 
-Este registro descreve diferenças observadas entre a versão anterior do repositório e a versão de finalização. Não atribui os pontos a uma devolutiva específica do professor, pois esse registro de feedback não foi incluído no material consultado.
+Este documento compara a versão anterior do repositório com a versão preparada para a finalização. A comparação considera o que está registrado nos arquivos; não relaciona as mudanças a uma orientação específica do professor, pois não há uma devolutiva anexada ao material consultado.
 
 | Antes, na versão anterior do repositório | Depois, nesta versão de finalização |
 | --- | --- |
