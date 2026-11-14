@@ -52,13 +52,6 @@ A página `orcamento_hospedagem.html` complementa a entrega com a justificativa 
 - Visual Studio Code
 - Railway e GitHub Pages (endereços de publicação registrados no projeto)
 
-## Como executar
-
-1. Clone o repositório.
-2. Abra a pasta no Visual Studio Code.
-3. Abra `index.html` no navegador ou utilize a extensão Live Server.
-
-Não há dependências ou instalação de pacotes.
 
 ## Estrutura principal
 
