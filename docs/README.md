@@ -8,7 +8,8 @@ Esta pasta reúne os documentos que acompanham o desenvolvimento e a finalizaç�
 - [Escopo do projeto](escopo.md) — objetivo, público-alvo, funcionalidades, limites e critérios de aceitação.
 - [Orçamento de hospedagem](orcamento.md) — comparação das opções e estimativa de custo.
 - [Plano e registro de testes](testes.md) — cenários que precisam ser executados e seus status.
-- [Evidências de testes](evidencias-testes.md) — resultados da verificação estática e evidências ainda necessárias.
+- [Evidências de testes](evidencias-testes.md) — resultados da verificação estática e evidências de testes externos.
+- [Relatório Lighthouse](relatorio-lighthouse.md) — registro das pontuações de desempenho, acessibilidade, boas práticas e SEO.
 - [Revisão página por página](revisao-pagina-a-pagina.md) — análise técnica das páginas e correções registradas.
 - [Diário de uso de IA](diario-ia.md) — como a IA foi utilizada como apoio e quais pontos exigem revisão humana.
 - [Melhorias identificadas no MVP](melhorias-mvp.md) — evolução da versão anterior para a versão de finalização.
