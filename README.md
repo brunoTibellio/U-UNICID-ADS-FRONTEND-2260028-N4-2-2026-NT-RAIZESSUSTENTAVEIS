@@ -6,7 +6,6 @@ Site informativo e educativo sobre sustentabilidade, desenvolvido em **HTML, CSS
 - [Versão publicada no Railway](https://raizes-sustentaveis-production-cafe.up.railway.app)
 - [Versão publicada no GitHub Pages](https://brunotibellio.github.io/U-UNICID-ADS-FRONTEND-2260028-N4-2-2026-NT-RAIZESSUSTENTAVEIS/)
 
-> Os endereços acima já constavam no projeto. A versão atualizada deve ser conferida após a integração das alterações à branch principal.
 
 ## Sobre o projeto
 
