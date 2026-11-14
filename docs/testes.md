@@ -41,10 +41,10 @@ O detalhamento está em [evidencias-testes.md](evidencias-testes.md).
 1. A validação foi realizada no [W3C Nu HTML Checker](https://validator.w3.org/nu/).
 2. Conforme o resultado informado pelo responsável pelo projeto, o validador exibiu a mensagem de que não havia erros ou avisos a apresentar.
 3. O relatório ou a captura não foi disponibilizado para anexação à documentação.
-4. Não foi informado se todas as dez páginas principais foram submetidas individualmente; por isso, o registro se limita à validação realizada, sem afirmar cobertura individual de todas as páginas.
+4. Em 14/11/2026, a equipe confirmou que as dez páginas principais foram submetidas ao validador, todas sem erros ou avisos.
 5. A medição de contraste, a conferência de zoom e a navegação por teclado são verificações distintas e permanecem pendentes.
 
-**Situação:** validação W3C registrada como sem erros ou avisos, conforme relato do responsável pelo projeto. Medição de contraste e demais verificações de acessibilidade ainda precisam de execução.
+**Situação:** validação W3C das dez páginas principais registrada como sem erros ou avisos, conforme relato da equipe. Medição de contraste e demais verificações de acessibilidade ainda precisam de execução.
 
 ## 4. Publicação
 

@@ -143,7 +143,7 @@ A documentação foi organizada na pasta [`docs/`](docs/README.md), para que o p
 ## Sobre os testes
 
 - **Verificação estática (14/11/2026):** os 12 arquivos HTML analisados apresentaram idioma `pt-BR`, link para pular ao conteúdo, elemento principal, carregamento do JavaScript e identificação da página atual.
-- **W3C Nu HTML Checker:** validação registrada como sem erros ou avisos, conforme [Plano de testes](docs/testes.md).
+- **W3C Nu HTML Checker:** as dez páginas principais foram validadas, sem erros ou avisos, conforme [Plano de testes](docs/testes.md).
 - **Lighthouse (PageSpeed Insights), 14/11/2026, versão computador, no endereço do GitHub Pages:** Desempenho 100 · Acessibilidade 96 · Práticas recomendadas 100 · SEO 100. O registro anterior, de 31/10/2026 no endereço Railway, está em [Relatório Lighthouse](docs/relatorio-lighthouse.md).
 - **Reorganização das pastas (14/11/2026):** depois da mudança, as 11 páginas acessíveis pelo menu foram abertas uma a uma; todos os links internos, estilos, scripts e imagens carregaram, e a aparência das páginas ficou igual à anterior. Menu do celular, menu "Mais", alto contraste, filtro de notícias, validação do formulário, rascunho salvo e redirecionamento para a página de confirmação continuaram funcionando.
 

@@ -58,7 +58,7 @@ Foram analisados os dez arquivos das páginas principais e duas páginas auxilia
 | Alto contraste | Capturas antes e depois de ativar o recurso | A executar |
 | Teclado | Registro da navegação por Tab, Shift+Tab, Enter e Espaço | A executar |
 | Responsividade | Capturas em celular, tablet e desktop | A executar |
-| W3C Nu HTML Checker | Resultado informado: nenhum erro ou aviso exibido pelo validador na validação realizada | Verificado — conforme relato do responsável pelo projeto |
+| W3C Nu HTML Checker | Resultado informado: nenhum erro ou aviso nas dez páginas principais | Verificado — conforme relato da equipe |
 | Contraste WCAG | Resultado da ferramenta de contraste para as combinações utilizadas | A executar |
 | Publicação | Abertura do endereço publicado e teste dos links e recursos | A executar |
 
@@ -87,7 +87,7 @@ Usar nomes objetivos e registrar no arquivo `testes.md` a data, o navegador ou f
 - O relatório Lighthouse registrado separadamente é uma evidência visual fornecida para documentação; não representa uma validação W3C.
 - Foi informado que o W3C Nu HTML Checker apresentou a mensagem de que não havia erros ou avisos a exibir na validação realizada em 14/11/2026.
 - A captura ou o relatório exportado não foi disponibilizado para anexação; o registro documental se baseia no resultado informado pelo responsável pelo projeto.
-- Como não foi especificado se todas as páginas foram submetidas individualmente, este registro não afirma que os 12 arquivos HTML foram validados separadamente.
+- A equipe confirmou, em 14/11/2026, que as dez páginas principais foram submetidas individualmente ao validador, todas sem erros ou avisos.
 - Não foi feita medição de contraste WCAG nesta etapa.
 - A disponibilidade atual das plataformas de publicação precisa ser conferida separadamente.
 - A presença de um recurso no código não comprova, sozinha, que ele funciona corretamente em todos os dispositivos.
